@@ -5,12 +5,11 @@ venv/
 .env
 
 # --- Données Audio & TextGrids (Trop lourds / Confidentiels) ---
-raw_audio/
-processed_audio_16k/
-dataset_final/
-original_textgrids/
-output_textgrids/
-archives_outils/
+0_raw_data/
+1_data_prepared/
+2_models/
+3_results/
+OLD/
 
 # --- Fichiers temporaires ---
 *.wav

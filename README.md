@@ -1,57 +1,20 @@
-# Nenets ASR Data Preparation Pipeline
-This toolkit provides scripts to pre-process audio data for training the **Wav2Vec2** model. It handles the segmentation of long audio recordings into short, sentence-level clips and generates the necessary metadata CSV files.
+# Nenets ASR Pipeline (Wav2Vec2)
 
-## Project StructureBefore running the scripts, ensure your folders are organized as follows:Plaintextnenets/
-```bash
-├── raw_audio/                  # [INPUT] Place your .wav files here
-├── original_textgrids/         # [INPUT] Place your human-corrected .TextGrid files here
-├── dataset_final/              # [OUTPUT] This is where the sliced audio and CSV will appear
-│
-├── 1_extract_training_data.py  # Script for Case A (Files with transcriptions)
-├── 2_generate_vad_draft.py     # Script for Case B (Raw audio without transcriptions)
-│
-├── venv/                       # Python virtual environment
-└── requirements.txt            # List of dependencies
-```
-## Setup
-Ensure your Python environment is active and dependencies are installed.
-```bash
-# Activate virtual environment (Linux/WSL)
-source venv/bin/activate
+This repository contains a full end-to-end Automatic Speech Recognition pipeline for the Nenets language.
 
-# Install required libraries
-pip install torch torchaudio soundfile textgrid
-```
+## Project Structure
+- **0_data_raw/**: Input files (Audio and TextGrids).
+- **1_data_prepared/**: Processed audio segments and metadata.
+- **2_models/**: Saved model checkpoints and final fine-tuned weights.
+
 ## Workflow
-There are two main use cases for this pipeline:
-### Case A: Preparing Training Data (Gold Standard)
-**Use this when you already have the Audio + the corrected TextGrid.**
-- Place the ```.wav``` file in ```raw_audio/```.
-- Place the corresponding ```.TextGrid``` file in ```original_textgrids/```.
-  - Note: The filenames must match (e.g., ```file1.wav``` and ```file1.TextGrid```).
-- Run the extraction script:
-```bash
-python 1_extract_training_data.py
-```
-- **Result**: The script will check the ```dataset_final/``` folder. It contains:
-  - Sliced audio files (e.g., file1_seg001.wav).
-  - ```metadata.csv```: A file containing filenames, duration, and the transcription extracted from the TextGrid.
 
-### Case B: Processing New/Raw Audio
-**Use this when you receive a new recording and need to start from scratch.**
-- Place the new ```.wav``` file in ```raw_audio/```.
-- Run the VAD (Voice Activity Detection) script:
-```bash
-python 2_generate_vad_draft.py
-```
-*(Note: This is the script formerly known as OLD_script.py)*
-- **Result**: A draft ```.TextGrid``` will be generated in ```output_textgrids/```.
-- **Next Steps**:
-  - Open the draft TextGrid in Praat.
-  - Listen to the segments, adjust boundaries, and write the transcription.
-  - Save the corrected TextGrid.Move it to ```original_textgrids/``` and proceed to **Case A**.
+### A. Training & Evaluation
+1. **Prepare Data**: Ensure segments and `metadata.csv` are in `1_data_prepared/train_segments/`.
+2. **Train**: Run `3_train_wav2vec_long.py` (Fine-tunes XLSR-53 for 100 epochs).
+3. **Test**: Run `4_inference.py` to compare AI predictions against human references.
 
-## Technical Notes
-- **Sampling Rate**: All audio is automatically converted/saved as **16kHz** mono, which is required for Wav2Vec2.
-- **Target Tier**: By default, the script looks for a tier named **"yrk"** in the TextGrid. If you change your annotation template, please update the ```TARGET_TIER_NAME``` variable inside 1_extract_training_data.py.
-- **Engine**: The scripts use ```soundfile``` for robust I/O operations to ensure compatibility with Linux/WSL environments.  
+### B. Transcribing New Audio
+1. **VAD**: Run `1_generate_vad.py` to detect speech in raw files.
+2. **Segment**: Run `2_cut_raw_audio.py` to slice the audio.
+3. **Transcribe**: Run `5_transcribe_new.py` to generate automated Nenets transcriptions.
