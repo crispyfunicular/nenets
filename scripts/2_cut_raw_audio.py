@@ -84,8 +84,8 @@ def main():
                     if interval.mark and interval.mark.lower() == "silence":
                         continue
                         
-                    # Filter out very short segments (less than 0.2 seconds) to avoid artifacts
-                    if (interval.maxTime - interval.minTime) < 0.2:
+                    # Filter out very short segments (less than 1.5 seconds) to avoid artifacts
+                    if (interval.maxTime - interval.minTime) < 2.0:
                         continue
                     
                     # Convert timestamps to sample indices

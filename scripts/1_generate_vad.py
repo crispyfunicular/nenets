@@ -42,7 +42,7 @@ def main():
             wav = read_audio(filepath, sampling_rate=16000)
             
             # 2. Get speech timestamps (VAD)
-            speech_timestamps = get_speech_timestamps(wav, model, sampling_rate=16000, threshold=0.5)
+            speech_timestamps = get_speech_timestamps(wav, model, sampling_rate=16000, threshold=0.9)
             
             # 3. Create TextGrid
             # Get accurate duration of the original file

@@ -43,7 +43,10 @@ def main():
             
             # Decoding
             pred_ids = torch.argmax(logits, dim=-1)
-            transcription = processor.batch_decode(pred_ids)[0]
+            transcription = processor.batch_decode(pred_ids, skip_special_tokens=True)[0]
+            
+            # Nettoyage optionnel : enlève les espaces multiples qui restent parfois entre les mots
+            transcription = " ".join(transcription.split())
             
             results.append({
                 "file_name": file_name, 
