@@ -40,8 +40,9 @@ def main():
     with open(csv_path, 'w', newline='', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file, delimiter=',')
         
-        # Header: We must include 'transcription' even if empty, for compatibility
-        csv_writer.writerow(["filename", "duration", "transcription"])
+        # MODIFICATION MAJEURE ICI : Ajout de start et end
+        # On renomme aussi "filename" en "file_name" pour matcher avec ton fichier de prédictions
+        csv_writer.writerow(["file_name", "start", "end", "duration", "transcription"])
 
         # Check if the TextGrid folder exists
         if not os.path.exists(TEXTGRID_FOLDER):
@@ -68,7 +69,6 @@ def main():
 
             try:
                 # Load audio and resample to 16kHz on the fly using librosa
-                # This avoids the need for a separate pre-processing step
                 data, sr = librosa.load(wav_path, sr=TARGET_SR)
                 
                 # Load the TextGrid
@@ -80,11 +80,10 @@ def main():
                 count = 0
                 for interval in tier:
                     # Filter out silence intervals
-                    # (Adjust depending on how your VAD labels silence, e.g. "silence", "<p:>", or empty)
                     if interval.mark and interval.mark.lower() == "silence":
                         continue
                         
-                    # Filter out very short segments (less than 1.5 seconds) to avoid artifacts
+                    # Filter out very short segments (less than 1.5 seconds)
                     if (interval.maxTime - interval.minTime) < 2.0:
                         continue
                     
@@ -99,13 +98,20 @@ def main():
                     seg_name = f"{base_name}_seg{count+1:03d}.wav"
                     seg_path = os.path.join(OUTPUT_DATASET, seg_name)
                     
-                    # Save the segment using SoundFile
+                    # Save the segment
                     sf.write(seg_path, segment_audio, sr)
                     
                     # Write metadata row
-                    # Note: Transcription is left empty ("") for inference
                     duration = interval.maxTime - interval.minTime
-                    csv_writer.writerow([seg_name, f"{duration:.2f}", ""])
+                    
+                    # MODIFICATION : On écrit les temps exacts
+                    csv_writer.writerow([
+                        seg_name, 
+                        f"{interval.minTime:.4f}", 
+                        f"{interval.maxTime:.4f}", 
+                        f"{duration:.2f}", 
+                        ""
+                    ])
                     
                     count += 1
                     
