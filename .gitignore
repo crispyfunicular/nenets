@@ -10,6 +10,7 @@ venv/
 2_models/
 3_results/
 OLD/
+monolingual_texts/
 
 # --- Fichiers temporaires ---
 *.wav
