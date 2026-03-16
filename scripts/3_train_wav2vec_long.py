@@ -13,6 +13,7 @@ from transformers import (
     Wav2Vec2ForCTC,
     TrainingArguments,
     Trainer,
+    EarlyStoppingCallback,
 )
 import numpy as np
 
@@ -21,6 +22,15 @@ import numpy as np
 DATASET_PATH = "1_data_prepared/processed_audio_16k" 
 # Output: Where the brain of the AI is stored
 OUTPUT_DIR = "2_models/wav2vec2-large-xlsr-nenets"
+# Base pre-trained model (Facebook XLSR-53)
+MODEL_ID = "facebook/wav2vec2-large-xlsr-53"
+
+# --- EARLY STOPPING ---
+# Stop training when eval_loss stops improving to prevent overfitting.
+# Patience: number of evaluations with no improvement before stopping.
+# Threshold: minimum change in eval_loss to count as an improvement.
+EARLY_STOPPING_PATIENCE = 5
+EARLY_STOPPING_THRESHOLD = 0.01
 
 def main():
     print("Starting training pipeline (LONG VERSION)...")
@@ -110,7 +120,7 @@ def main():
 
     # 5. MODEL INIT
     model = Wav2Vec2ForCTC.from_pretrained(
-        MODEL_NAME, 
+        MODEL_ID, 
         attention_dropout=0.1,
         hidden_dropout=0.1,
         feat_proj_dropout=0.0,
@@ -151,6 +161,10 @@ def main():
         train_dataset=dataset["train"],
         eval_dataset=dataset["test"],
         tokenizer=processor.feature_extractor,
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=EARLY_STOPPING_PATIENCE,
+            early_stopping_threshold=EARLY_STOPPING_THRESHOLD,
+        )],
     )
 
     print("Starting training...")

@@ -1,0 +1,25 @@
+nohup: ignoring input
+============================================================
+  WHISPER LARGE V3 FINE-TUNING PIPELINE - RUSSIAN CONFIG
+============================================================
+Normalizing metadata.csv columns...
+
+[1/7] Loading dataset...
+  Training samples: 156
+  Validation samples: 18
+  Text column: 'transcription'
+
+[2/7] Loading Whisper processor...
+
+[3/7] Preprocessing audio and text labels...
+
+[4/7] Loading pre-trained Whisper model...
+  Model parameters: 1543M
+
+[5/7] Configuring training...
+
+[6/7] Initializing trainer...
+
+[7/7] Starting training...
+------------------------------------------------------------
+  0%|          | 0/900 [00:00<?, ?it/s]  0%|          | 1/900 [08:02<120:25:33, 482.24s/it]  0%|          | 2/900 [29:58<242:38:42, 972.74s/it]  0%|          | 3/900 [43:02<220:52:00, 886.42s/it]

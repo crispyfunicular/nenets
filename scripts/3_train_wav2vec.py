@@ -11,6 +11,7 @@ from transformers import (
     Wav2Vec2ForCTC,
     TrainingArguments,
     Trainer,
+    EarlyStoppingCallback,
 )
 from dataclasses import dataclass
 from typing import Dict, List, Union
@@ -33,6 +34,13 @@ MODEL_ID = "facebook/wav2vec2-large-xlsr-53"
 BATCH_SIZE = 4  
 LEARNING_RATE = 3e-4
 NUM_EPOCHS = 30 
+
+# --- EARLY STOPPING ---
+# Stop training when eval_loss stops improving to prevent overfitting.
+# Patience: number of evaluations with no improvement before stopping.
+# Threshold: minimum change in eval_loss to count as an improvement.
+EARLY_STOPPING_PATIENCE = 5
+EARLY_STOPPING_THRESHOLD = 0.01
 
 def main():
     print("Starting training pipeline...")
@@ -220,6 +228,10 @@ def main():
         train_dataset=encoded_dataset["train"],
         eval_dataset=encoded_dataset["test"],
         tokenizer=processor.feature_extractor,
+        callbacks=[EarlyStoppingCallback(
+            early_stopping_patience=EARLY_STOPPING_PATIENCE,
+            early_stopping_threshold=EARLY_STOPPING_THRESHOLD,
+        )],
     )
 
     print("Starting training...")
