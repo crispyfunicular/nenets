@@ -8,8 +8,8 @@ Fichiers CoNLL-U du nénetse de la toundra (corpus MapTask) et script de parsing
 |---|---|
 | `yrk_MapTask_00N.conllu` | Corpus annoté (4 fichiers) |
 | `parse_conllu.py` | Script de construction du lexique |
-| `dict_parsing.json` | Dictionnaire POS+Lemme (généré) |
-| `reverse_index.json` | Index inversé forme → candidats (généré) |
+| `yrk_dict_pos.json` | Dictionnaire POS+Lemme (généré) |
+| `yrk_reverse_index.json` | Index inversé forme → candidats (généré) |
 
 ## Commandes
 
@@ -18,10 +18,10 @@ Fichiers CoNLL-U du nénetse de la toundra (corpus MapTask) et script de parsing
 python3 parse_conllu.py yrk_MapTask_*.conllu
 
 # Sauvegarder le dictionnaire en JSON
-python3 parse_conllu.py yrk_MapTask_*.conllu --json dict_parsing.json
+python3 parse_conllu.py yrk_MapTask_*.conllu --json yrk_dict_pos.json
 
 # Générer aussi l'index inversé (pour l'étiquetage)
-python3 parse_conllu.py yrk_MapTask_*.conllu --json dict_parsing.json --reverse-index reverse_index.json
+python3 parse_conllu.py yrk_MapTask_*.conllu --json yrk_dict_pos.json --reverse-index yrk_reverse_index.json
 
 # Aide
 python3 parse_conllu.py --help
