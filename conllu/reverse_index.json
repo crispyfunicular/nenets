@@ -1,0 +1,1518 @@
+{
+  "<p>": [
+    {
+      "key": "PUNCT+<p>",
+      "frequency": 115,
+      "gloss": "SIL",
+      "ltranslit": "<p>"
+    },
+    {
+      "key": "X+<p>",
+      "frequency": 38,
+      "gloss": "PAUSE",
+      "ltranslit": "<p>"
+    },
+    {
+      "key": "DET+<p>",
+      "frequency": 2,
+      "gloss": "PAUSE",
+      "ltranslit": "<p>"
+    }
+  ],
+  "маря": [
+    {
+      "key": "NOUN+марˮ",
+      "frequency": 11,
+      "gloss": "fence",
+      "ltranslit": "marʡ"
+    }
+  ],
+  "<pr>маря<un>": [
+    {
+      "key": "NOUN+марˮ",
+      "frequency": 11,
+      "gloss": "fence",
+      "ltranslit": "marʡ"
+    }
+  ],
+  "<er>маря": [
+    {
+      "key": "NOUN+марˮ",
+      "frequency": 11,
+      "gloss": "fence",
+      "ltranslit": "marʡ"
+    }
+  ],
+  "нё": [
+    {
+      "key": "NOUN+нё",
+      "frequency": 10,
+      "gloss": "door",
+      "ltranslit": "ńo"
+    }
+  ],
+  "си": [
+    {
+      "key": "NOUN+си",
+      "frequency": 12,
+      "gloss": "hole",
+      "ltranslit": "śi"
+    }
+  ],
+  "мятю": [
+    {
+      "key": "VERB+мятю-",
+      "frequency": 1,
+      "gloss": "tent.step.in",
+      "ltranslit": "ḿaťu-"
+    }
+  ],
+  "сятаняюʼ": [
+    {
+      "key": "ADV+сятаняюʼ",
+      "frequency": 3,
+      "gloss": "to.the.left.pol",
+      "ltranslit": "śatańajuʔ"
+    }
+  ],
+  "мэ": [
+    {
+      "key": "VERB+мэ-",
+      "frequency": 5,
+      "gloss": "take",
+      "ltranslit": "mæ-"
+    },
+    {
+      "key": "VERB+мэ",
+      "frequency": 1,
+      "gloss": "take",
+      "ltranslit": "mæ"
+    }
+  ],
+  "сюрте": [
+    {
+      "key": "VERB+сюрте-",
+      "frequency": 4,
+      "gloss": "go.around",
+      "ltranslit": "śurťe-"
+    },
+    {
+      "key": "ADP+сюрте",
+      "frequency": 2,
+      "gloss": "around",
+      "ltranslit": "śurťe"
+    }
+  ],
+  "таняʼ": [
+    {
+      "key": "ADV+таняʼ",
+      "frequency": 1,
+      "gloss": "there",
+      "ltranslit": "tańaʔ"
+    }
+  ],
+  "яда": [
+    {
+      "key": "VERB+яда-",
+      "frequency": 12,
+      "gloss": "walk",
+      "ltranslit": "jada-"
+    },
+    {
+      "key": "ADV+яда",
+      "frequency": 7,
+      "gloss": "on.foot",
+      "ltranslit": "jada"
+    },
+    {
+      "key": "VERB+яда",
+      "frequency": 2,
+      "gloss": "walk",
+      "ltranslit": "jada"
+    }
+  ],
+  "яха": [
+    {
+      "key": "NOUN+яха",
+      "frequency": 22,
+      "gloss": "river",
+      "ltranslit": "jaxa"
+    }
+  ],
+  "пул": [
+    {
+      "key": "NOUN+пул",
+      "frequency": 8,
+      "gloss": "bridge",
+      "ltranslit": "pul"
+    }
+  ],
+  "нимня": [
+    {
+      "key": "ADP+нимня",
+      "frequency": 2,
+      "gloss": "at.prol",
+      "ltranslit": "ńimńa"
+    }
+  ],
+  "мада": [
+    {
+      "key": "VERB+мада-",
+      "frequency": 8,
+      "gloss": "pass.across",
+      "ltranslit": "mada-"
+    },
+    {
+      "key": "VERB+мада",
+      "frequency": 8,
+      "gloss": "pass.across",
+      "ltranslit": "mada"
+    }
+  ],
+  "тадтикахад": [
+    {
+      "key": "ADV+тадтикахад",
+      "frequency": 6,
+      "gloss": "afterwards",
+      "ltranslit": "tadťikaxad"
+    }
+  ],
+  "тамна": [
+    {
+      "key": "ADV+тамна",
+      "frequency": 8,
+      "gloss": "even",
+      "ltranslit": "tamna"
+    }
+  ],
+  "тяхаʼ": [
+    {
+      "key": "ADV+тяхаˮ",
+      "frequency": 4,
+      "gloss": "further",
+      "ltranslit": "ťaxaʡ"
+    },
+    {
+      "key": "ADV+тяхаʼ",
+      "frequency": 4,
+      "gloss": "further",
+      "ltranslit": "ťaxaʔ"
+    },
+    {
+      "key": "ADP+тяхаʼ",
+      "frequency": 1,
+      "gloss": "over",
+      "ltranslit": "ťaxaʔ"
+    }
+  ],
+  "тяхаˮ": [
+    {
+      "key": "ADV+тяхаˮ",
+      "frequency": 4,
+      "gloss": "further",
+      "ltranslit": "ťaxaʡ"
+    }
+  ],
+  "пя": [
+    {
+      "key": "NOUN+пя",
+      "frequency": 6,
+      "gloss": "tree",
+      "ltranslit": "ṕa"
+    }
+  ],
+  "манэˮ": [
+    {
+      "key": "VERB+манэˮ",
+      "frequency": 10,
+      "gloss": "see-co",
+      "ltranslit": "manæʡ"
+    }
+  ],
+  "-ӈа": [
+    {
+      "key": "AUX+-ӈа",
+      "frequency": 22,
+      "gloss": "-co",
+      "ltranslit": "-ŋa"
+    },
+    {
+      "key": "VERB+-ӈа",
+      "frequency": 5,
+      "gloss": "see-co",
+      "ltranslit": "-ŋa"
+    }
+  ],
+  "сятаняӈы": [
+    {
+      "key": "ADJ+сятаняӈы",
+      "frequency": 2,
+      "gloss": "to.the.left.adj",
+      "ltranslit": "śatańaŋi"
+    }
+  ],
+  "хэву": [
+    {
+      "key": "NOUN+хэв",
+      "frequency": 6,
+      "gloss": "side",
+      "ltranslit": "xæw"
+    }
+  ],
+  "хэв": [
+    {
+      "key": "NOUN+хэв",
+      "frequency": 6,
+      "gloss": "side",
+      "ltranslit": "xæw"
+    }
+  ],
+  "махаʼняю": [
+    {
+      "key": "ADV+махаʼняю",
+      "frequency": 1,
+      "gloss": "to.the.right.pol",
+      "ltranslit": "maxaʔńaju"
+    }
+  ],
+  "яля": [
+    {
+      "key": "NOUN+яля",
+      "frequency": 2,
+      "gloss": "sun",
+      "ltranslit": "jaľa"
+    }
+  ],
+  "серʼ": [
+    {
+      "key": "ADP+серʼ",
+      "frequency": 9,
+      "gloss": "at.the.time.of",
+      "ltranslit": "śerʔ"
+    }
+  ],
+  "сер": [
+    {
+      "key": "ADP+серʼ",
+      "frequency": 9,
+      "gloss": "at.the.time.of",
+      "ltranslit": "śerʔ"
+    }
+  ],
+  "тикы": [
+    {
+      "key": "PRON+тикы",
+      "frequency": 1,
+      "gloss": "that",
+      "ltranslit": "ťiki"
+    }
+  ],
+  "пуд": [
+    {
+      "key": "ADP+пуд",
+      "frequency": 1,
+      "gloss": "after.abl",
+      "ltranslit": "pud"
+    }
+  ],
+  "тарка": [
+    {
+      "key": "NOUN+тарка",
+      "frequency": 15,
+      "gloss": "fork",
+      "ltranslit": "tarka"
+    }
+  ],
+  "нямна": [
+    {
+      "key": "ADP+нямна",
+      "frequency": 1,
+      "gloss": "at.prol",
+      "ltranslit": "ńamna"
+    }
+  ],
+  "ӈохолыр": [
+    {
+      "key": "VERB+ӈохолыр-",
+      "frequency": 2,
+      "gloss": "swim",
+      "ltranslit": "ŋoxolir-"
+    },
+    {
+      "key": "VERB+ӈохолыр",
+      "frequency": 2,
+      "gloss": "swim",
+      "ltranslit": "ŋoxolir"
+    }
+  ],
+  "пыя": [
+    {
+      "key": "NOUN+пыя",
+      "frequency": 8,
+      "gloss": "end",
+      "ltranslit": "pija"
+    }
+  ],
+  "ӈадимя": [
+    {
+      "key": "VERB+ӈадим-",
+      "frequency": 3,
+      "gloss": "appear",
+      "ltranslit": "ŋaďim-"
+    }
+  ],
+  "ӈадим": [
+    {
+      "key": "VERB+ӈадим-",
+      "frequency": 3,
+      "gloss": "appear",
+      "ltranslit": "ŋaďim-"
+    }
+  ],
+  "ӈаниʼ": [
+    {
+      "key": "ADV+ӈаниʼ",
+      "frequency": 4,
+      "gloss": "again",
+      "ltranslit": "ŋańiʔ"
+    }
+  ],
+  "няби": [
+    {
+      "key": "DET+няби",
+      "frequency": 5,
+      "gloss": "other",
+      "ltranslit": "ńab́i"
+    }
+  ],
+  "нябиʼ": [
+    {
+      "key": "DET+няби",
+      "frequency": 5,
+      "gloss": "other",
+      "ltranslit": "ńab́i"
+    }
+  ],
+  "и": [
+    {
+      "key": "NOUN+иˮ",
+      "frequency": 3,
+      "gloss": "water",
+      "ltranslit": "iʡ"
+    }
+  ],
+  "ид": [
+    {
+      "key": "NOUN+иˮ",
+      "frequency": 3,
+      "gloss": "water",
+      "ltranslit": "iʡ"
+    }
+  ],
+  "халя": [
+    {
+      "key": "NOUN+халя",
+      "frequency": 1,
+      "gloss": "fish",
+      "ltranslit": "xaľa"
+    }
+  ],
+  "таня": [
+    {
+      "key": "VERB+таня-",
+      "frequency": 5,
+      "gloss": "exist",
+      "ltranslit": "tańa-"
+    },
+    {
+      "key": "VERB+таня",
+      "frequency": 1,
+      "gloss": "exist",
+      "ltranslit": "tańa"
+    }
+  ],
+  "тикахад": [
+    {
+      "key": "ADV+тикахад",
+      "frequency": 1,
+      "gloss": "then",
+      "ltranslit": "ťikaxad"
+    }
+  ],
+  "махаʼнякуʼ": [
+    {
+      "key": "ADV+махаʼнякуʼ",
+      "frequency": 1,
+      "gloss": "to.the.right.adv",
+      "ltranslit": "maxaʔńakuʔ"
+    }
+  ],
+  "нэкал": [
+    {
+      "key": "VERB+нэкал",
+      "frequency": 10,
+      "gloss": "pull-co",
+      "ltranslit": "nækal"
+    }
+  ],
+  "ӈобʼ": [
+    {
+      "key": "ADV+ӈобʼ",
+      "frequency": 6,
+      "gloss": "once",
+      "ltranslit": "ŋobʔ"
+    }
+  ],
+  "нер": [
+    {
+      "key": "ADP+нер-",
+      "frequency": 2,
+      "gloss": "in.front.of",
+      "ltranslit": "ńer-"
+    },
+    {
+      "key": "ADP+нер",
+      "frequency": 1,
+      "gloss": "in.front.of",
+      "ltranslit": "ńer"
+    },
+    {
+      "key": "PRON+нер-",
+      "frequency": 1,
+      "gloss": "in.front.of",
+      "ltranslit": "ńer-"
+    }
+  ],
+  "няна": [
+    {
+      "key": "ADP+няна",
+      "frequency": 4,
+      "gloss": "at.loc",
+      "ltranslit": "ńana"
+    }
+  ],
+  "пирця": [
+    {
+      "key": "ADJ+пирця",
+      "frequency": 7,
+      "gloss": "tall",
+      "ltranslit": "ṕirća"
+    }
+  ],
+  "харад": [
+    {
+      "key": "NOUN+харад",
+      "frequency": 12,
+      "gloss": "house",
+      "ltranslit": "xarad"
+    }
+  ],
+  "харда": [
+    {
+      "key": "NOUN+харад",
+      "frequency": 12,
+      "gloss": "house",
+      "ltranslit": "xarad"
+    }
+  ],
+  "сидя": [
+    {
+      "key": "NUM+сидя",
+      "frequency": 4,
+      "gloss": "two",
+      "ltranslit": "śiďa"
+    }
+  ],
+  "сидера": [
+    {
+      "key": "NOUN+сидерˮ",
+      "frequency": 2,
+      "gloss": "window",
+      "ltranslit": "śiďerʡ"
+    }
+  ],
+  "танця": [
+    {
+      "key": "NOUN+танциеˮ",
+      "frequency": 7,
+      "gloss": "stairs",
+      "ltranslit": "tanćieʡ"
+    }
+  ],
+  "танцяʼ": [
+    {
+      "key": "NOUN+танциеˮ",
+      "frequency": 7,
+      "gloss": "stairs",
+      "ltranslit": "tanćieʡ"
+    }
+  ],
+  "танцянзавэй": [
+    {
+      "key": "NOUN+танциеˮ",
+      "frequency": 7,
+      "gloss": "stairs.com",
+      "ltranslit": "tanćieʡ"
+    }
+  ],
+  "махалэй": [
+    {
+      "key": "NOUN+махалы",
+      "frequency": 8,
+      "gloss": "roof",
+      "ltranslit": "maxali"
+    },
+    {
+      "key": "ADJ+махалэй",
+      "frequency": 1,
+      "gloss": "roof.adj",
+      "ltranslit": "maxalæj"
+    }
+  ],
+  "маха": [
+    {
+      "key": "NOUN+махалы",
+      "frequency": 8,
+      "gloss": "roof",
+      "ltranslit": "maxali"
+    },
+    {
+      "key": "NOUN+маха",
+      "frequency": 1,
+      "gloss": "back",
+      "ltranslit": "maxa"
+    }
+  ],
+  "махалэя": [
+    {
+      "key": "NOUN+махалы",
+      "frequency": 8,
+      "gloss": "roof",
+      "ltranslit": "maxali"
+    }
+  ],
+  "тюˮуʼ": [
+    {
+      "key": "ADV+тюˮуʼ",
+      "frequency": 3,
+      "gloss": "upwards",
+      "ltranslit": "ťuʡuʔ"
+    }
+  ],
+  "няʼ": [
+    {
+      "key": "ADP+няʼ",
+      "frequency": 4,
+      "gloss": "at.abl",
+      "ltranslit": "ńaʔ"
+    }
+  ],
+  "мятревʼ": [
+    {
+      "key": "ADV+мя",
+      "frequency": 2,
+      "gloss": "tent.equ",
+      "ltranslit": "ḿa"
+    }
+  ],
+  "саблюй": [
+    {
+      "key": "ADJ+саблюй",
+      "frequency": 4,
+      "gloss": "peak",
+      "ltranslit": "sabľuj"
+    }
+  ],
+  "ӈавоʼ": [
+    {
+      "key": "PRON+ӈамгэ",
+      "frequency": 1,
+      "gloss": "what.gen.pl",
+      "ltranslit": "ŋamgæ"
+    }
+  ],
+  "пиркаˮна": [
+    {
+      "key": "ADP+пиркана",
+      "frequency": 1,
+      "gloss": "until.pl.loc",
+      "ltranslit": "ṕirkana"
+    }
+  ],
+  "тэвы": [
+    {
+      "key": "VERB+тэва",
+      "frequency": 4,
+      "gloss": "arrive",
+      "ltranslit": "tæwa"
+    },
+    {
+      "key": "VERB+тэва-",
+      "frequency": 2,
+      "gloss": "arrive",
+      "ltranslit": "tæwa-"
+    }
+  ],
+  "танэ": [
+    {
+      "key": "VERB+танэ",
+      "frequency": 4,
+      "gloss": "go.up-co.refl",
+      "ltranslit": "tanæ"
+    }
+  ],
+  "-я": [
+    {
+      "key": "VERB+-я",
+      "frequency": 1,
+      "gloss": "go.up-co.refl",
+      "ltranslit": "-ja"
+    },
+    {
+      "key": "AUX+-я",
+      "frequency": 1,
+      "gloss": "-co.refl",
+      "ltranslit": "-ja"
+    }
+  ],
+  "мюмня": [
+    {
+      "key": "ADP+мюмня",
+      "frequency": 2,
+      "gloss": "in.prol",
+      "ltranslit": "ḿumńa"
+    }
+  ],
+  "хая": [
+    {
+      "key": "VERB+хэ",
+      "frequency": 4,
+      "gloss": "go",
+      "ltranslit": "xæ"
+    },
+    {
+      "key": "VERB+хая-",
+      "frequency": 3,
+      "gloss": "go",
+      "ltranslit": "xaja-"
+    }
+  ],
+  "несэй": [
+    {
+      "key": "ADJ+несэй",
+      "frequency": 1,
+      "gloss": "new(other)",
+      "ltranslit": "ńesæj"
+    }
+  ],
+  "тарпы": [
+    {
+      "key": "VERB+тарпа-",
+      "frequency": 3,
+      "gloss": "go.out",
+      "ltranslit": "tarpa-"
+    }
+  ],
+  "хаˮмы": [
+    {
+      "key": "VERB+хаˮма-",
+      "frequency": 3,
+      "gloss": "go.down",
+      "ltranslit": "xaʡma-"
+    },
+    {
+      "key": "VERB+хаˮамы",
+      "frequency": 2,
+      "gloss": "go.down",
+      "ltranslit": "xaʡami"
+    }
+  ],
+  "хаˮам": [
+    {
+      "key": "VERB+хаˮма-",
+      "frequency": 3,
+      "gloss": "go.down-",
+      "ltranslit": "xaʡma-"
+    }
+  ],
+  "ядал": [
+    {
+      "key": "VERB+ядал",
+      "frequency": 1,
+      "gloss": "go.forth-co.refl",
+      "ltranslit": "jadal"
+    }
+  ],
+  "-ъя": [
+    {
+      "key": "VERB+-ъя",
+      "frequency": 1,
+      "gloss": "go.forth-co.refl",
+      "ltranslit": "-\"ja"
+    }
+  ],
+  "ехэра": [
+    {
+      "key": "VERB+ехэра-",
+      "frequency": 1,
+      "gloss": "not.know",
+      "ltranslit": "exæra-"
+    }
+  ],
+  "ӈани": [
+    {
+      "key": "DET+ӈаниʼ",
+      "frequency": 1,
+      "gloss": "other",
+      "ltranslit": "ŋańiʔ"
+    }
+  ],
+  "ӈопой": [
+    {
+      "key": "NUM+ӈопой",
+      "frequency": 1,
+      "gloss": "one",
+      "ltranslit": "ŋopoj"
+    }
+  ],
+  "тяхана": [
+    {
+      "key": "ADP+тяхана",
+      "frequency": 1,
+      "gloss": "behind.loc",
+      "ltranslit": "ťaxana"
+    }
+  ],
+  "тэ": [
+    {
+      "key": "NOUN+ты",
+      "frequency": 3,
+      "gloss": "reindeer",
+      "ltranslit": "ti"
+    }
+  ],
+  "ты": [
+    {
+      "key": "NOUN+ты",
+      "frequency": 3,
+      "gloss": "reindeer",
+      "ltranslit": "ti"
+    }
+  ],
+  "мюня": [
+    {
+      "key": "ADP+мюня",
+      "frequency": 3,
+      "gloss": "in.loc",
+      "ltranslit": "ḿuńa"
+    }
+  ],
+  "ну": [
+    {
+      "key": "VERB+ну-",
+      "frequency": 3,
+      "gloss": "stand",
+      "ltranslit": "nu-"
+    },
+    {
+      "key": "VERB+ну",
+      "frequency": 1,
+      "gloss": "stand",
+      "ltranslit": "nu"
+    }
+  ],
+  "-дʼ": [
+    {
+      "key": "ADP+X",
+      "frequency": 7,
+      "gloss": "-gen.poss.2sg",
+      "ltranslit": "X"
+    }
+  ],
+  "-мана": [
+    {
+      "key": "ADP+X",
+      "frequency": 7,
+      "gloss": "-prol",
+      "ltranslit": "X"
+    }
+  ],
+  "-хада": [
+    {
+      "key": "ADP+X",
+      "frequency": 7,
+      "gloss": "-abl",
+      "ltranslit": "X"
+    }
+  ],
+  "-вна": [
+    {
+      "key": "ADP+X",
+      "frequency": 7,
+      "gloss": "-prol",
+      "ltranslit": "X"
+    }
+  ],
+  "<d>": [
+    {
+      "key": "INTJ+<d>",
+      "frequency": 1,
+      "gloss": "DISFL",
+      "ltranslit": "<d>"
+    },
+    {
+      "key": "X+<d>",
+      "frequency": 1,
+      "gloss": "<d>",
+      "ltranslit": "<d>"
+    }
+  ],
+  "тикахана": [
+    {
+      "key": "ADV+тикахана",
+      "frequency": 1,
+      "gloss": "there",
+      "ltranslit": "ťikaxana"
+    }
+  ],
+  "-хаˮ": [
+    {
+      "key": "PRON+X",
+      "frequency": 2,
+      "gloss": "-3du",
+      "ltranslit": "X"
+    }
+  ],
+  "-ваˮ": [
+    {
+      "key": "PRON+X",
+      "frequency": 2,
+      "gloss": "-1pl",
+      "ltranslit": "X"
+    }
+  ],
+  "няд": [
+    {
+      "key": "ADP+няд",
+      "frequency": 1,
+      "gloss": "at.abl",
+      "ltranslit": "ńad"
+    }
+  ],
+  "ни": [
+    {
+      "key": "NOUN+ни-",
+      "frequency": 1,
+      "gloss": "top",
+      "ltranslit": "ńi-"
+    }
+  ],
+  "санэй": [
+    {
+      "key": "VERB+санэй-",
+      "frequency": 1,
+      "gloss": "jump",
+      "ltranslit": "sanæj-"
+    }
+  ],
+  "сана": [
+    {
+      "key": "VERB+сана-",
+      "frequency": 1,
+      "gloss": "jump",
+      "ltranslit": "sana-"
+    }
+  ],
+  "тяха": [
+    {
+      "key": "ADV+тяхаʼ",
+      "frequency": 4,
+      "gloss": "further",
+      "ltranslit": "ťaxaʔ"
+    }
+  ],
+  "<n>": [
+    {
+      "key": "X+<n>",
+      "frequency": 4,
+      "gloss": "NOISE",
+      "ltranslit": "<n>"
+    }
+  ],
+  "-нд<un>": [
+    {
+      "key": "ADP+-нда",
+      "frequency": 2,
+      "gloss": "-gen.poss.3sg",
+      "ltranslit": "-nda"
+    }
+  ],
+  "-нда": [
+    {
+      "key": "ADP+-нда",
+      "frequency": 2,
+      "gloss": "poss.dat.3sg",
+      "ltranslit": "-nda"
+    }
+  ],
+  "-й": [
+    {
+      "key": "AUX+-й",
+      "frequency": 3,
+      "gloss": "-co.refl",
+      "ltranslit": "-j"
+    }
+  ],
+  "мяттю": [
+    {
+      "key": "VERB+мяттю-",
+      "frequency": 1,
+      "gloss": "enter",
+      "ltranslit": "ḿatťu-"
+    }
+  ],
+  "иртʼ": [
+    {
+      "key": "ADV+иртʼ",
+      "frequency": 1,
+      "gloss": "straight",
+      "ltranslit": "irtʔ"
+    }
+  ],
+  "нярˮ": [
+    {
+      "key": "ADV+нярˮ",
+      "frequency": 1,
+      "gloss": "across",
+      "ltranslit": "ńarʡ"
+    }
+  ],
+  "хэхэдёйта": [
+    {
+      "key": "VERB+хэхэдёйта-",
+      "frequency": 1,
+      "gloss": "run.across",
+      "ltranslit": "xæxæďojta-"
+    }
+  ],
+  "нэ": [
+    {
+      "key": "VERB+нэ-",
+      "frequency": 1,
+      "gloss": "open",
+      "ltranslit": "næ-"
+    }
+  ],
+  "хаˮамы": [
+    {
+      "key": "VERB+хаˮамы-",
+      "frequency": 1,
+      "gloss": "go.down",
+      "ltranslit": "xaʡami-"
+    }
+  ],
+  "маханякубта": [
+    {
+      "key": "NOUN+маханякубта",
+      "frequency": 3,
+      "gloss": "right.side",
+      "ltranslit": "maxańakubta"
+    }
+  ],
+  "ми": [
+    {
+      "key": "VERB+ми-",
+      "frequency": 1,
+      "gloss": "go",
+      "ltranslit": "ḿi-"
+    }
+  ],
+  "ӈохолё": [
+    {
+      "key": "VERB+ӈохолё",
+      "frequency": 7,
+      "gloss": "swim.cvb",
+      "ltranslit": "ŋoxoľo"
+    }
+  ],
+  "ниʼ": [
+    {
+      "key": "ADP+ниʼ",
+      "frequency": 4,
+      "gloss": "at.dat",
+      "ltranslit": "ńiʔ"
+    }
+  ],
+  "танэй": [
+    {
+      "key": "VERB+танэй-",
+      "frequency": 1,
+      "gloss": "go.up",
+      "ltranslit": "tanæj-"
+    },
+    {
+      "key": "VERB+танэй",
+      "frequency": 1,
+      "gloss": "go.up",
+      "ltranslit": "tanæj"
+    }
+  ],
+  "ялъя": [
+    {
+      "key": "VERB+ялъя",
+      "frequency": 3,
+      "gloss": "walk",
+      "ltranslit": "jal\"ja"
+    },
+    {
+      "key": "VERB+ялъя-",
+      "frequency": 1,
+      "gloss": "walk",
+      "ltranslit": "jal\"ja-"
+    }
+  ],
+  "маханяӈы": [
+    {
+      "key": "ADJ+маханяӈы",
+      "frequency": 3,
+      "gloss": "from.right.adj",
+      "ltranslit": "maxańaŋi"
+    }
+  ],
+  "пырдариʼ": [
+    {
+      "key": "ADP+пырдариʼ",
+      "frequency": 1,
+      "gloss": "against",
+      "ltranslit": "pirdaŕiʔ"
+    }
+  ],
+  "яд": [
+    {
+      "key": "VERB+яд-",
+      "frequency": 1,
+      "gloss": "walk",
+      "ltranslit": "jad-"
+    }
+  ],
+  "сятанякубта": [
+    {
+      "key": "NOUN+сятанякубта",
+      "frequency": 1,
+      "gloss": "left.side",
+      "ltranslit": "śatańakubta"
+    }
+  ],
+  "сэв": [
+    {
+      "key": "NOUN+сэв",
+      "frequency": 1,
+      "gloss": "eye",
+      "ltranslit": "sæw"
+    }
+  ],
+  "тодоʼ": [
+    {
+      "key": "NOUN+тодоʼ",
+      "frequency": 1,
+      "gloss": "all",
+      "ltranslit": "todoʔ"
+    }
+  ],
+  "сыр": [
+    {
+      "key": "VERB+сыр",
+      "frequency": 7,
+      "gloss": "look",
+      "ltranslit": "sir"
+    }
+  ],
+  "сыро": [
+    {
+      "key": "VERB+сыр",
+      "frequency": 7,
+      "gloss": "look",
+      "ltranslit": "sir"
+    }
+  ],
+  "сятаняʼ": [
+    {
+      "key": "ADV+сятаняʼ",
+      "frequency": 1,
+      "gloss": "to.the.left",
+      "ltranslit": "śatańaʔ"
+    }
+  ],
+  "маханяʼ": [
+    {
+      "key": "ADV+маханяʼ",
+      "frequency": 1,
+      "gloss": "to.the.right",
+      "ltranslit": "maxańaʔ"
+    }
+  ],
+  "маханяӈэюмʼ": [
+    {
+      "key": "ADJ+маханяӈэюмʼ",
+      "frequency": 1,
+      "gloss": "to.the.right.adj.pol",
+      "ltranslit": "maxańaŋæjumʔ"
+    }
+  ],
+  "тасла": [
+    {
+      "key": "VERB+тасла",
+      "frequency": 2,
+      "gloss": "decide",
+      "ltranslit": "tasla"
+    },
+    {
+      "key": "VERB+тасла-",
+      "frequency": 1,
+      "gloss": "decide",
+      "ltranslit": "tasla-"
+    }
+  ],
+  "яду": [
+    {
+      "key": "NOUN+яд",
+      "frequency": 4,
+      "gloss": "wall",
+      "ltranslit": "jad"
+    }
+  ],
+  "<er>яду": [
+    {
+      "key": "NOUN+яд",
+      "frequency": 4,
+      "gloss": "wall",
+      "ltranslit": "jad"
+    }
+  ],
+  "нид": [
+    {
+      "key": "ADP+нид",
+      "frequency": 3,
+      "gloss": "at.abl",
+      "ltranslit": "ńid"
+    }
+  ],
+  "яˮамна": [
+    {
+      "key": "ADV+яˮамна",
+      "frequency": 2,
+      "gloss": "around.prol",
+      "ltranslit": "jaʡamna"
+    },
+    {
+      "key": "ADP+яˮамна",
+      "frequency": 1,
+      "gloss": "around.prol",
+      "ltranslit": "jaʡamna"
+    }
+  ],
+  "тасиʼ": [
+    {
+      "key": "ADV+тасиʼ",
+      "frequency": 3,
+      "gloss": "downward.dat",
+      "ltranslit": "taśiʔ"
+    }
+  ],
+  "ӈыламна": [
+    {
+      "key": "ADP+ӈыламна",
+      "frequency": 3,
+      "gloss": "under.prol",
+      "ltranslit": "ŋilamna"
+    }
+  ],
+  "таханяюʼ": [
+    {
+      "key": "ADV+таханяюʼ",
+      "frequency": 1,
+      "gloss": "there.pol",
+      "ltranslit": "taxańajuʔ"
+    }
+  ],
+  "таремʼ": [
+    {
+      "key": "ADV+таремʼ",
+      "frequency": 2,
+      "gloss": "this.way",
+      "ltranslit": "taŕemʔ"
+    }
+  ],
+  "пэр": [
+    {
+      "key": "VERB+пэр",
+      "frequency": 1,
+      "gloss": "do",
+      "ltranslit": "pær"
+    }
+  ],
+  "вару": [
+    {
+      "key": "NOUN+вар",
+      "frequency": 1,
+      "gloss": "shore",
+      "ltranslit": "war"
+    }
+  ],
+  "лаӈг": [
+    {
+      "key": "NOUN+лаӈг",
+      "frequency": 2,
+      "gloss": "steep.riverbank",
+      "ltranslit": "laŋg"
+    }
+  ],
+  "сятаняю": [
+    {
+      "key": "ADJ+сятаняю",
+      "frequency": 1,
+      "gloss": "to.the.left.adj",
+      "ltranslit": "śatańaju"
+    }
+  ],
+  "таняна": [
+    {
+      "key": "ADV+таняна",
+      "frequency": 1,
+      "gloss": "there",
+      "ltranslit": "tańana"
+    }
+  ],
+  "ӈано": [
+    {
+      "key": "NOUN+ӈано",
+      "frequency": 10,
+      "gloss": "boat",
+      "ltranslit": "ŋano"
+    }
+  ],
+  "яӈго": [
+    {
+      "key": "VERB+яӈго",
+      "frequency": 1,
+      "gloss": "not.exist",
+      "ltranslit": "jaŋgo"
+    }
+  ],
+  "тяханяна": [
+    {
+      "key": "ADP+тяханяна",
+      "frequency": 1,
+      "gloss": "through.loc",
+      "ltranslit": "ťaxańana"
+    }
+  ],
+  "ӈэ": [
+    {
+      "key": "AUX+ӈa",
+      "frequency": 1,
+      "gloss": "be",
+      "ltranslit": "ŋa"
+    }
+  ],
+  "няюʼ": [
+    {
+      "key": "ADP+няюʼ",
+      "frequency": 2,
+      "gloss": "towards.dat",
+      "ltranslit": "ńajuʔ"
+    }
+  ],
+  "ядалъ": [
+    {
+      "key": "VERB+ядалъ",
+      "frequency": 1,
+      "gloss": "go.forth",
+      "ltranslit": "jadal\""
+    }
+  ],
+  "я": [
+    {
+      "key": "NOUN+я",
+      "frequency": 4,
+      "gloss": "land",
+      "ltranslit": "ja"
+    }
+  ],
+  "хой": [
+    {
+      "key": "NOUN+хой",
+      "frequency": 3,
+      "gloss": "hill",
+      "ltranslit": "xoj"
+    }
+  ],
+  "ниня": [
+    {
+      "key": "ADP+ниня",
+      "frequency": 2,
+      "gloss": "at.loc",
+      "ltranslit": "ńińa"
+    }
+  ],
+  "<iw>ниӈа": [
+    {
+      "key": "ADP+ниня",
+      "frequency": 2,
+      "gloss": "at.loc",
+      "ltranslit": "ńińa"
+    }
+  ],
+  "нерняʼ": [
+    {
+      "key": "ADV+нерняʼ",
+      "frequency": 1,
+      "gloss": "in.front.of.dat",
+      "ltranslit": "ńerńaʔ"
+    }
+  ],
+  "ӈа": [
+    {
+      "key": "AUX+ӈа",
+      "frequency": 1,
+      "gloss": "-co",
+      "ltranslit": "ŋa"
+    }
+  ],
+  "тэв": [
+    {
+      "key": "VERB+тэва",
+      "frequency": 4,
+      "gloss": "arrive",
+      "ltranslit": "tæwa"
+    }
+  ],
+  "лабята": [
+    {
+      "key": "ADV+лабята",
+      "frequency": 1,
+      "gloss": "row.cvb",
+      "ltranslit": "lab́ata"
+    }
+  ],
+  "тяханяюʼ": [
+    {
+      "key": "ADV+тяханяюʼ",
+      "frequency": 1,
+      "gloss": "there.pol",
+      "ltranslit": "ťaxańajuʔ"
+    }
+  ],
+  "тир": [
+    {
+      "key": "NOUN+тир",
+      "frequency": 4,
+      "gloss": "edge",
+      "ltranslit": "ťir"
+    }
+  ],
+  "хае": [
+    {
+      "key": "VERB+хае",
+      "frequency": 1,
+      "gloss": "leave",
+      "ltranslit": "xae"
+    }
+  ],
+  "хаˮавра": [
+    {
+      "key": "VERB+хаˮавра",
+      "frequency": 1,
+      "gloss": "go.down",
+      "ltranslit": "xaʡawra"
+    }
+  ],
+  "ӈэсондʼ": [
+    {
+      "key": "ADP+ӈэсондʼ",
+      "frequency": 2,
+      "gloss": "up.to.dat",
+      "ltranslit": "ŋæsondʔ"
+    }
+  ],
+  "хэ": [
+    {
+      "key": "VERB+хэ",
+      "frequency": 4,
+      "gloss": "go",
+      "ltranslit": "xæ"
+    }
+  ],
+  "хэя": [
+    {
+      "key": "VERB+хэ",
+      "frequency": 4,
+      "gloss": "go",
+      "ltranslit": "xæ"
+    }
+  ],
+  "-сь": [
+    {
+      "key": "AUX+X",
+      "frequency": 3,
+      "gloss": "-cvb",
+      "ltranslit": "X"
+    }
+  ],
+  "-ˮма": [
+    {
+      "key": "AUX+X",
+      "frequency": 3,
+      "gloss": "-pfv.an",
+      "ltranslit": "X"
+    }
+  ],
+  "тара": [
+    {
+      "key": "AUX+тара",
+      "frequency": 1,
+      "gloss": "need.3sg",
+      "ltranslit": "tara"
+    }
+  ],
+  "тана": [
+    {
+      "key": "VERB+тана",
+      "frequency": 1,
+      "gloss": "go.up",
+      "ltranslit": "tana"
+    }
+  ],
+  "ня": [
+    {
+      "key": "ADP+ня",
+      "frequency": 1,
+      "gloss": "at",
+      "ltranslit": "ńa"
+    }
+  ],
+  "Тадтикахавахад": [
+    {
+      "key": "ADV+тадтикахавахад",
+      "frequency": 1,
+      "gloss": "afterwards",
+      "ltranslit": "tadťikaxawaxad"
+    }
+  ],
+  "<f>сюрт<un>": [
+    {
+      "key": "ADP+сюрте",
+      "frequency": 2,
+      "gloss": "around",
+      "ltranslit": "śurťe"
+    }
+  ],
+  "нулта-": [
+    {
+      "key": "VERB+нулта-",
+      "frequency": 1,
+      "gloss": "stop",
+      "ltranslit": "nulta-"
+    }
+  ]
+}

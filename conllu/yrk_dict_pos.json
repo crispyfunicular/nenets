@@ -1,0 +1,2342 @@
+{
+  "X+<p>": {
+    "frequency": 38,
+    "entries": [
+      {
+        "form": "<p>",
+        "features": null,
+        "gloss": "PAUSE",
+        "translit": "<p>",
+        "ltranslit": "<p>"
+      },
+      {
+        "form": "<p>",
+        "features": null,
+        "gloss": "X",
+        "translit": "<p>",
+        "ltranslit": "<p>"
+      }
+    ]
+  },
+  "NOUN+марˮ": {
+    "frequency": 11,
+    "entries": [
+      {
+        "form": "маря",
+        "features": null,
+        "gloss": "fence",
+        "translit": "maŕa",
+        "ltranslit": "marʡ"
+      },
+      {
+        "form": "<pr>маря<un>",
+        "features": null,
+        "gloss": "fence",
+        "translit": "<pr>maŕa<un>",
+        "ltranslit": "marʡ"
+      },
+      {
+        "form": "<er>маря",
+        "features": null,
+        "gloss": "fence",
+        "translit": "<er>maŕa",
+        "ltranslit": "marʡ"
+      }
+    ]
+  },
+  "NOUN+нё": {
+    "frequency": 10,
+    "entries": [
+      {
+        "form": "нё",
+        "features": null,
+        "gloss": "door",
+        "translit": "ńo",
+        "ltranslit": "ńo"
+      }
+    ]
+  },
+  "NOUN+си": {
+    "frequency": 12,
+    "entries": [
+      {
+        "form": "си",
+        "features": null,
+        "gloss": "hole",
+        "translit": "śi",
+        "ltranslit": "śi"
+      }
+    ]
+  },
+  "VERB+мятю-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "мятю",
+        "features": null,
+        "gloss": "tent.step.in",
+        "translit": "ḿaťu",
+        "ltranslit": "ḿaťu-"
+      }
+    ]
+  },
+  "ADV+сятаняюʼ": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "сятаняюʼ",
+        "features": null,
+        "gloss": "to.the.left.pol",
+        "translit": "śatańajuʔ",
+        "ltranslit": "śatańajuʔ"
+      }
+    ]
+  },
+  "VERB+мэ-": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "мэ",
+        "features": null,
+        "gloss": "take",
+        "translit": "mæ",
+        "ltranslit": "mæ-"
+      }
+    ]
+  },
+  "PUNCT+<p>": {
+    "frequency": 115,
+    "entries": [
+      {
+        "form": "<p>",
+        "features": null,
+        "gloss": "SIL",
+        "translit": "<p>",
+        "ltranslit": "<p>"
+      }
+    ]
+  },
+  "VERB+сюрте-": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "сюрте",
+        "features": null,
+        "gloss": "go.around",
+        "translit": "śurťe",
+        "ltranslit": "śurťe-"
+      }
+    ]
+  },
+  "ADV+таняʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "таняʼ",
+        "features": null,
+        "gloss": "there",
+        "translit": "tańaʔ",
+        "ltranslit": "tańaʔ"
+      }
+    ]
+  },
+  "VERB+яда-": {
+    "frequency": 12,
+    "entries": [
+      {
+        "form": "яда",
+        "features": null,
+        "gloss": "walk",
+        "translit": "jada",
+        "ltranslit": "jada-"
+      }
+    ]
+  },
+  "NOUN+яха": {
+    "frequency": 22,
+    "entries": [
+      {
+        "form": "яха",
+        "features": null,
+        "gloss": "river",
+        "translit": "jaxa",
+        "ltranslit": "jaxa"
+      }
+    ]
+  },
+  "NOUN+пул": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "пул",
+        "features": null,
+        "gloss": "bridge",
+        "translit": "pul",
+        "ltranslit": "pul"
+      }
+    ]
+  },
+  "ADP+нимня": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "нимня",
+        "features": null,
+        "gloss": "at.prol",
+        "translit": "ńimńa",
+        "ltranslit": "ńimńa"
+      },
+      {
+        "form": "нимня",
+        "features": null,
+        "gloss": "top.prol",
+        "translit": "ńimńa",
+        "ltranslit": "ńimńa"
+      }
+    ]
+  },
+  "VERB+мада-": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "мада",
+        "features": null,
+        "gloss": "pass.across",
+        "translit": "mada",
+        "ltranslit": "mada-"
+      }
+    ]
+  },
+  "ADV+тадтикахад": {
+    "frequency": 6,
+    "entries": [
+      {
+        "form": "тадтикахад",
+        "features": null,
+        "gloss": "afterwards",
+        "translit": "tadťikaxad",
+        "ltranslit": "tadťikaxad"
+      }
+    ]
+  },
+  "ADV+тамна": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "тамна",
+        "features": null,
+        "gloss": "even",
+        "translit": "tamna",
+        "ltranslit": "tamna"
+      }
+    ]
+  },
+  "ADV+тяхаˮ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "тяхаʼ",
+        "features": null,
+        "gloss": "further",
+        "translit": "ťaxaʔ",
+        "ltranslit": "ťaxaʡ"
+      },
+      {
+        "form": "тяхаˮ",
+        "features": null,
+        "gloss": "further",
+        "translit": "ťaxaʡ",
+        "ltranslit": "ťaxaʡ"
+      }
+    ]
+  },
+  "NOUN+пя": {
+    "frequency": 6,
+    "entries": [
+      {
+        "form": "пя",
+        "features": null,
+        "gloss": "tree",
+        "translit": "ṕa",
+        "ltranslit": "ṕa"
+      }
+    ]
+  },
+  "VERB+манэˮ": {
+    "frequency": 10,
+    "entries": [
+      {
+        "form": "манэˮ",
+        "features": null,
+        "gloss": "see-co",
+        "translit": "manæʡ",
+        "ltranslit": "manæʡ"
+      },
+      {
+        "form": "манэˮ",
+        "features": null,
+        "gloss": "see",
+        "translit": "manæʡ",
+        "ltranslit": "manæʡ"
+      }
+    ]
+  },
+  "VERB+-ӈа": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "-ӈа",
+        "features": null,
+        "gloss": "see-co",
+        "translit": "-ŋa",
+        "ltranslit": "-ŋa"
+      },
+      {
+        "form": "-ӈа",
+        "features": null,
+        "gloss": "pull-co",
+        "translit": "-ŋa",
+        "ltranslit": "-ŋa"
+      },
+      {
+        "form": "-ӈа",
+        "features": null,
+        "gloss": "-co",
+        "translit": "-ŋa",
+        "ltranslit": "-ŋa"
+      }
+    ]
+  },
+  "ADJ+сятаняӈы": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "сятаняӈы",
+        "features": null,
+        "gloss": "to.the.left.adj",
+        "translit": "śatańaŋi",
+        "ltranslit": "śatańaŋi"
+      }
+    ]
+  },
+  "NOUN+хэв": {
+    "frequency": 6,
+    "entries": [
+      {
+        "form": "хэву",
+        "features": null,
+        "gloss": "side",
+        "translit": "xæwu",
+        "ltranslit": "xæw"
+      },
+      {
+        "form": "хэв",
+        "features": null,
+        "gloss": "side",
+        "translit": "xæw",
+        "ltranslit": "xæw"
+      }
+    ]
+  },
+  "ADV+махаʼняю": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "махаʼняю",
+        "features": null,
+        "gloss": "to.the.right.pol",
+        "translit": "maxaʔńaju",
+        "ltranslit": "maxaʔńaju"
+      }
+    ]
+  },
+  "NOUN+яля": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "яля",
+        "features": null,
+        "gloss": "sun",
+        "translit": "jaľa",
+        "ltranslit": "jaľa"
+      }
+    ]
+  },
+  "ADP+серʼ": {
+    "frequency": 9,
+    "entries": [
+      {
+        "form": "серʼ",
+        "features": null,
+        "gloss": "at.the.time.of",
+        "translit": "śerʔ",
+        "ltranslit": "śerʔ"
+      },
+      {
+        "form": "сер",
+        "features": null,
+        "gloss": "at.the.time.of",
+        "translit": "śer",
+        "ltranslit": "śerʔ"
+      }
+    ]
+  },
+  "PRON+тикы": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тикы",
+        "features": "PronType=Dem",
+        "gloss": "that",
+        "translit": "ťiki",
+        "ltranslit": "ťiki"
+      }
+    ]
+  },
+  "ADP+пуд": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "пуд",
+        "features": null,
+        "gloss": "after.abl",
+        "translit": "pud",
+        "ltranslit": "pud"
+      }
+    ]
+  },
+  "NOUN+тарка": {
+    "frequency": 15,
+    "entries": [
+      {
+        "form": "тарка",
+        "features": null,
+        "gloss": "fork",
+        "translit": "tarka",
+        "ltranslit": "tarka"
+      }
+    ]
+  },
+  "ADP+нямна": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нямна",
+        "features": null,
+        "gloss": "at.prol",
+        "translit": "ńamna",
+        "ltranslit": "ńamna"
+      }
+    ]
+  },
+  "VERB+ӈохолыр-": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "ӈохолыр",
+        "features": null,
+        "gloss": "swim",
+        "translit": "ŋoxolir",
+        "ltranslit": "ŋoxolir-"
+      }
+    ]
+  },
+  "NOUN+пыя": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "пыя",
+        "features": null,
+        "gloss": "end",
+        "translit": "pija",
+        "ltranslit": "pija"
+      }
+    ]
+  },
+  "VERB+ӈадим-": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "ӈадимя",
+        "features": null,
+        "gloss": "appear",
+        "translit": "ŋaďiḿa",
+        "ltranslit": "ŋaďim-"
+      },
+      {
+        "form": "ӈадим",
+        "features": null,
+        "gloss": "appear",
+        "translit": "ŋaďim",
+        "ltranslit": "ŋaďim-"
+      }
+    ]
+  },
+  "ADV+ӈаниʼ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "ӈаниʼ",
+        "features": null,
+        "gloss": "again",
+        "translit": "ŋańiʔ",
+        "ltranslit": "ŋańiʔ"
+      }
+    ]
+  },
+  "DET+няби": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "няби",
+        "features": null,
+        "gloss": "other",
+        "translit": "ńab́i",
+        "ltranslit": "ńab́i"
+      },
+      {
+        "form": "нябиʼ",
+        "features": null,
+        "gloss": "other",
+        "translit": "ńab́iʔ",
+        "ltranslit": "ńab́i"
+      }
+    ]
+  },
+  "NOUN+иˮ": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "и",
+        "features": null,
+        "gloss": "water",
+        "translit": "i",
+        "ltranslit": "iʡ"
+      },
+      {
+        "form": "ид",
+        "features": null,
+        "gloss": "water",
+        "translit": "id",
+        "ltranslit": "iʡ"
+      }
+    ]
+  },
+  "NOUN+халя": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "халя",
+        "features": null,
+        "gloss": "fish",
+        "translit": "xaľa",
+        "ltranslit": "xaľa"
+      }
+    ]
+  },
+  "VERB+таня-": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "таня",
+        "features": null,
+        "gloss": "exist",
+        "translit": "tańa",
+        "ltranslit": "tańa-"
+      },
+      {
+        "form": "таня",
+        "features": "Number=Sing|Person=3",
+        "gloss": "exist.3sg",
+        "translit": "tańa",
+        "ltranslit": "tańa-"
+      }
+    ]
+  },
+  "ADV+тикахад": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тикахад",
+        "features": null,
+        "gloss": "then",
+        "translit": "ťikaxad",
+        "ltranslit": "ťikaxad"
+      }
+    ]
+  },
+  "ADV+махаʼнякуʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "махаʼнякуʼ",
+        "features": null,
+        "gloss": "to.the.right.adv",
+        "translit": "maxaʔńakuʔ",
+        "ltranslit": "maxaʔńakuʔ"
+      }
+    ]
+  },
+  "ADV+яда": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "яда",
+        "features": null,
+        "gloss": "on.foot",
+        "translit": "jada",
+        "ltranslit": "jada"
+      }
+    ]
+  },
+  "VERB+нэкал": {
+    "frequency": 10,
+    "entries": [
+      {
+        "form": "нэкал",
+        "features": null,
+        "gloss": "pull-co",
+        "translit": "nækal",
+        "ltranslit": "nækal"
+      },
+      {
+        "form": "нэкал",
+        "features": null,
+        "gloss": "pull",
+        "translit": "nækal",
+        "ltranslit": "nækal"
+      }
+    ]
+  },
+  "ADV+ӈобʼ": {
+    "frequency": 6,
+    "entries": [
+      {
+        "form": "ӈобʼ",
+        "features": null,
+        "gloss": "once",
+        "translit": "ŋobʔ",
+        "ltranslit": "ŋobʔ"
+      },
+      {
+        "form": "ӈобʼ",
+        "features": null,
+        "gloss": "once,and",
+        "translit": "ŋobʔ",
+        "ltranslit": "ŋobʔ"
+      }
+    ]
+  },
+  "ADP+нер": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нер",
+        "features": null,
+        "gloss": "in.front.of",
+        "translit": "ńer",
+        "ltranslit": "ńer"
+      }
+    ]
+  },
+  "ADP+няна": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "няна",
+        "features": null,
+        "gloss": "at.loc",
+        "translit": "ńana",
+        "ltranslit": "ńana"
+      }
+    ]
+  },
+  "ADJ+пирця": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "пирця",
+        "features": null,
+        "gloss": "tall",
+        "translit": "ṕirća",
+        "ltranslit": "ṕirća"
+      }
+    ]
+  },
+  "NOUN+харад": {
+    "frequency": 12,
+    "entries": [
+      {
+        "form": "харад",
+        "features": null,
+        "gloss": "house",
+        "translit": "xarad",
+        "ltranslit": "xarad"
+      },
+      {
+        "form": "харда",
+        "features": null,
+        "gloss": "house",
+        "translit": "xarda",
+        "ltranslit": "xarad"
+      }
+    ]
+  },
+  "NUM+сидя": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "сидя",
+        "features": null,
+        "gloss": "two",
+        "translit": "śiďa",
+        "ltranslit": "śiďa"
+      }
+    ]
+  },
+  "NOUN+сидерˮ": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "сидера",
+        "features": null,
+        "gloss": "window",
+        "translit": "śiďera",
+        "ltranslit": "śiďerʡ"
+      }
+    ]
+  },
+  "NOUN+танциеˮ": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "танця",
+        "features": null,
+        "gloss": "stairs",
+        "translit": "tanća",
+        "ltranslit": "tanćieʡ"
+      },
+      {
+        "form": "танцяʼ",
+        "features": null,
+        "gloss": "stairs",
+        "translit": "tanćaʔ",
+        "ltranslit": "tanćieʡ"
+      },
+      {
+        "form": "танцянзавэй",
+        "features": null,
+        "gloss": "stairs.com",
+        "translit": "tanćanzawæj",
+        "ltranslit": "tanćieʡ"
+      }
+    ]
+  },
+  "NOUN+махалы": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "махалэй",
+        "features": null,
+        "gloss": "roof",
+        "translit": "maxalæj",
+        "ltranslit": "maxali"
+      },
+      {
+        "form": "маха",
+        "features": null,
+        "gloss": "roof",
+        "translit": "maxa",
+        "ltranslit": "maxali"
+      },
+      {
+        "form": "махалэя",
+        "features": null,
+        "gloss": "roof",
+        "translit": "maxalæja",
+        "ltranslit": "maxali"
+      },
+      {
+        "form": "махалэя",
+        "features": null,
+        "gloss": "roof-",
+        "translit": "maxalæja",
+        "ltranslit": "maxali"
+      }
+    ]
+  },
+  "ADV+тюˮуʼ": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "тюˮуʼ",
+        "features": null,
+        "gloss": "upwards",
+        "translit": "ťuʡuʔ",
+        "ltranslit": "ťuʡuʔ"
+      }
+    ]
+  },
+  "ADP+няʼ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "няʼ",
+        "features": null,
+        "gloss": "at.abl",
+        "translit": "ńaʔ",
+        "ltranslit": "ńaʔ"
+      },
+      {
+        "form": "няʼ",
+        "features": null,
+        "gloss": "to.dat",
+        "translit": "ńaʔ",
+        "ltranslit": "ńaʔ"
+      },
+      {
+        "form": "няʼ",
+        "features": null,
+        "gloss": "at.dat",
+        "translit": "ńaʔ",
+        "ltranslit": "ńaʔ"
+      }
+    ]
+  },
+  "ADV+мя": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "мятревʼ",
+        "features": null,
+        "gloss": "tent.equ",
+        "translit": "ḿatŕewʔ",
+        "ltranslit": "ḿa"
+      }
+    ]
+  },
+  "ADJ+саблюй": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "саблюй",
+        "features": null,
+        "gloss": "peak",
+        "translit": "sabľuj",
+        "ltranslit": "sabľuj"
+      }
+    ]
+  },
+  "PRON+ӈамгэ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ӈавоʼ",
+        "features": null,
+        "gloss": "what.gen.pl",
+        "translit": "ŋawoʔ",
+        "ltranslit": "ŋamgæ"
+      }
+    ]
+  },
+  "ADP+пиркана": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "пиркаˮна",
+        "features": null,
+        "gloss": "until.pl.loc",
+        "translit": "ṕirkaʡna",
+        "ltranslit": "ṕirkana"
+      }
+    ]
+  },
+  "VERB+тэва-": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "тэвы",
+        "features": null,
+        "gloss": "arrive",
+        "translit": "tæwi",
+        "ltranslit": "tæwa-"
+      }
+    ]
+  },
+  "VERB+танэ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "танэ",
+        "features": null,
+        "gloss": "go.up-co.refl",
+        "translit": "tanæ",
+        "ltranslit": "tanæ"
+      },
+      {
+        "form": "танэ",
+        "features": null,
+        "gloss": "go.up",
+        "translit": "tanæ",
+        "ltranslit": "tanæ"
+      }
+    ]
+  },
+  "VERB+-я": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-я",
+        "features": null,
+        "gloss": "go.up-co.refl",
+        "translit": "-ja",
+        "ltranslit": "-ja"
+      }
+    ]
+  },
+  "ADP+мюмня": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "мюмня",
+        "features": null,
+        "gloss": "in.prol",
+        "translit": "ḿumńa",
+        "ltranslit": "ḿumńa"
+      },
+      {
+        "form": "мюмня",
+        "features": null,
+        "gloss": "through.prol",
+        "translit": "ḿumńa",
+        "ltranslit": "ḿumńa"
+      }
+    ]
+  },
+  "VERB+хая-": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "хая",
+        "features": null,
+        "gloss": "go",
+        "translit": "xaja",
+        "ltranslit": "xaja-"
+      }
+    ]
+  },
+  "ADJ+несэй": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "несэй",
+        "features": null,
+        "gloss": "new(other)",
+        "translit": "ńesæj",
+        "ltranslit": "ńesæj"
+      }
+    ]
+  },
+  "VERB+тарпа-": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "тарпы",
+        "features": null,
+        "gloss": "go.out",
+        "translit": "tarpi",
+        "ltranslit": "tarpa-"
+      },
+      {
+        "form": "тарпы",
+        "features": null,
+        "gloss": "walk.out",
+        "translit": "tarpi",
+        "ltranslit": "tarpa-"
+      }
+    ]
+  },
+  "VERB+хаˮма-": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "хаˮмы",
+        "features": null,
+        "gloss": "go.down",
+        "translit": "xaʡmi",
+        "ltranslit": "xaʡma-"
+      },
+      {
+        "form": "хаˮам",
+        "features": null,
+        "gloss": "go.down-",
+        "translit": "xaʡam",
+        "ltranslit": "xaʡma-"
+      }
+    ]
+  },
+  "VERB+ядал": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ядал",
+        "features": null,
+        "gloss": "go.forth-co.refl",
+        "translit": "jadal",
+        "ltranslit": "jadal"
+      }
+    ]
+  },
+  "VERB+-ъя": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ъя",
+        "features": null,
+        "gloss": "go.forth-co.refl",
+        "translit": "-\"ja",
+        "ltranslit": "-\"ja"
+      }
+    ]
+  },
+  "VERB+ехэра-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ехэра",
+        "features": null,
+        "gloss": "not.know",
+        "translit": "exæra",
+        "ltranslit": "exæra-"
+      }
+    ]
+  },
+  "DET+ӈаниʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ӈани",
+        "features": null,
+        "gloss": "other",
+        "translit": "ŋańi",
+        "ltranslit": "ŋańiʔ"
+      }
+    ]
+  },
+  "NUM+ӈопой": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ӈопой",
+        "features": null,
+        "gloss": "one",
+        "translit": "ŋopoj",
+        "ltranslit": "ŋopoj"
+      }
+    ]
+  },
+  "AUX+-ӈа": {
+    "frequency": 22,
+    "entries": [
+      {
+        "form": "-ӈа",
+        "features": null,
+        "gloss": "-co",
+        "translit": "-ŋa",
+        "ltranslit": "-ŋa"
+      }
+    ]
+  },
+  "ADP+тяхана": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тяхана",
+        "features": null,
+        "gloss": "behind.loc",
+        "translit": "ťaxana",
+        "ltranslit": "ťaxana"
+      }
+    ]
+  },
+  "NOUN+ты": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "тэ",
+        "features": null,
+        "gloss": "reindeer",
+        "translit": "tæ",
+        "ltranslit": "ti"
+      },
+      {
+        "form": "ты",
+        "features": null,
+        "gloss": "reindeer",
+        "translit": "ti",
+        "ltranslit": "ti"
+      }
+    ]
+  },
+  "ADP+мюня": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "мюня",
+        "features": null,
+        "gloss": "in.loc",
+        "translit": "ḿuńa",
+        "ltranslit": "ḿuńa"
+      }
+    ]
+  },
+  "VERB+ну-": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "ну",
+        "features": null,
+        "gloss": "stand",
+        "translit": "nu",
+        "ltranslit": "nu-"
+      }
+    ]
+  },
+  "ADP+X": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "-дʼ",
+        "features": "Number=Sing|Person=2",
+        "gloss": "-gen.poss.2sg",
+        "translit": "-dʔ",
+        "ltranslit": "X"
+      },
+      {
+        "form": "-мана",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-mana",
+        "ltranslit": "X"
+      },
+      {
+        "form": "-хада",
+        "features": null,
+        "gloss": "-abl",
+        "translit": "-xada",
+        "ltranslit": "X"
+      },
+      {
+        "form": "-вна",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-wna",
+        "ltranslit": "X"
+      }
+    ]
+  },
+  "INTJ+<d>": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "<d>",
+        "features": null,
+        "gloss": "DISFL",
+        "translit": "<d>",
+        "ltranslit": "<d>"
+      }
+    ]
+  },
+  "ADV+тикахана": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тикахана",
+        "features": null,
+        "gloss": "there",
+        "translit": "ťikaxana",
+        "ltranslit": "ťikaxana"
+      }
+    ]
+  },
+  "VERB+таня": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "таня",
+        "features": null,
+        "gloss": "exist",
+        "translit": "tańa",
+        "ltranslit": "tańa"
+      }
+    ]
+  },
+  "PRON+X": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-хаˮ",
+        "features": "Number=Dual|Person=3",
+        "gloss": "-3du",
+        "translit": "-xaʡ",
+        "ltranslit": "X"
+      },
+      {
+        "form": "-ваˮ",
+        "features": "Number=Plur|Person=1",
+        "gloss": "-1pl",
+        "translit": "-waʡ",
+        "ltranslit": "X"
+      }
+    ]
+  },
+  "ADP+няд": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "няд",
+        "features": null,
+        "gloss": "at.abl",
+        "translit": "ńad",
+        "ltranslit": "ńad"
+      }
+    ]
+  },
+  "NOUN+ни-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ни",
+        "features": null,
+        "gloss": "top",
+        "translit": "ńi",
+        "ltranslit": "ńi-"
+      }
+    ]
+  },
+  "ADP+тяхаʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тяхаʼ",
+        "features": null,
+        "gloss": "over",
+        "translit": "ťaxaʔ",
+        "ltranslit": "ťaxaʔ"
+      }
+    ]
+  },
+  "VERB+санэй-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "санэй",
+        "features": null,
+        "gloss": "jump",
+        "translit": "sanæj",
+        "ltranslit": "sanæj-"
+      }
+    ]
+  },
+  "VERB+сана-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "сана",
+        "features": null,
+        "gloss": "jump",
+        "translit": "sana",
+        "ltranslit": "sana-"
+      }
+    ]
+  },
+  "ADV+тяхаʼ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "тяхаʼ",
+        "features": null,
+        "gloss": "further",
+        "translit": "ťaxaʔ",
+        "ltranslit": "ťaxaʔ"
+      },
+      {
+        "form": "тяха",
+        "features": null,
+        "gloss": "further",
+        "translit": "ťaxa",
+        "ltranslit": "ťaxaʔ"
+      }
+    ]
+  },
+  "PRON+нер-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нер",
+        "features": null,
+        "gloss": "in.front.of",
+        "translit": "ńer",
+        "ltranslit": "ńer-"
+      }
+    ]
+  },
+  "X+<n>": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "<n>",
+        "features": null,
+        "gloss": "NOISE",
+        "translit": "<n>",
+        "ltranslit": "<n>"
+      }
+    ]
+  },
+  "ADP+-нда": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-нд<un>",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-gen.poss.3sg",
+        "translit": "-nd<un>",
+        "ltranslit": "-nda"
+      },
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "poss.dat.3sg",
+        "translit": "-nda",
+        "ltranslit": "-nda"
+      }
+    ]
+  },
+  "AUX+-й": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-й",
+        "features": null,
+        "gloss": "-co.refl",
+        "translit": "-j",
+        "ltranslit": "-j"
+      }
+    ]
+  },
+  "VERB+мяттю-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "мяттю",
+        "features": null,
+        "gloss": "enter",
+        "translit": "ḿatťu",
+        "ltranslit": "ḿatťu-"
+      }
+    ]
+  },
+  "ADV+иртʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "иртʼ",
+        "features": null,
+        "gloss": "straight",
+        "translit": "irtʔ",
+        "ltranslit": "irtʔ"
+      }
+    ]
+  },
+  "ADV+нярˮ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нярˮ",
+        "features": null,
+        "gloss": "across",
+        "translit": "ńarʡ",
+        "ltranslit": "ńarʡ"
+      }
+    ]
+  },
+  "VERB+хэхэдёйта-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "хэхэдёйта",
+        "features": null,
+        "gloss": "run.across",
+        "translit": "xæxæďojta",
+        "ltranslit": "xæxæďojta-"
+      }
+    ]
+  },
+  "VERB+нэ-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нэ",
+        "features": null,
+        "gloss": "open",
+        "translit": "næ",
+        "ltranslit": "næ-"
+      }
+    ]
+  },
+  "VERB+хаˮамы-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "хаˮамы",
+        "features": null,
+        "gloss": "go.down",
+        "translit": "xaʡami",
+        "ltranslit": "xaʡami-"
+      }
+    ]
+  },
+  "NOUN+маханякубта": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "маханякубта",
+        "features": null,
+        "gloss": "right.side",
+        "translit": "maxańakubta",
+        "ltranslit": "maxańakubta"
+      }
+    ]
+  },
+  "VERB+ми-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ми",
+        "features": null,
+        "gloss": "go",
+        "translit": "ḿi",
+        "ltranslit": "ḿi-"
+      }
+    ]
+  },
+  "VERB+ӈохолё": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "ӈохолё",
+        "features": "VerbForm=Conv",
+        "gloss": "swim.cvb",
+        "translit": "ŋoxoľo",
+        "ltranslit": "ŋoxoľo"
+      }
+    ]
+  },
+  "VERB+мада": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "мада",
+        "features": null,
+        "gloss": "pass.across",
+        "translit": "mada",
+        "ltranslit": "mada"
+      },
+      {
+        "form": "мада",
+        "features": "VerbForm=Conv",
+        "gloss": "pass.across.cvb",
+        "translit": "mada",
+        "ltranslit": "mada"
+      }
+    ]
+  },
+  "ADP+ниʼ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "ниʼ",
+        "features": null,
+        "gloss": "at.dat",
+        "translit": "ńiʔ",
+        "ltranslit": "ńiʔ"
+      },
+      {
+        "form": "ниʼ",
+        "features": null,
+        "gloss": "on.dat",
+        "translit": "ńiʔ",
+        "ltranslit": "ńiʔ"
+      }
+    ]
+  },
+  "VERB+танэй-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "танэй",
+        "features": null,
+        "gloss": "go.up",
+        "translit": "tanæj",
+        "ltranslit": "tanæj-"
+      }
+    ]
+  },
+  "VERB+ялъя": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "ялъя",
+        "features": null,
+        "gloss": "walk",
+        "translit": "jal\"ja",
+        "ltranslit": "jal\"ja"
+      }
+    ]
+  },
+  "ADP+нер-": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "нер",
+        "features": null,
+        "gloss": "in.front.of",
+        "translit": "ńer",
+        "ltranslit": "ńer-"
+      }
+    ]
+  },
+  "ADJ+маханяӈы": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "маханяӈы",
+        "features": null,
+        "gloss": "from.right.adj",
+        "translit": "maxańaŋi",
+        "ltranslit": "maxańaŋi"
+      },
+      {
+        "form": "маханяӈы",
+        "features": null,
+        "gloss": "from.the.right.adj",
+        "translit": "maxańaŋi",
+        "ltranslit": "maxańaŋi"
+      }
+    ]
+  },
+  "ADP+пырдариʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "пырдариʼ",
+        "features": null,
+        "gloss": "against",
+        "translit": "pirdaŕiʔ",
+        "ltranslit": "pirdaŕiʔ"
+      }
+    ]
+  },
+  "VERB+яд-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "яд",
+        "features": null,
+        "gloss": "walk",
+        "translit": "jad",
+        "ltranslit": "jad-"
+      }
+    ]
+  },
+  "NOUN+сятанякубта": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "сятанякубта",
+        "features": null,
+        "gloss": "left.side",
+        "translit": "śatańakubta",
+        "ltranslit": "śatańakubta"
+      }
+    ]
+  },
+  "VERB+ялъя-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ялъя",
+        "features": null,
+        "gloss": "walk",
+        "translit": "jal\"ja",
+        "ltranslit": "jal\"ja-"
+      }
+    ]
+  },
+  "NOUN+сэв": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "сэв",
+        "features": null,
+        "gloss": "eye",
+        "translit": "sæw",
+        "ltranslit": "sæw"
+      }
+    ]
+  },
+  "NOUN+тодоʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тодоʼ",
+        "features": null,
+        "gloss": "all",
+        "translit": "todoʔ",
+        "ltranslit": "todoʔ"
+      }
+    ]
+  },
+  "VERB+сыр": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "сыр",
+        "features": null,
+        "gloss": "look",
+        "translit": "sir",
+        "ltranslit": "sir"
+      },
+      {
+        "form": "сыро",
+        "features": null,
+        "gloss": "look",
+        "translit": "siro",
+        "ltranslit": "sir"
+      }
+    ]
+  },
+  "ADV+сятаняʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "сятаняʼ",
+        "features": null,
+        "gloss": "to.the.left",
+        "translit": "śatańaʔ",
+        "ltranslit": "śatańaʔ"
+      }
+    ]
+  },
+  "ADV+маханяʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "маханяʼ",
+        "features": null,
+        "gloss": "to.the.right",
+        "translit": "maxańaʔ",
+        "ltranslit": "maxańaʔ"
+      }
+    ]
+  },
+  "ADJ+маханяӈэюмʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "маханяӈэюмʼ",
+        "features": null,
+        "gloss": "to.the.right.adj.pol",
+        "translit": "maxańaŋæjumʔ",
+        "ltranslit": "maxańaŋæjumʔ"
+      }
+    ]
+  },
+  "VERB+тасла": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "тасла",
+        "features": null,
+        "gloss": "decide",
+        "translit": "tasla",
+        "ltranslit": "tasla"
+      }
+    ]
+  },
+  "ADJ+махалэй": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "махалэй",
+        "features": null,
+        "gloss": "roof.adj",
+        "translit": "maxalæj",
+        "ltranslit": "maxalæj"
+      }
+    ]
+  },
+  "NOUN+яд": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "яду",
+        "features": null,
+        "gloss": "wall",
+        "translit": "jadu",
+        "ltranslit": "jad"
+      },
+      {
+        "form": "<er>яду",
+        "features": null,
+        "gloss": "wall",
+        "translit": "<er>jadu",
+        "ltranslit": "jad"
+      }
+    ]
+  },
+  "X+<d>": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "<d>",
+        "features": null,
+        "gloss": "<d>",
+        "translit": "<d>",
+        "ltranslit": "<d>"
+      }
+    ]
+  },
+  "ADP+нид": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "нид",
+        "features": null,
+        "gloss": "at.abl",
+        "translit": "ńid",
+        "ltranslit": "ńid"
+      }
+    ]
+  },
+  "ADV+яˮамна": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "яˮамна",
+        "features": null,
+        "gloss": "around.prol",
+        "translit": "jaʡamna",
+        "ltranslit": "jaʡamna"
+      }
+    ]
+  },
+  "ADV+тасиʼ": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "тасиʼ",
+        "features": null,
+        "gloss": "downward.dat",
+        "translit": "taśiʔ",
+        "ltranslit": "taśiʔ"
+      },
+      {
+        "form": "тасиʼ",
+        "features": null,
+        "gloss": "downward",
+        "translit": "taśiʔ",
+        "ltranslit": "taśiʔ"
+      }
+    ]
+  },
+  "VERB+ӈохолыр": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "ӈохолыр",
+        "features": null,
+        "gloss": "swim",
+        "translit": "ŋoxolir",
+        "ltranslit": "ŋoxolir"
+      }
+    ]
+  },
+  "ADP+ӈыламна": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "ӈыламна",
+        "features": null,
+        "gloss": "under.prol",
+        "translit": "ŋilamna",
+        "ltranslit": "ŋilamna"
+      }
+    ]
+  },
+  "ADV+таханяюʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "таханяюʼ",
+        "features": null,
+        "gloss": "there.pol",
+        "translit": "taxańajuʔ",
+        "ltranslit": "taxańajuʔ"
+      }
+    ]
+  },
+  "ADV+таремʼ": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "таремʼ",
+        "features": null,
+        "gloss": "this.way",
+        "translit": "taŕemʔ",
+        "ltranslit": "taŕemʔ"
+      }
+    ]
+  },
+  "VERB+пэр": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "пэр",
+        "features": null,
+        "gloss": "do",
+        "translit": "pær",
+        "ltranslit": "pær"
+      }
+    ]
+  },
+  "NOUN+вар": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "вару",
+        "features": null,
+        "gloss": "shore",
+        "translit": "waru",
+        "ltranslit": "war"
+      }
+    ]
+  },
+  "NOUN+лаӈг": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "лаӈг",
+        "features": null,
+        "gloss": "steep.riverbank",
+        "translit": "laŋg",
+        "ltranslit": "laŋg"
+      }
+    ]
+  },
+  "ADJ+сятаняю": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "сятаняю",
+        "features": null,
+        "gloss": "to.the.left.adj",
+        "translit": "śatańaju",
+        "ltranslit": "śatańaju"
+      }
+    ]
+  },
+  "ADV+таняна": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "таняна",
+        "features": null,
+        "gloss": "there",
+        "translit": "tańana",
+        "ltranslit": "tańana"
+      }
+    ]
+  },
+  "NOUN+ӈано": {
+    "frequency": 10,
+    "entries": [
+      {
+        "form": "ӈано",
+        "features": null,
+        "gloss": "boat",
+        "translit": "ŋano",
+        "ltranslit": "ŋano"
+      }
+    ]
+  },
+  "VERB+яӈго": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "яӈго",
+        "features": null,
+        "gloss": "not.exist",
+        "translit": "jaŋgo",
+        "ltranslit": "jaŋgo"
+      }
+    ]
+  },
+  "ADP+тяханяна": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тяханяна",
+        "features": null,
+        "gloss": "through.loc",
+        "translit": "ťaxańana",
+        "ltranslit": "ťaxańana"
+      }
+    ]
+  },
+  "AUX+ӈa": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ӈэ",
+        "features": null,
+        "gloss": "be",
+        "translit": "ŋæ",
+        "ltranslit": "ŋa"
+      }
+    ]
+  },
+  "ADP+няюʼ": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "няюʼ",
+        "features": null,
+        "gloss": "towards.dat",
+        "translit": "ńajuʔ",
+        "ltranslit": "ńajuʔ"
+      }
+    ]
+  },
+  "VERB+ядалъ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ядалъ",
+        "features": null,
+        "gloss": "go.forth",
+        "translit": "jadal\"",
+        "ltranslit": "jadal\""
+      }
+    ]
+  },
+  "AUX+-я": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-я",
+        "features": null,
+        "gloss": "-co.refl",
+        "translit": "-ja",
+        "ltranslit": "-ja"
+      }
+    ]
+  },
+  "NOUN+я": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "я",
+        "features": null,
+        "gloss": "land",
+        "translit": "ja",
+        "ltranslit": "ja"
+      }
+    ]
+  },
+  "NOUN+хой": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "хой",
+        "features": null,
+        "gloss": "hill",
+        "translit": "xoj",
+        "ltranslit": "xoj"
+      }
+    ]
+  },
+  "ADP+ниня": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "ниня",
+        "features": null,
+        "gloss": "at.loc",
+        "translit": "ńińa",
+        "ltranslit": "ńińa"
+      },
+      {
+        "form": "<iw>ниӈа",
+        "features": null,
+        "gloss": "at.loc",
+        "translit": "<iw>ńiŋa",
+        "ltranslit": "ńińa"
+      }
+    ]
+  },
+  "VERB+ну": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ну",
+        "features": null,
+        "gloss": "stand",
+        "translit": "nu",
+        "ltranslit": "nu"
+      }
+    ]
+  },
+  "ADV+нерняʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нерняʼ",
+        "features": null,
+        "gloss": "in.front.of.dat",
+        "translit": "ńerńaʔ",
+        "ltranslit": "ńerńaʔ"
+      }
+    ]
+  },
+  "AUX+ӈа": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ӈа",
+        "features": null,
+        "gloss": "-co",
+        "translit": "ŋa",
+        "ltranslit": "ŋa"
+      }
+    ]
+  },
+  "VERB+тэва": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "тэвы",
+        "features": null,
+        "gloss": "arrive",
+        "translit": "tæwi",
+        "ltranslit": "tæwa"
+      },
+      {
+        "form": "тэв",
+        "features": null,
+        "gloss": "arrive",
+        "translit": "tæw",
+        "ltranslit": "tæwa"
+      }
+    ]
+  },
+  "ADV+лабята": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "лабята",
+        "features": null,
+        "gloss": "row.cvb",
+        "translit": "lab́ata",
+        "ltranslit": "lab́ata"
+      }
+    ]
+  },
+  "DET+<p>": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "<p>",
+        "features": null,
+        "gloss": "PAUSE",
+        "translit": "<p>",
+        "ltranslit": "<p>"
+      },
+      {
+        "form": "<p>",
+        "features": null,
+        "gloss": "X",
+        "translit": "<p>",
+        "ltranslit": "<p>"
+      }
+    ]
+  },
+  "ADV+тяханяюʼ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тяханяюʼ",
+        "features": null,
+        "gloss": "there.pol",
+        "translit": "ťaxańajuʔ",
+        "ltranslit": "ťaxańajuʔ"
+      }
+    ]
+  },
+  "NOUN+тир": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "тир",
+        "features": null,
+        "gloss": "edge",
+        "translit": "ťir",
+        "ltranslit": "ťir"
+      }
+    ]
+  },
+  "VERB+хае": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "хае",
+        "features": null,
+        "gloss": "leave",
+        "translit": "xae",
+        "ltranslit": "xae"
+      }
+    ]
+  },
+  "VERB+хаˮавра": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "хаˮавра",
+        "features": null,
+        "gloss": "go.down",
+        "translit": "xaʡawra",
+        "ltranslit": "xaʡawra"
+      }
+    ]
+  },
+  "ADP+ӈэсондʼ": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "ӈэсондʼ",
+        "features": null,
+        "gloss": "up.to.dat",
+        "translit": "ŋæsondʔ",
+        "ltranslit": "ŋæsondʔ"
+      }
+    ]
+  },
+  "VERB+хэ": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "хэ",
+        "features": null,
+        "gloss": "go",
+        "translit": "xæ",
+        "ltranslit": "xæ"
+      },
+      {
+        "form": "хая",
+        "features": null,
+        "gloss": "go",
+        "translit": "xaja",
+        "ltranslit": "xæ"
+      },
+      {
+        "form": "хэя",
+        "features": null,
+        "gloss": "go",
+        "translit": "xæja",
+        "ltranslit": "xæ"
+      }
+    ]
+  },
+  "AUX+X": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-сь",
+        "features": null,
+        "gloss": "-cvb",
+        "translit": "-ś",
+        "ltranslit": "X"
+      },
+      {
+        "form": "-ˮма",
+        "features": null,
+        "gloss": "-pfv.an",
+        "translit": "-ʡma",
+        "ltranslit": "X"
+      }
+    ]
+  },
+  "AUX+тара": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тара",
+        "features": "Number=Sing|Person=3",
+        "gloss": "need.3sg",
+        "translit": "tara",
+        "ltranslit": "tara"
+      }
+    ]
+  },
+  "VERB+тана": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тана",
+        "features": null,
+        "gloss": "go.up",
+        "translit": "tana",
+        "ltranslit": "tana"
+      }
+    ]
+  },
+  "ADP+ня": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ня",
+        "features": null,
+        "gloss": "at",
+        "translit": "ńa",
+        "ltranslit": "ńa"
+      }
+    ]
+  },
+  "VERB+танэй": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "танэй",
+        "features": null,
+        "gloss": "go.up",
+        "translit": "tanæj",
+        "ltranslit": "tanæj"
+      }
+    ]
+  },
+  "ADP+яˮамна": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "яˮамна",
+        "features": null,
+        "gloss": "around.prol",
+        "translit": "jaʡamna",
+        "ltranslit": "jaʡamna"
+      }
+    ]
+  },
+  "VERB+хаˮамы": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "хаˮмы",
+        "features": null,
+        "gloss": "go.down",
+        "translit": "xaʡmi",
+        "ltranslit": "xaʡami"
+      }
+    ]
+  },
+  "ADV+тадтикахавахад": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "Тадтикахавахад",
+        "features": null,
+        "gloss": "afterwards",
+        "translit": "Tadťikaxawaxad",
+        "ltranslit": "tadťikaxawaxad"
+      }
+    ]
+  },
+  "NOUN+маха": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "маха",
+        "features": null,
+        "gloss": "back",
+        "translit": "maxa",
+        "ltranslit": "maxa"
+      }
+    ]
+  },
+  "ADP+сюрте": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "<f>сюрт<un>",
+        "features": null,
+        "gloss": "around",
+        "translit": "<f>śurt<un>",
+        "ltranslit": "śurťe"
+      },
+      {
+        "form": "сюрте",
+        "features": null,
+        "gloss": "around",
+        "translit": "śurťe",
+        "ltranslit": "śurťe"
+      }
+    ]
+  },
+  "VERB+мэ": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "мэ",
+        "features": null,
+        "gloss": "take",
+        "translit": "mæ",
+        "ltranslit": "mæ"
+      }
+    ]
+  },
+  "VERB+яда": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "яда",
+        "features": null,
+        "gloss": "walk",
+        "translit": "jada",
+        "ltranslit": "jada"
+      }
+    ]
+  },
+  "VERB+тасла-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "тасла",
+        "features": null,
+        "gloss": "decide",
+        "translit": "tasla",
+        "ltranslit": "tasla-"
+      }
+    ]
+  },
+  "VERB+нулта-": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "нулта-",
+        "features": null,
+        "gloss": "stop",
+        "translit": "nulta-",
+        "ltranslit": "nulta-"
+      }
+    ]
+  }
+}
