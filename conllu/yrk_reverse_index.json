@@ -1,1516 +1,2173 @@
 {
   "<p>": [
     {
-      "key": "PUNCT+<p>",
-      "frequency": 115,
+      "key": "<p>_PUNCT",
+      "entry_frequency": 115,
+      "key_frequency": 115,
       "gloss": "SIL",
       "ltranslit": "<p>"
     },
     {
-      "key": "X+<p>",
-      "frequency": 38,
+      "key": "<p>_X",
+      "entry_frequency": 12,
+      "key_frequency": 38,
       "gloss": "PAUSE",
       "ltranslit": "<p>"
     },
     {
-      "key": "DET+<p>",
-      "frequency": 2,
+      "key": "<p>_DET",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "PAUSE",
       "ltranslit": "<p>"
     }
   ],
   "маря": [
     {
-      "key": "NOUN+марˮ",
-      "frequency": 11,
+      "key": "марˮ_NOUN",
+      "entry_frequency": 9,
+      "key_frequency": 11,
       "gloss": "fence",
       "ltranslit": "marʡ"
     }
   ],
   "<pr>маря<un>": [
     {
-      "key": "NOUN+марˮ",
-      "frequency": 11,
+      "key": "марˮ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 11,
       "gloss": "fence",
       "ltranslit": "marʡ"
     }
   ],
   "<er>маря": [
     {
-      "key": "NOUN+марˮ",
-      "frequency": 11,
+      "key": "марˮ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 11,
       "gloss": "fence",
       "ltranslit": "marʡ"
     }
   ],
+  "-дʼ": [
+    {
+      "key": "-дʼ_ADP",
+      "entry_frequency": 6,
+      "key_frequency": 8,
+      "gloss": "-poss.gen.2sg",
+      "ltranslit": null
+    },
+    {
+      "key": "X_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 7,
+      "gloss": "-gen.poss.2sg",
+      "ltranslit": "X"
+    }
+  ],
   "нё": [
     {
-      "key": "NOUN+нё",
-      "frequency": 10,
+      "key": "нё_NOUN",
+      "entry_frequency": 10,
+      "key_frequency": 10,
       "gloss": "door",
       "ltranslit": "ńo"
     }
   ],
+  "-ʼ": [
+    {
+      "key": "-ʼ_ADP",
+      "entry_frequency": 51,
+      "key_frequency": 51,
+      "gloss": "-gen",
+      "ltranslit": null
+    }
+  ],
   "си": [
     {
-      "key": "NOUN+си",
-      "frequency": 12,
+      "key": "си_NOUN",
+      "entry_frequency": 12,
+      "key_frequency": 12,
       "gloss": "hole",
       "ltranslit": "śi"
     }
   ],
+  "-вня": [
+    {
+      "key": "-вня_ADP",
+      "entry_frequency": 4,
+      "key_frequency": 4,
+      "gloss": "-prol",
+      "ltranslit": null
+    }
+  ],
   "мятю": [
     {
-      "key": "VERB+мятю-",
-      "frequency": 1,
+      "key": "мятю-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "tent.step.in",
       "ltranslit": "ḿaťu-"
     }
   ],
+  "-дмʼ": [
+    {
+      "key": "-дмʼ_PRON",
+      "entry_frequency": 32,
+      "key_frequency": 32,
+      "gloss": "-1sg",
+      "ltranslit": null
+    }
+  ],
   "сятаняюʼ": [
     {
-      "key": "ADV+сятаняюʼ",
-      "frequency": 3,
+      "key": "сятаняюʼ_ADV",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "to.the.left.pol",
       "ltranslit": "śatańajuʔ"
     }
   ],
   "мэ": [
     {
-      "key": "VERB+мэ-",
-      "frequency": 5,
+      "key": "мэ-_VERB",
+      "entry_frequency": 5,
+      "key_frequency": 5,
       "gloss": "take",
       "ltranslit": "mæ-"
     },
     {
-      "key": "VERB+мэ",
-      "frequency": 1,
+      "key": "мэ_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "take",
       "ltranslit": "mæ"
     }
   ],
+  "-в": [
+    {
+      "key": "-в_PRON",
+      "entry_frequency": 27,
+      "key_frequency": 27,
+      "gloss": "-1sg.sg",
+      "ltranslit": null
+    }
+  ],
   "сюрте": [
     {
-      "key": "VERB+сюрте-",
-      "frequency": 4,
+      "key": "сюрте-_VERB",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "go.around",
       "ltranslit": "śurťe-"
     },
     {
-      "key": "ADP+сюрте",
-      "frequency": 2,
+      "key": "сюрте_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "around",
       "ltranslit": "śurťe"
     }
   ],
   "таняʼ": [
     {
-      "key": "ADV+таняʼ",
-      "frequency": 1,
+      "key": "таняʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "there",
       "ltranslit": "tańaʔ"
     }
   ],
   "яда": [
     {
-      "key": "VERB+яда-",
-      "frequency": 12,
+      "key": "яда-_VERB",
+      "entry_frequency": 12,
+      "key_frequency": 12,
       "gloss": "walk",
       "ltranslit": "jada-"
     },
     {
-      "key": "ADV+яда",
-      "frequency": 7,
+      "key": "яда_ADV",
+      "entry_frequency": 7,
+      "key_frequency": 7,
       "gloss": "on.foot",
       "ltranslit": "jada"
     },
     {
-      "key": "VERB+яда",
-      "frequency": 2,
+      "key": "яда_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "walk",
       "ltranslit": "jada"
     }
   ],
   "яха": [
     {
-      "key": "NOUN+яха",
-      "frequency": 22,
+      "key": "яха_NOUN",
+      "entry_frequency": 22,
+      "key_frequency": 22,
       "gloss": "river",
       "ltranslit": "jaxa"
     }
   ],
+  "-мʼ": [
+    {
+      "key": "-мʼ_ADP",
+      "entry_frequency": 28,
+      "key_frequency": 28,
+      "gloss": "-acc",
+      "ltranslit": null
+    },
+    {
+      "key": "-мʼ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-1sg",
+      "ltranslit": null
+    }
+  ],
   "пул": [
     {
-      "key": "NOUN+пул",
-      "frequency": 8,
+      "key": "пул_NOUN",
+      "entry_frequency": 8,
+      "key_frequency": 8,
       "gloss": "bridge",
       "ltranslit": "pul"
     }
   ],
   "нимня": [
     {
-      "key": "ADP+нимня",
-      "frequency": 2,
+      "key": "нимня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "at.prol",
       "ltranslit": "ńimńa"
     }
   ],
   "мада": [
     {
-      "key": "VERB+мада-",
-      "frequency": 8,
+      "key": "мада-_VERB",
+      "entry_frequency": 8,
+      "key_frequency": 8,
       "gloss": "pass.across",
       "ltranslit": "mada-"
     },
     {
-      "key": "VERB+мада",
-      "frequency": 8,
+      "key": "мада_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 8,
       "gloss": "pass.across",
       "ltranslit": "mada"
     }
   ],
   "тадтикахад": [
     {
-      "key": "ADV+тадтикахад",
-      "frequency": 6,
+      "key": "тадтикахад_ADV",
+      "entry_frequency": 6,
+      "key_frequency": 6,
       "gloss": "afterwards",
       "ltranslit": "tadťikaxad"
     }
   ],
   "тамна": [
     {
-      "key": "ADV+тамна",
-      "frequency": 8,
+      "key": "тамна_ADV",
+      "entry_frequency": 8,
+      "key_frequency": 8,
       "gloss": "even",
       "ltranslit": "tamna"
     }
   ],
   "тяхаʼ": [
     {
-      "key": "ADV+тяхаˮ",
-      "frequency": 4,
+      "key": "тяхаˮ_ADV",
+      "entry_frequency": 3,
+      "key_frequency": 4,
       "gloss": "further",
       "ltranslit": "ťaxaʡ"
     },
     {
-      "key": "ADV+тяхаʼ",
-      "frequency": 4,
+      "key": "тяхаʼ_ADV",
+      "entry_frequency": 2,
+      "key_frequency": 4,
       "gloss": "further",
       "ltranslit": "ťaxaʔ"
     },
     {
-      "key": "ADP+тяхаʼ",
-      "frequency": 1,
+      "key": "тяхаʼ_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "over",
       "ltranslit": "ťaxaʔ"
     }
   ],
   "тяхаˮ": [
     {
-      "key": "ADV+тяхаˮ",
-      "frequency": 4,
+      "key": "тяхаˮ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "further",
       "ltranslit": "ťaxaʡ"
     }
   ],
   "пя": [
     {
-      "key": "NOUN+пя",
-      "frequency": 6,
+      "key": "пя_NOUN",
+      "entry_frequency": 6,
+      "key_frequency": 6,
       "gloss": "tree",
       "ltranslit": "ṕa"
     }
   ],
   "манэˮ": [
     {
-      "key": "VERB+манэˮ",
-      "frequency": 10,
+      "key": "манэˮ_VERB",
+      "entry_frequency": 8,
+      "key_frequency": 10,
       "gloss": "see-co",
       "ltranslit": "manæʡ"
     }
   ],
   "-ӈа": [
     {
-      "key": "AUX+-ӈа",
-      "frequency": 22,
+      "key": "-ӈа_AUX",
+      "entry_frequency": 22,
+      "key_frequency": 22,
       "gloss": "-co",
       "ltranslit": "-ŋa"
     },
     {
-      "key": "VERB+-ӈа",
-      "frequency": 5,
+      "key": "-ӈа_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 5,
       "gloss": "see-co",
       "ltranslit": "-ŋa"
     }
   ],
   "сятаняӈы": [
     {
-      "key": "ADJ+сятаняӈы",
-      "frequency": 2,
+      "key": "сятаняӈы_ADJ",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "to.the.left.adj",
       "ltranslit": "śatańaŋi"
     }
   ],
   "хэву": [
     {
-      "key": "NOUN+хэв",
-      "frequency": 6,
+      "key": "хэв_NOUN",
+      "entry_frequency": 5,
+      "key_frequency": 6,
       "gloss": "side",
       "ltranslit": "xæw"
     }
   ],
   "хэв": [
     {
-      "key": "NOUN+хэв",
-      "frequency": 6,
+      "key": "хэв_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 6,
       "gloss": "side",
       "ltranslit": "xæw"
     }
   ],
+  "-вна": [
+    {
+      "key": "-вна_ADP",
+      "entry_frequency": 11,
+      "key_frequency": 11,
+      "gloss": "-prol",
+      "ltranslit": null
+    },
+    {
+      "key": "X_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 7,
+      "gloss": "-prol",
+      "ltranslit": "X"
+    }
+  ],
+  "-да": [
+    {
+      "key": "-да_DET",
+      "entry_frequency": 4,
+      "key_frequency": 4,
+      "gloss": "-poss.3sg",
+      "ltranslit": null
+    }
+  ],
   "махаʼняю": [
     {
-      "key": "ADV+махаʼняю",
-      "frequency": 1,
+      "key": "махаʼняю_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.right.pol",
       "ltranslit": "maxaʔńaju"
     }
   ],
   "яля": [
     {
-      "key": "NOUN+яля",
-      "frequency": 2,
+      "key": "яля_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "sun",
       "ltranslit": "jaľa"
     }
   ],
   "серʼ": [
     {
-      "key": "ADP+серʼ",
-      "frequency": 9,
+      "key": "серʼ_ADP",
+      "entry_frequency": 8,
+      "key_frequency": 9,
       "gloss": "at.the.time.of",
       "ltranslit": "śerʔ"
     }
   ],
   "сер": [
     {
-      "key": "ADP+серʼ",
-      "frequency": 9,
+      "key": "серʼ_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 9,
       "gloss": "at.the.time.of",
       "ltranslit": "śerʔ"
     }
   ],
   "тикы": [
     {
-      "key": "PRON+тикы",
-      "frequency": 1,
+      "key": "тикы_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "that",
       "ltranslit": "ťiki"
     }
   ],
   "пуд": [
     {
-      "key": "ADP+пуд",
-      "frequency": 1,
+      "key": "пуд_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "after.abl",
       "ltranslit": "pud"
     }
   ],
   "тарка": [
     {
-      "key": "NOUN+тарка",
-      "frequency": 15,
+      "key": "тарка_NOUN",
+      "entry_frequency": 15,
+      "key_frequency": 15,
       "gloss": "fork",
       "ltranslit": "tarka"
     }
   ],
+  "-хаю": [
+    {
+      "key": "-хаю_NUM",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-du",
+      "ltranslit": null
+    }
+  ],
+  "-та": [
+    {
+      "key": "-та_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-poss.gen.3sg",
+      "ltranslit": null
+    },
+    {
+      "key": "-та_DET",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-predest",
+      "ltranslit": null
+    }
+  ],
   "нямна": [
     {
-      "key": "ADP+нямна",
-      "frequency": 1,
+      "key": "нямна_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "at.prol",
       "ltranslit": "ńamna"
     }
   ],
   "ӈохолыр": [
     {
-      "key": "VERB+ӈохолыр-",
-      "frequency": 2,
+      "key": "ӈохолыр-_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "swim",
       "ltranslit": "ŋoxolir-"
     },
     {
-      "key": "VERB+ӈохолыр",
-      "frequency": 2,
+      "key": "ӈохолыр_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "swim",
       "ltranslit": "ŋoxolir"
     }
   ],
+  "-ць": [
+    {
+      "key": "-ць_AUX",
+      "entry_frequency": 3,
+      "key_frequency": 3,
+      "gloss": "-cvb",
+      "ltranslit": null
+    },
+    {
+      "key": "-ць_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-cvb",
+      "ltranslit": null
+    }
+  ],
   "пыя": [
     {
-      "key": "NOUN+пыя",
-      "frequency": 8,
+      "key": "пыя_NOUN",
+      "entry_frequency": 8,
+      "key_frequency": 8,
       "gloss": "end",
       "ltranslit": "pija"
     }
   ],
   "ӈадимя": [
     {
-      "key": "VERB+ӈадим-",
-      "frequency": 3,
+      "key": "ӈадим-_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 3,
       "gloss": "appear",
       "ltranslit": "ŋaďim-"
     }
   ],
   "ӈадим": [
     {
-      "key": "VERB+ӈадим-",
-      "frequency": 3,
+      "key": "ӈадим-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "appear",
       "ltranslit": "ŋaďim-"
     }
   ],
+  "-м": [
+    {
+      "key": "-м_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-acc",
+      "ltranslit": null
+    }
+  ],
+  "-ˮма": [
+    {
+      "key": "X_AUX",
+      "entry_frequency": 2,
+      "key_frequency": 3,
+      "gloss": "-pfv.an",
+      "ltranslit": "X"
+    },
+    {
+      "key": "-ˮма_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 5,
+      "gloss": "-pfv.an",
+      "ltranslit": null
+    }
+  ],
+  "-хада": [
+    {
+      "key": "-хада_ADP",
+      "entry_frequency": 4,
+      "key_frequency": 4,
+      "gloss": "-abl",
+      "ltranslit": null
+    },
+    {
+      "key": "X_ADP",
+      "entry_frequency": 3,
+      "key_frequency": 7,
+      "gloss": "-abl",
+      "ltranslit": "X"
+    }
+  ],
+  "-ни": [
+    {
+      "key": "-ни_DET",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-poss.1sg",
+      "ltranslit": null
+    },
+    {
+      "key": "-ни_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-poss.gen.1sg",
+      "ltranslit": null
+    }
+  ],
   "ӈаниʼ": [
     {
-      "key": "ADV+ӈаниʼ",
-      "frequency": 4,
+      "key": "ӈаниʼ_ADV",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "again",
       "ltranslit": "ŋańiʔ"
     }
   ],
   "няби": [
     {
-      "key": "DET+няби",
-      "frequency": 5,
+      "key": "няби_DET",
+      "entry_frequency": 4,
+      "key_frequency": 5,
       "gloss": "other",
       "ltranslit": "ńab́i"
     }
   ],
   "нябиʼ": [
     {
-      "key": "DET+няби",
-      "frequency": 5,
+      "key": "няби_DET",
+      "entry_frequency": 1,
+      "key_frequency": 5,
       "gloss": "other",
       "ltranslit": "ńab́i"
     }
   ],
   "и": [
     {
-      "key": "NOUN+иˮ",
-      "frequency": 3,
+      "key": "иˮ_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 3,
       "gloss": "water",
       "ltranslit": "iʡ"
     }
   ],
   "ид": [
     {
-      "key": "NOUN+иˮ",
-      "frequency": 3,
+      "key": "иˮ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "water",
       "ltranslit": "iʡ"
     }
   ],
+  "-каня": [
+    {
+      "key": "-каня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-loc",
+      "ltranslit": null
+    }
+  ],
   "халя": [
     {
-      "key": "NOUN+халя",
-      "frequency": 1,
+      "key": "халя_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "fish",
       "ltranslit": "xaľa"
     }
   ],
+  "-ˮ": [
+    {
+      "key": "-ˮ_NUM",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-pl",
+      "ltranslit": null
+    },
+    {
+      "key": "-ˮ_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-gen",
+      "ltranslit": null
+    },
+    {
+      "key": "-ˮ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-3pl",
+      "ltranslit": null
+    }
+  ],
   "таня": [
     {
-      "key": "VERB+таня-",
-      "frequency": 5,
+      "key": "таня-_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 5,
       "gloss": "exist",
       "ltranslit": "tańa-"
     },
     {
-      "key": "VERB+таня",
-      "frequency": 1,
+      "key": "таня_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "exist",
       "ltranslit": "tańa"
     }
   ],
+  "-вы": [
+    {
+      "key": "-вы_AUX",
+      "entry_frequency": 3,
+      "key_frequency": 3,
+      "gloss": "-infr.3sg",
+      "ltranslit": null
+    }
+  ],
   "тикахад": [
     {
-      "key": "ADV+тикахад",
-      "frequency": 1,
+      "key": "тикахад_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "then",
       "ltranslit": "ťikaxad"
     }
   ],
   "махаʼнякуʼ": [
     {
-      "key": "ADV+махаʼнякуʼ",
-      "frequency": 1,
+      "key": "махаʼнякуʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.right.adv",
       "ltranslit": "maxaʔńakuʔ"
     }
   ],
+  "-хэя": [
+    {
+      "key": "-хэя_AUX",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-intens.cvb",
+      "ltranslit": null
+    }
+  ],
   "нэкал": [
     {
-      "key": "VERB+нэкал",
-      "frequency": 10,
+      "key": "нэкал_VERB",
+      "entry_frequency": 9,
+      "key_frequency": 10,
       "gloss": "pull-co",
       "ltranslit": "nækal"
     }
   ],
   "ӈобʼ": [
     {
-      "key": "ADV+ӈобʼ",
-      "frequency": 6,
+      "key": "ӈобʼ_ADV",
+      "entry_frequency": 4,
+      "key_frequency": 6,
       "gloss": "once",
       "ltranslit": "ŋobʔ"
     }
   ],
   "нер": [
     {
-      "key": "ADP+нер-",
-      "frequency": 2,
+      "key": "нер-_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "in.front.of",
       "ltranslit": "ńer-"
     },
     {
-      "key": "ADP+нер",
-      "frequency": 1,
+      "key": "нер_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "in.front.of",
       "ltranslit": "ńer"
     },
     {
-      "key": "PRON+нер-",
-      "frequency": 1,
+      "key": "нер-_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "in.front.of",
       "ltranslit": "ńer-"
     }
   ],
   "няна": [
     {
-      "key": "ADP+няна",
-      "frequency": 4,
+      "key": "няна_ADP",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "at.loc",
       "ltranslit": "ńana"
     }
   ],
   "пирця": [
     {
-      "key": "ADJ+пирця",
-      "frequency": 7,
+      "key": "пирця_ADJ",
+      "entry_frequency": 7,
+      "key_frequency": 7,
       "gloss": "tall",
       "ltranslit": "ṕirća"
     }
   ],
   "харад": [
     {
-      "key": "NOUN+харад",
-      "frequency": 12,
+      "key": "харад_NOUN",
+      "entry_frequency": 10,
+      "key_frequency": 12,
       "gloss": "house",
       "ltranslit": "xarad"
     }
   ],
   "харда": [
     {
-      "key": "NOUN+харад",
-      "frequency": 12,
+      "key": "харад_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 12,
       "gloss": "house",
       "ltranslit": "xarad"
     }
   ],
   "сидя": [
     {
-      "key": "NUM+сидя",
-      "frequency": 4,
+      "key": "сидя_NUM",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "two",
       "ltranslit": "śiďa"
     }
   ],
   "сидера": [
     {
-      "key": "NOUN+сидерˮ",
-      "frequency": 2,
+      "key": "сидерˮ_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "window",
       "ltranslit": "śiďerʡ"
     }
   ],
+  "-нда": [
+    {
+      "key": "-нда_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 18,
+      "gloss": "-poss.gen.3sg",
+      "ltranslit": null
+    },
+    {
+      "key": "-нда_DET",
+      "entry_frequency": 1,
+      "key_frequency": 6,
+      "gloss": "-poss.3sg",
+      "ltranslit": null
+    }
+  ],
+  "-нд<un>": [
+    {
+      "key": "-нда_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 18,
+      "gloss": "-gen.poss.3sg",
+      "ltranslit": "-nda"
+    }
+  ],
   "танця": [
     {
-      "key": "NOUN+танциеˮ",
-      "frequency": 7,
+      "key": "танциеˮ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 7,
       "gloss": "stairs",
       "ltranslit": "tanćieʡ"
     }
   ],
   "танцяʼ": [
     {
-      "key": "NOUN+танциеˮ",
-      "frequency": 7,
+      "key": "танциеˮ_NOUN",
+      "entry_frequency": 5,
+      "key_frequency": 7,
       "gloss": "stairs",
       "ltranslit": "tanćieʡ"
     }
   ],
   "танцянзавэй": [
     {
-      "key": "NOUN+танциеˮ",
-      "frequency": 7,
+      "key": "танциеˮ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 7,
       "gloss": "stairs.com",
       "ltranslit": "tanćieʡ"
     }
   ],
   "махалэй": [
     {
-      "key": "NOUN+махалы",
-      "frequency": 8,
+      "key": "махалы_NOUN",
+      "entry_frequency": 3,
+      "key_frequency": 8,
       "gloss": "roof",
       "ltranslit": "maxali"
     },
     {
-      "key": "ADJ+махалэй",
-      "frequency": 1,
+      "key": "махалэй_ADJ",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "roof.adj",
       "ltranslit": "maxalæj"
     }
   ],
   "маха": [
     {
-      "key": "NOUN+махалы",
-      "frequency": 8,
+      "key": "махалы_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 8,
       "gloss": "roof",
       "ltranslit": "maxali"
     },
     {
-      "key": "NOUN+маха",
-      "frequency": 1,
+      "key": "маха_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "back",
       "ltranslit": "maxa"
     }
   ],
   "махалэя": [
     {
-      "key": "NOUN+махалы",
-      "frequency": 8,
+      "key": "махалы_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 8,
       "gloss": "roof",
       "ltranslit": "maxali"
     }
   ],
   "тюˮуʼ": [
     {
-      "key": "ADV+тюˮуʼ",
-      "frequency": 3,
+      "key": "тюˮуʼ_ADV",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "upwards",
       "ltranslit": "ťuʡuʔ"
     }
   ],
   "няʼ": [
     {
-      "key": "ADP+няʼ",
-      "frequency": 4,
+      "key": "няʼ_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "at.abl",
       "ltranslit": "ńaʔ"
     }
   ],
   "мятревʼ": [
     {
-      "key": "ADV+мя",
-      "frequency": 2,
+      "key": "мя_ADV",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "tent.equ",
       "ltranslit": "ḿa"
     }
   ],
   "саблюй": [
     {
-      "key": "ADJ+саблюй",
-      "frequency": 4,
+      "key": "саблюй_ADJ",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "peak",
       "ltranslit": "sabľuj"
     }
   ],
   "ӈавоʼ": [
     {
-      "key": "PRON+ӈамгэ",
-      "frequency": 1,
+      "key": "ӈамгэ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "what.gen.pl",
       "ltranslit": "ŋamgæ"
     }
   ],
   "пиркаˮна": [
     {
-      "key": "ADP+пиркана",
-      "frequency": 1,
+      "key": "пиркана_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "until.pl.loc",
       "ltranslit": "ṕirkana"
     }
   ],
+  "-нʼ": [
+    {
+      "key": "-нʼ_ADP",
+      "entry_frequency": 5,
+      "key_frequency": 5,
+      "gloss": "-dat",
+      "ltranslit": null
+    }
+  ],
   "тэвы": [
     {
-      "key": "VERB+тэва",
-      "frequency": 4,
+      "key": "тэва_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 4,
       "gloss": "arrive",
       "ltranslit": "tæwa"
     },
     {
-      "key": "VERB+тэва-",
-      "frequency": 2,
+      "key": "тэва-_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "arrive",
       "ltranslit": "tæwa-"
     }
   ],
+  "-вʼ": [
+    {
+      "key": "-вʼ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 15,
+      "gloss": "-1sg.refl",
+      "ltranslit": null
+    }
+  ],
   "танэ": [
     {
-      "key": "VERB+танэ",
-      "frequency": 4,
+      "key": "танэ_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 4,
       "gloss": "go.up-co.refl",
       "ltranslit": "tanæ"
     }
   ],
   "-я": [
     {
-      "key": "VERB+-я",
-      "frequency": 1,
+      "key": "-я_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.up-co.refl",
       "ltranslit": "-ja"
     },
     {
-      "key": "AUX+-я",
-      "frequency": 1,
+      "key": "-я_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "-co.refl",
       "ltranslit": "-ja"
     }
   ],
   "мюмня": [
     {
-      "key": "ADP+мюмня",
-      "frequency": 2,
+      "key": "мюмня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "in.prol",
       "ltranslit": "ḿumńa"
     }
   ],
   "хая": [
     {
-      "key": "VERB+хэ",
-      "frequency": 4,
-      "gloss": "go",
-      "ltranslit": "xæ"
-    },
-    {
-      "key": "VERB+хая-",
-      "frequency": 3,
+      "key": "хая-_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "go",
       "ltranslit": "xaja-"
+    },
+    {
+      "key": "хэ_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 4,
+      "gloss": "go",
+      "ltranslit": "xæ"
     }
   ],
   "несэй": [
     {
-      "key": "ADJ+несэй",
-      "frequency": 1,
+      "key": "несэй_ADJ",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "new(other)",
       "ltranslit": "ńesæj"
     }
   ],
   "тарпы": [
     {
-      "key": "VERB+тарпа-",
-      "frequency": 3,
+      "key": "тарпа-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "go.out",
       "ltranslit": "tarpa-"
     }
   ],
   "хаˮмы": [
     {
-      "key": "VERB+хаˮма-",
-      "frequency": 3,
+      "key": "хаˮма-_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 3,
       "gloss": "go.down",
       "ltranslit": "xaʡma-"
     },
     {
-      "key": "VERB+хаˮамы",
-      "frequency": 2,
+      "key": "хаˮамы_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "go.down",
       "ltranslit": "xaʡami"
     }
   ],
   "хаˮам": [
     {
-      "key": "VERB+хаˮма-",
-      "frequency": 3,
+      "key": "хаˮма-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "go.down-",
       "ltranslit": "xaʡma-"
     }
   ],
   "ядал": [
     {
-      "key": "VERB+ядал",
-      "frequency": 1,
+      "key": "ядал_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.forth-co.refl",
       "ltranslit": "jadal"
     }
   ],
   "-ъя": [
     {
-      "key": "VERB+-ъя",
-      "frequency": 1,
+      "key": "-ъя_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.forth-co.refl",
       "ltranslit": "-\"ja"
     }
   ],
   "ехэра": [
     {
-      "key": "VERB+ехэра-",
-      "frequency": 1,
+      "key": "ехэра-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "not.know",
       "ltranslit": "exæra-"
     }
   ],
+  "-на": [
+    {
+      "key": "-на_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-ptcp.cont",
+      "ltranslit": null
+    },
+    {
+      "key": "-на_DET",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-poss.3sg",
+      "ltranslit": null
+    }
+  ],
   "ӈани": [
     {
-      "key": "DET+ӈаниʼ",
-      "frequency": 1,
+      "key": "ӈаниʼ_DET",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "other",
       "ltranslit": "ŋańiʔ"
     }
   ],
   "ӈопой": [
     {
-      "key": "NUM+ӈопой",
-      "frequency": 1,
+      "key": "ӈопой_NUM",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "one",
       "ltranslit": "ŋopoj"
     }
   ],
+  "-д": [
+    {
+      "key": "-д_DET",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-?predest?",
+      "ltranslit": null
+    }
+  ],
   "тяхана": [
     {
-      "key": "ADP+тяхана",
-      "frequency": 1,
+      "key": "тяхана_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "behind.loc",
       "ltranslit": "ťaxana"
     }
   ],
   "тэ": [
     {
-      "key": "NOUN+ты",
-      "frequency": 3,
+      "key": "ты_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 3,
       "gloss": "reindeer",
       "ltranslit": "ti"
     }
   ],
   "ты": [
     {
-      "key": "NOUN+ты",
-      "frequency": 3,
+      "key": "ты_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "reindeer",
       "ltranslit": "ti"
     }
   ],
+  "-хэʼ": [
+    {
+      "key": "-хэʼ_NUM",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-du",
+      "ltranslit": null
+    }
+  ],
+  "-вэ": [
+    {
+      "key": "-вэ_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 2,
+      "gloss": "-infr.3sg",
+      "ltranslit": null
+    }
+  ],
+  "-хэˮ": [
+    {
+      "key": "-хэˮ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-3du",
+      "ltranslit": null
+    }
+  ],
   "мюня": [
     {
-      "key": "ADP+мюня",
-      "frequency": 3,
+      "key": "мюня_ADP",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "in.loc",
       "ltranslit": "ḿuńa"
     }
   ],
   "ну": [
     {
-      "key": "VERB+ну-",
-      "frequency": 3,
+      "key": "ну-_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "stand",
       "ltranslit": "nu-"
     },
     {
-      "key": "VERB+ну",
-      "frequency": 1,
+      "key": "ну_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "stand",
       "ltranslit": "nu"
     }
   ],
-  "-дʼ": [
-    {
-      "key": "ADP+X",
-      "frequency": 7,
-      "gloss": "-gen.poss.2sg",
-      "ltranslit": "X"
-    }
-  ],
   "-мана": [
     {
-      "key": "ADP+X",
-      "frequency": 7,
-      "gloss": "-prol",
-      "ltranslit": "X"
-    }
-  ],
-  "-хада": [
-    {
-      "key": "ADP+X",
-      "frequency": 7,
-      "gloss": "-abl",
-      "ltranslit": "X"
-    }
-  ],
-  "-вна": [
-    {
-      "key": "ADP+X",
-      "frequency": 7,
+      "key": "X_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 7,
       "gloss": "-prol",
       "ltranslit": "X"
     }
   ],
   "<d>": [
     {
-      "key": "INTJ+<d>",
-      "frequency": 1,
+      "key": "<d>_INTJ",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "DISFL",
       "ltranslit": "<d>"
     },
     {
-      "key": "X+<d>",
-      "frequency": 1,
+      "key": "<d>_X",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "<d>",
       "ltranslit": "<d>"
     }
   ],
   "тикахана": [
     {
-      "key": "ADV+тикахана",
-      "frequency": 1,
+      "key": "тикахана_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "there",
       "ltranslit": "ťikaxana"
     }
   ],
   "-хаˮ": [
     {
-      "key": "PRON+X",
-      "frequency": 2,
+      "key": "X_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "-3du",
       "ltranslit": "X"
     }
   ],
   "-ваˮ": [
     {
-      "key": "PRON+X",
-      "frequency": 2,
+      "key": "-ваˮ_PRON",
+      "entry_frequency": 4,
+      "key_frequency": 17,
+      "gloss": "-1pl",
+      "ltranslit": null
+    },
+    {
+      "key": "X_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "-1pl",
       "ltranslit": "X"
+    },
+    {
+      "key": "-ваˮ_DET",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-poss.3pl",
+      "ltranslit": null
     }
   ],
   "няд": [
     {
-      "key": "ADP+няд",
-      "frequency": 1,
+      "key": "няд_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "at.abl",
       "ltranslit": "ńad"
     }
   ],
   "ни": [
     {
-      "key": "NOUN+ни-",
-      "frequency": 1,
+      "key": "ни-_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "top",
       "ltranslit": "ńi-"
     }
   ],
+  "-мня": [
+    {
+      "key": "-мня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-prol",
+      "ltranslit": null
+    }
+  ],
   "санэй": [
     {
-      "key": "VERB+санэй-",
-      "frequency": 1,
+      "key": "санэй-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "jump",
       "ltranslit": "sanæj-"
     }
   ],
   "сана": [
     {
-      "key": "VERB+сана-",
-      "frequency": 1,
+      "key": "сана-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "jump",
       "ltranslit": "sana-"
     }
   ],
+  "-ниʼ": [
+    {
+      "key": "-ниʼ_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 4,
+      "gloss": "-poss.gen.1sg",
+      "ltranslit": null
+    },
+    {
+      "key": "-ниʼ_DET",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-poss.1sg",
+      "ltranslit": null
+    }
+  ],
   "тяха": [
     {
-      "key": "ADV+тяхаʼ",
-      "frequency": 4,
+      "key": "тяхаʼ_ADV",
+      "entry_frequency": 2,
+      "key_frequency": 4,
       "gloss": "further",
       "ltranslit": "ťaxaʔ"
     }
   ],
   "<n>": [
     {
-      "key": "X+<n>",
-      "frequency": 4,
+      "key": "<n>_X",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "NOISE",
       "ltranslit": "<n>"
     }
   ],
-  "-нд<un>": [
-    {
-      "key": "ADP+-нда",
-      "frequency": 2,
-      "gloss": "-gen.poss.3sg",
-      "ltranslit": "-nda"
-    }
-  ],
-  "-нда": [
-    {
-      "key": "ADP+-нда",
-      "frequency": 2,
-      "gloss": "poss.dat.3sg",
-      "ltranslit": "-nda"
-    }
-  ],
   "-й": [
     {
-      "key": "AUX+-й",
-      "frequency": 3,
+      "key": "-й_AUX",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "-co.refl",
       "ltranslit": "-j"
     }
   ],
   "мяттю": [
     {
-      "key": "VERB+мяттю-",
-      "frequency": 1,
+      "key": "мяттю-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "enter",
       "ltranslit": "ḿatťu-"
     }
   ],
   "иртʼ": [
     {
-      "key": "ADV+иртʼ",
-      "frequency": 1,
+      "key": "иртʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "straight",
       "ltranslit": "irtʔ"
     }
   ],
   "нярˮ": [
     {
-      "key": "ADV+нярˮ",
-      "frequency": 1,
+      "key": "нярˮ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "across",
       "ltranslit": "ńarʡ"
     }
   ],
   "хэхэдёйта": [
     {
-      "key": "VERB+хэхэдёйта-",
-      "frequency": 1,
+      "key": "хэхэдёйта-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "run.across",
       "ltranslit": "xæxæďojta-"
     }
   ],
   "нэ": [
     {
-      "key": "VERB+нэ-",
-      "frequency": 1,
+      "key": "нэ-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "open",
       "ltranslit": "næ-"
     }
   ],
   "хаˮамы": [
     {
-      "key": "VERB+хаˮамы-",
-      "frequency": 1,
+      "key": "хаˮамы-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.down",
       "ltranslit": "xaʡami-"
     }
   ],
   "маханякубта": [
     {
-      "key": "NOUN+маханякубта",
-      "frequency": 3,
+      "key": "маханякубта_NOUN",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "right.side",
       "ltranslit": "maxańakubta"
     }
   ],
   "ми": [
     {
-      "key": "VERB+ми-",
-      "frequency": 1,
+      "key": "ми-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go",
       "ltranslit": "ḿi-"
     }
   ],
+  "-ма": [
+    {
+      "key": "-ма_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-ipfv.an",
+      "ltranslit": null
+    }
+  ],
   "ӈохолё": [
     {
-      "key": "VERB+ӈохолё",
-      "frequency": 7,
+      "key": "ӈохолё_VERB",
+      "entry_frequency": 7,
+      "key_frequency": 7,
       "gloss": "swim.cvb",
       "ltranslit": "ŋoxoľo"
     }
   ],
   "ниʼ": [
     {
-      "key": "ADP+ниʼ",
-      "frequency": 4,
+      "key": "ниʼ_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 4,
       "gloss": "at.dat",
       "ltranslit": "ńiʔ"
     }
   ],
   "танэй": [
     {
-      "key": "VERB+танэй-",
-      "frequency": 1,
+      "key": "танэй-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.up",
       "ltranslit": "tanæj-"
     },
     {
-      "key": "VERB+танэй",
-      "frequency": 1,
+      "key": "танэй_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.up",
       "ltranslit": "tanæj"
     }
   ],
   "ялъя": [
     {
-      "key": "VERB+ялъя",
-      "frequency": 3,
+      "key": "ялъя_VERB",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "walk",
       "ltranslit": "jal\"ja"
     },
     {
-      "key": "VERB+ялъя-",
-      "frequency": 1,
+      "key": "ялъя-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "walk",
       "ltranslit": "jal\"ja-"
     }
   ],
+  "-ва": [
+    {
+      "key": "-ва_AUX",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-ipfv.an",
+      "ltranslit": null
+    },
+    {
+      "key": "-ва_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 2,
+      "gloss": "1sg.refl",
+      "ltranslit": null
+    }
+  ],
   "маханяӈы": [
     {
-      "key": "ADJ+маханяӈы",
-      "frequency": 3,
+      "key": "маханяӈы_ADJ",
+      "entry_frequency": 2,
+      "key_frequency": 3,
       "gloss": "from.right.adj",
       "ltranslit": "maxańaŋi"
     }
   ],
   "пырдариʼ": [
     {
-      "key": "ADP+пырдариʼ",
-      "frequency": 1,
+      "key": "пырдариʼ_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "against",
       "ltranslit": "pirdaŕiʔ"
     }
   ],
   "яд": [
     {
-      "key": "VERB+яд-",
-      "frequency": 1,
+      "key": "яд-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "walk",
       "ltranslit": "jad-"
     }
   ],
   "сятанякубта": [
     {
-      "key": "NOUN+сятанякубта",
-      "frequency": 1,
+      "key": "сятанякубта_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "left.side",
       "ltranslit": "śatańakubta"
     }
   ],
   "сэв": [
     {
-      "key": "NOUN+сэв",
-      "frequency": 1,
+      "key": "сэв_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "eye",
       "ltranslit": "sæw"
     }
   ],
+  "-ˮни": [
+    {
+      "key": "-ˮни_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-pl.poss.gen.1sg",
+      "ltranslit": null
+    }
+  ],
+  "-бʼ": [
+    {
+      "key": "-бʼ_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-cond",
+      "ltranslit": null
+    }
+  ],
+  "-хана": [
+    {
+      "key": "-хана_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
+      "gloss": "-loc",
+      "ltranslit": null
+    }
+  ],
+  "-хад": [
+    {
+      "key": "-хад_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-abl",
+      "ltranslit": null
+    }
+  ],
   "тодоʼ": [
     {
-      "key": "NOUN+тодоʼ",
-      "frequency": 1,
+      "key": "тодоʼ_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "all",
       "ltranslit": "todoʔ"
     }
   ],
   "сыр": [
     {
-      "key": "VERB+сыр",
-      "frequency": 7,
+      "key": "сыр_VERB",
+      "entry_frequency": 6,
+      "key_frequency": 7,
       "gloss": "look",
       "ltranslit": "sir"
     }
   ],
   "сыро": [
     {
-      "key": "VERB+сыр",
-      "frequency": 7,
+      "key": "сыр_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 7,
       "gloss": "look",
       "ltranslit": "sir"
     }
   ],
   "сятаняʼ": [
     {
-      "key": "ADV+сятаняʼ",
-      "frequency": 1,
+      "key": "сятаняʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.left",
       "ltranslit": "śatańaʔ"
     }
   ],
   "маханяʼ": [
     {
-      "key": "ADV+маханяʼ",
-      "frequency": 1,
+      "key": "маханяʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.right",
       "ltranslit": "maxańaʔ"
     }
   ],
   "маханяӈэюмʼ": [
     {
-      "key": "ADJ+маханяӈэюмʼ",
-      "frequency": 1,
+      "key": "маханяӈэюмʼ_ADJ",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.right.adj.pol",
       "ltranslit": "maxańaŋæjumʔ"
     }
   ],
   "тасла": [
     {
-      "key": "VERB+тасла",
-      "frequency": 2,
+      "key": "тасла_VERB",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "decide",
       "ltranslit": "tasla"
     },
     {
-      "key": "VERB+тасла-",
-      "frequency": 1,
+      "key": "тасла-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "decide",
       "ltranslit": "tasla-"
     }
   ],
+  "-маʼ": [
+    {
+      "key": "-маʼ_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-impfv.an",
+      "ltranslit": null
+    }
+  ],
   "яду": [
     {
-      "key": "NOUN+яд",
-      "frequency": 4,
+      "key": "яд_NOUN",
+      "entry_frequency": 3,
+      "key_frequency": 4,
       "gloss": "wall",
       "ltranslit": "jad"
     }
   ],
   "<er>яду": [
     {
-      "key": "NOUN+яд",
-      "frequency": 4,
+      "key": "яд_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "wall",
       "ltranslit": "jad"
     }
   ],
+  "-вˮ": [
+    {
+      "key": "-вˮ_PRON",
+      "entry_frequency": 3,
+      "key_frequency": 3,
+      "gloss": "-1sg.refl",
+      "ltranslit": null
+    }
+  ],
   "нид": [
     {
-      "key": "ADP+нид",
-      "frequency": 3,
+      "key": "нид_ADP",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "at.abl",
       "ltranslit": "ńid"
     }
   ],
   "яˮамна": [
     {
-      "key": "ADV+яˮамна",
-      "frequency": 2,
+      "key": "яˮамна_ADV",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "around.prol",
       "ltranslit": "jaʡamna"
     },
     {
-      "key": "ADP+яˮамна",
-      "frequency": 1,
+      "key": "яˮамна_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "around.prol",
       "ltranslit": "jaʡamna"
     }
   ],
   "тасиʼ": [
     {
-      "key": "ADV+тасиʼ",
-      "frequency": 3,
+      "key": "тасиʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "downward.dat",
       "ltranslit": "taśiʔ"
     }
   ],
   "ӈыламна": [
     {
-      "key": "ADP+ӈыламна",
-      "frequency": 3,
+      "key": "ӈыламна_ADP",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "under.prol",
       "ltranslit": "ŋilamna"
     }
   ],
   "таханяюʼ": [
     {
-      "key": "ADV+таханяюʼ",
-      "frequency": 1,
+      "key": "таханяюʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "there.pol",
       "ltranslit": "taxańajuʔ"
     }
   ],
   "таремʼ": [
     {
-      "key": "ADV+таремʼ",
-      "frequency": 2,
+      "key": "таремʼ_ADV",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "this.way",
       "ltranslit": "taŕemʔ"
     }
   ],
   "пэр": [
     {
-      "key": "VERB+пэр",
-      "frequency": 1,
+      "key": "пэр_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "do",
       "ltranslit": "pær"
     }
   ],
   "вару": [
     {
-      "key": "NOUN+вар",
-      "frequency": 1,
+      "key": "вар_NOUN",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "shore",
       "ltranslit": "war"
     }
   ],
   "лаӈг": [
     {
-      "key": "NOUN+лаӈг",
-      "frequency": 2,
+      "key": "лаӈг_NOUN",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "steep.riverbank",
       "ltranslit": "laŋg"
     }
   ],
   "сятаняю": [
     {
-      "key": "ADJ+сятаняю",
-      "frequency": 1,
+      "key": "сятаняю_ADJ",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "to.the.left.adj",
       "ltranslit": "śatańaju"
     }
   ],
+  "-мна": [
+    {
+      "key": "-мна_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-prol",
+      "ltranslit": null
+    }
+  ],
   "таняна": [
     {
-      "key": "ADV+таняна",
-      "frequency": 1,
+      "key": "таняна_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "there",
       "ltranslit": "tańana"
     }
   ],
   "ӈано": [
     {
-      "key": "NOUN+ӈано",
-      "frequency": 10,
+      "key": "ӈано_NOUN",
+      "entry_frequency": 10,
+      "key_frequency": 10,
       "gloss": "boat",
       "ltranslit": "ŋano"
     }
   ],
   "яӈго": [
     {
-      "key": "VERB+яӈго",
-      "frequency": 1,
+      "key": "яӈго_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "not.exist",
       "ltranslit": "jaŋgo"
     }
   ],
   "тяханяна": [
     {
-      "key": "ADP+тяханяна",
-      "frequency": 1,
+      "key": "тяханяна_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "through.loc",
       "ltranslit": "ťaxańana"
     }
   ],
   "ӈэ": [
     {
-      "key": "AUX+ӈa",
-      "frequency": 1,
+      "key": "ӈa_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "be",
       "ltranslit": "ŋa"
     }
   ],
   "няюʼ": [
     {
-      "key": "ADP+няюʼ",
-      "frequency": 2,
+      "key": "няюʼ_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "towards.dat",
       "ltranslit": "ńajuʔ"
     }
   ],
+  "-ход": [
+    {
+      "key": "-ход_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-abl",
+      "ltranslit": null
+    }
+  ],
   "ядалъ": [
     {
-      "key": "VERB+ядалъ",
-      "frequency": 1,
+      "key": "ядалъ_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.forth",
       "ltranslit": "jadal\""
     }
   ],
   "я": [
     {
-      "key": "NOUN+я",
-      "frequency": 4,
+      "key": "я_NOUN",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "land",
       "ltranslit": "ja"
     }
   ],
   "хой": [
     {
-      "key": "NOUN+хой",
-      "frequency": 3,
+      "key": "хой_NOUN",
+      "entry_frequency": 3,
+      "key_frequency": 3,
       "gloss": "hill",
       "ltranslit": "xoj"
     }
   ],
   "ниня": [
     {
-      "key": "ADP+ниня",
-      "frequency": 2,
+      "key": "ниня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "at.loc",
       "ltranslit": "ńińa"
     }
   ],
   "<iw>ниӈа": [
     {
-      "key": "ADP+ниня",
-      "frequency": 2,
+      "key": "ниня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "at.loc",
       "ltranslit": "ńińa"
     }
   ],
   "нерняʼ": [
     {
-      "key": "ADV+нерняʼ",
-      "frequency": 1,
+      "key": "нерняʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "in.front.of.dat",
       "ltranslit": "ńerńaʔ"
     }
   ],
   "ӈа": [
     {
-      "key": "AUX+ӈа",
-      "frequency": 1,
+      "key": "ӈа_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "-co",
       "ltranslit": "ŋa"
     }
   ],
   "тэв": [
     {
-      "key": "VERB+тэва",
-      "frequency": 4,
+      "key": "тэва_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "arrive",
       "ltranslit": "tæwa"
     }
   ],
+  "-наˮ": [
+    {
+      "key": "-наˮ_PRON",
+      "entry_frequency": 7,
+      "key_frequency": 7,
+      "gloss": "-1pl.refl",
+      "ltranslit": null
+    },
+    {
+      "key": "-наˮ_DET",
+      "entry_frequency": 3,
+      "key_frequency": 3,
+      "gloss": "-poss.1pl",
+      "ltranslit": null
+    }
+  ],
+  "-тʼ": [
+    {
+      "key": "-тʼ_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-dat",
+      "ltranslit": null
+    }
+  ],
   "лабята": [
     {
-      "key": "ADV+лабята",
-      "frequency": 1,
+      "key": "лабята_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "row.cvb",
       "ltranslit": "lab́ata"
     }
   ],
   "тяханяюʼ": [
     {
-      "key": "ADV+тяханяюʼ",
-      "frequency": 1,
+      "key": "тяханяюʼ_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "there.pol",
       "ltranslit": "ťaxańajuʔ"
     }
   ],
   "тир": [
     {
-      "key": "NOUN+тир",
-      "frequency": 4,
+      "key": "тир_NOUN",
+      "entry_frequency": 4,
+      "key_frequency": 4,
       "gloss": "edge",
       "ltranslit": "ťir"
     }
   ],
+  "-кана": [
+    {
+      "key": "-кана_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "edge",
+      "ltranslit": null
+    }
+  ],
   "хае": [
     {
-      "key": "VERB+хае",
-      "frequency": 1,
+      "key": "хае_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "leave",
       "ltranslit": "xae"
     }
   ],
   "хаˮавра": [
     {
-      "key": "VERB+хаˮавра",
-      "frequency": 1,
+      "key": "хаˮавра_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.down",
       "ltranslit": "xaʡawra"
     }
   ],
   "ӈэсондʼ": [
     {
-      "key": "ADP+ӈэсондʼ",
-      "frequency": 2,
+      "key": "ӈэсондʼ_ADP",
+      "entry_frequency": 2,
+      "key_frequency": 2,
       "gloss": "up.to.dat",
       "ltranslit": "ŋæsondʔ"
     }
   ],
   "хэ": [
     {
-      "key": "VERB+хэ",
-      "frequency": 4,
+      "key": "хэ_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "go",
       "ltranslit": "xæ"
     }
   ],
   "хэя": [
     {
-      "key": "VERB+хэ",
-      "frequency": 4,
+      "key": "хэ_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 4,
       "gloss": "go",
       "ltranslit": "xæ"
     }
   ],
   "-сь": [
     {
-      "key": "AUX+X",
-      "frequency": 3,
+      "key": "X_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 3,
       "gloss": "-cvb",
-      "ltranslit": "X"
-    }
-  ],
-  "-ˮма": [
-    {
-      "key": "AUX+X",
-      "frequency": 3,
-      "gloss": "-pfv.an",
       "ltranslit": "X"
     }
   ],
   "тара": [
     {
-      "key": "AUX+тара",
-      "frequency": 1,
+      "key": "тара_AUX",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "need.3sg",
       "ltranslit": "tara"
     }
   ],
   "тана": [
     {
-      "key": "VERB+тана",
-      "frequency": 1,
+      "key": "тана_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "go.up",
       "ltranslit": "tana"
     }
   ],
   "ня": [
     {
-      "key": "ADP+ня",
-      "frequency": 1,
+      "key": "ня_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "at",
       "ltranslit": "ńa"
     }
   ],
   "Тадтикахавахад": [
     {
-      "key": "ADV+тадтикахавахад",
-      "frequency": 1,
+      "key": "тадтикахавахад_ADV",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "afterwards",
       "ltranslit": "tadťikaxawaxad"
     }
   ],
   "<f>сюрт<un>": [
     {
-      "key": "ADP+сюрте",
-      "frequency": 2,
+      "key": "сюрте_ADP",
+      "entry_frequency": 1,
+      "key_frequency": 2,
       "gloss": "around",
       "ltranslit": "śurťe"
     }
   ],
+  "ваˮ": [
+    {
+      "key": "ваˮ_PRON",
+      "entry_frequency": 1,
+      "key_frequency": 1,
+      "gloss": "-1pl",
+      "ltranslit": null
+    }
+  ],
   "нулта-": [
     {
-      "key": "VERB+нулта-",
-      "frequency": 1,
+      "key": "нулта-_VERB",
+      "entry_frequency": 1,
+      "key_frequency": 1,
       "gloss": "stop",
       "ltranslit": "nulta-"
     }

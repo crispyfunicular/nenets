@@ -1,5 +1,5 @@
 {
-  "X+<p>": {
+  "<p>_X": {
     "frequency": 38,
     "entries": [
       {
@@ -7,18 +7,20 @@
         "features": null,
         "gloss": "PAUSE",
         "translit": "<p>",
-        "ltranslit": "<p>"
+        "ltranslit": "<p>",
+        "frequency": 26
       },
       {
         "form": "<p>",
         "features": null,
         "gloss": "X",
         "translit": "<p>",
-        "ltranslit": "<p>"
+        "ltranslit": "<p>",
+        "frequency": 12
       }
     ]
   },
-  "NOUN+марˮ": {
+  "марˮ_NOUN": {
     "frequency": 11,
     "entries": [
       {
@@ -26,25 +28,49 @@
         "features": null,
         "gloss": "fence",
         "translit": "maŕa",
-        "ltranslit": "marʡ"
+        "ltranslit": "marʡ",
+        "frequency": 9
       },
       {
         "form": "<pr>маря<un>",
         "features": null,
         "gloss": "fence",
         "translit": "<pr>maŕa<un>",
-        "ltranslit": "marʡ"
+        "ltranslit": "marʡ",
+        "frequency": 1
       },
       {
         "form": "<er>маря",
         "features": null,
         "gloss": "fence",
         "translit": "<er>maŕa",
-        "ltranslit": "marʡ"
+        "ltranslit": "marʡ",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+нё": {
+  "-дʼ_ADP": {
+    "frequency": 8,
+    "entries": [
+      {
+        "form": "-дʼ",
+        "features": "Number=Sing|Person=2",
+        "gloss": "-poss.gen.2sg",
+        "translit": "-dʔ",
+        "ltranslit": null,
+        "frequency": 2
+      },
+      {
+        "form": "-дʼ",
+        "features": "Number=Sing|Person=2",
+        "gloss": "-gen.poss.2sg",
+        "translit": "-dʔ",
+        "ltranslit": null,
+        "frequency": 6
+      }
+    ]
+  },
+  "нё_NOUN": {
     "frequency": 10,
     "entries": [
       {
@@ -52,11 +78,25 @@
         "features": null,
         "gloss": "door",
         "translit": "ńo",
-        "ltranslit": "ńo"
+        "ltranslit": "ńo",
+        "frequency": 10
       }
     ]
   },
-  "NOUN+си": {
+  "-ʼ_ADP": {
+    "frequency": 51,
+    "entries": [
+      {
+        "form": "-ʼ",
+        "features": null,
+        "gloss": "-gen",
+        "translit": "-ʔ",
+        "ltranslit": null,
+        "frequency": 51
+      }
+    ]
+  },
+  "си_NOUN": {
     "frequency": 12,
     "entries": [
       {
@@ -64,11 +104,25 @@
         "features": null,
         "gloss": "hole",
         "translit": "śi",
-        "ltranslit": "śi"
+        "ltranslit": "śi",
+        "frequency": 12
       }
     ]
   },
-  "VERB+мятю-": {
+  "-вня_ADP": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "-вня",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-wńa",
+        "ltranslit": null,
+        "frequency": 4
+      }
+    ]
+  },
+  "мятю-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -76,11 +130,25 @@
         "features": null,
         "gloss": "tent.step.in",
         "translit": "ḿaťu",
-        "ltranslit": "ḿaťu-"
+        "ltranslit": "ḿaťu-",
+        "frequency": 1
       }
     ]
   },
-  "ADV+сятаняюʼ": {
+  "-дмʼ_PRON": {
+    "frequency": 32,
+    "entries": [
+      {
+        "form": "-дмʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-1sg",
+        "translit": "-dmʔ",
+        "ltranslit": null,
+        "frequency": 32
+      }
+    ]
+  },
+  "сятаняюʼ_ADV": {
     "frequency": 3,
     "entries": [
       {
@@ -88,11 +156,12 @@
         "features": null,
         "gloss": "to.the.left.pol",
         "translit": "śatańajuʔ",
-        "ltranslit": "śatańajuʔ"
+        "ltranslit": "śatańajuʔ",
+        "frequency": 3
       }
     ]
   },
-  "VERB+мэ-": {
+  "мэ-_VERB": {
     "frequency": 5,
     "entries": [
       {
@@ -100,11 +169,25 @@
         "features": null,
         "gloss": "take",
         "translit": "mæ",
-        "ltranslit": "mæ-"
+        "ltranslit": "mæ-",
+        "frequency": 5
       }
     ]
   },
-  "PUNCT+<p>": {
+  "-в_PRON": {
+    "frequency": 27,
+    "entries": [
+      {
+        "form": "-в",
+        "features": "Number=Sing|Number[obj]=Sing|Person=1",
+        "gloss": "-1sg.sg",
+        "translit": "-w",
+        "ltranslit": null,
+        "frequency": 27
+      }
+    ]
+  },
+  "<p>_PUNCT": {
     "frequency": 115,
     "entries": [
       {
@@ -112,11 +195,12 @@
         "features": null,
         "gloss": "SIL",
         "translit": "<p>",
-        "ltranslit": "<p>"
+        "ltranslit": "<p>",
+        "frequency": 115
       }
     ]
   },
-  "VERB+сюрте-": {
+  "сюрте-_VERB": {
     "frequency": 4,
     "entries": [
       {
@@ -124,11 +208,12 @@
         "features": null,
         "gloss": "go.around",
         "translit": "śurťe",
-        "ltranslit": "śurťe-"
+        "ltranslit": "śurťe-",
+        "frequency": 4
       }
     ]
   },
-  "ADV+таняʼ": {
+  "таняʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -136,11 +221,12 @@
         "features": null,
         "gloss": "there",
         "translit": "tańaʔ",
-        "ltranslit": "tańaʔ"
+        "ltranslit": "tańaʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+яда-": {
+  "яда-_VERB": {
     "frequency": 12,
     "entries": [
       {
@@ -148,11 +234,12 @@
         "features": null,
         "gloss": "walk",
         "translit": "jada",
-        "ltranslit": "jada-"
+        "ltranslit": "jada-",
+        "frequency": 12
       }
     ]
   },
-  "NOUN+яха": {
+  "яха_NOUN": {
     "frequency": 22,
     "entries": [
       {
@@ -160,11 +247,25 @@
         "features": null,
         "gloss": "river",
         "translit": "jaxa",
-        "ltranslit": "jaxa"
+        "ltranslit": "jaxa",
+        "frequency": 22
       }
     ]
   },
-  "NOUN+пул": {
+  "-мʼ_ADP": {
+    "frequency": 28,
+    "entries": [
+      {
+        "form": "-мʼ",
+        "features": null,
+        "gloss": "-acc",
+        "translit": "-mʔ",
+        "ltranslit": null,
+        "frequency": 28
+      }
+    ]
+  },
+  "пул_NOUN": {
     "frequency": 8,
     "entries": [
       {
@@ -172,11 +273,12 @@
         "features": null,
         "gloss": "bridge",
         "translit": "pul",
-        "ltranslit": "pul"
+        "ltranslit": "pul",
+        "frequency": 8
       }
     ]
   },
-  "ADP+нимня": {
+  "нимня_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -184,18 +286,20 @@
         "features": null,
         "gloss": "at.prol",
         "translit": "ńimńa",
-        "ltranslit": "ńimńa"
+        "ltranslit": "ńimńa",
+        "frequency": 1
       },
       {
         "form": "нимня",
         "features": null,
         "gloss": "top.prol",
         "translit": "ńimńa",
-        "ltranslit": "ńimńa"
+        "ltranslit": "ńimńa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+мада-": {
+  "мада-_VERB": {
     "frequency": 8,
     "entries": [
       {
@@ -203,11 +307,12 @@
         "features": null,
         "gloss": "pass.across",
         "translit": "mada",
-        "ltranslit": "mada-"
+        "ltranslit": "mada-",
+        "frequency": 8
       }
     ]
   },
-  "ADV+тадтикахад": {
+  "тадтикахад_ADV": {
     "frequency": 6,
     "entries": [
       {
@@ -215,11 +320,12 @@
         "features": null,
         "gloss": "afterwards",
         "translit": "tadťikaxad",
-        "ltranslit": "tadťikaxad"
+        "ltranslit": "tadťikaxad",
+        "frequency": 6
       }
     ]
   },
-  "ADV+тамна": {
+  "тамна_ADV": {
     "frequency": 8,
     "entries": [
       {
@@ -227,11 +333,12 @@
         "features": null,
         "gloss": "even",
         "translit": "tamna",
-        "ltranslit": "tamna"
+        "ltranslit": "tamna",
+        "frequency": 8
       }
     ]
   },
-  "ADV+тяхаˮ": {
+  "тяхаˮ_ADV": {
     "frequency": 4,
     "entries": [
       {
@@ -239,18 +346,20 @@
         "features": null,
         "gloss": "further",
         "translit": "ťaxaʔ",
-        "ltranslit": "ťaxaʡ"
+        "ltranslit": "ťaxaʡ",
+        "frequency": 3
       },
       {
         "form": "тяхаˮ",
         "features": null,
         "gloss": "further",
         "translit": "ťaxaʡ",
-        "ltranslit": "ťaxaʡ"
+        "ltranslit": "ťaxaʡ",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+пя": {
+  "пя_NOUN": {
     "frequency": 6,
     "entries": [
       {
@@ -258,11 +367,12 @@
         "features": null,
         "gloss": "tree",
         "translit": "ṕa",
-        "ltranslit": "ṕa"
+        "ltranslit": "ṕa",
+        "frequency": 6
       }
     ]
   },
-  "VERB+манэˮ": {
+  "манэˮ_VERB": {
     "frequency": 10,
     "entries": [
       {
@@ -270,18 +380,20 @@
         "features": null,
         "gloss": "see-co",
         "translit": "manæʡ",
-        "ltranslit": "manæʡ"
+        "ltranslit": "manæʡ",
+        "frequency": 2
       },
       {
         "form": "манэˮ",
         "features": null,
         "gloss": "see",
         "translit": "manæʡ",
-        "ltranslit": "manæʡ"
+        "ltranslit": "manæʡ",
+        "frequency": 8
       }
     ]
   },
-  "VERB+-ӈа": {
+  "-ӈа_VERB": {
     "frequency": 5,
     "entries": [
       {
@@ -289,25 +401,28 @@
         "features": null,
         "gloss": "see-co",
         "translit": "-ŋa",
-        "ltranslit": "-ŋa"
+        "ltranslit": "-ŋa",
+        "frequency": 2
       },
       {
         "form": "-ӈа",
         "features": null,
         "gloss": "pull-co",
         "translit": "-ŋa",
-        "ltranslit": "-ŋa"
+        "ltranslit": "-ŋa",
+        "frequency": 1
       },
       {
         "form": "-ӈа",
         "features": null,
         "gloss": "-co",
         "translit": "-ŋa",
-        "ltranslit": "-ŋa"
+        "ltranslit": "-ŋa",
+        "frequency": 2
       }
     ]
   },
-  "ADJ+сятаняӈы": {
+  "сятаняӈы_ADJ": {
     "frequency": 2,
     "entries": [
       {
@@ -315,11 +430,12 @@
         "features": null,
         "gloss": "to.the.left.adj",
         "translit": "śatańaŋi",
-        "ltranslit": "śatańaŋi"
+        "ltranslit": "śatańaŋi",
+        "frequency": 2
       }
     ]
   },
-  "NOUN+хэв": {
+  "хэв_NOUN": {
     "frequency": 6,
     "entries": [
       {
@@ -327,18 +443,46 @@
         "features": null,
         "gloss": "side",
         "translit": "xæwu",
-        "ltranslit": "xæw"
+        "ltranslit": "xæw",
+        "frequency": 5
       },
       {
         "form": "хэв",
         "features": null,
         "gloss": "side",
         "translit": "xæw",
-        "ltranslit": "xæw"
+        "ltranslit": "xæw",
+        "frequency": 1
       }
     ]
   },
-  "ADV+махаʼняю": {
+  "-вна_ADP": {
+    "frequency": 11,
+    "entries": [
+      {
+        "form": "-вна",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-wna",
+        "ltranslit": null,
+        "frequency": 11
+      }
+    ]
+  },
+  "-да_DET": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "-да",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.3sg",
+        "translit": "-da",
+        "ltranslit": null,
+        "frequency": 4
+      }
+    ]
+  },
+  "махаʼняю_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -346,11 +490,12 @@
         "features": null,
         "gloss": "to.the.right.pol",
         "translit": "maxaʔńaju",
-        "ltranslit": "maxaʔńaju"
+        "ltranslit": "maxaʔńaju",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+яля": {
+  "яля_NOUN": {
     "frequency": 2,
     "entries": [
       {
@@ -358,11 +503,12 @@
         "features": null,
         "gloss": "sun",
         "translit": "jaľa",
-        "ltranslit": "jaľa"
+        "ltranslit": "jaľa",
+        "frequency": 2
       }
     ]
   },
-  "ADP+серʼ": {
+  "серʼ_ADP": {
     "frequency": 9,
     "entries": [
       {
@@ -370,18 +516,20 @@
         "features": null,
         "gloss": "at.the.time.of",
         "translit": "śerʔ",
-        "ltranslit": "śerʔ"
+        "ltranslit": "śerʔ",
+        "frequency": 8
       },
       {
         "form": "сер",
         "features": null,
         "gloss": "at.the.time.of",
         "translit": "śer",
-        "ltranslit": "śerʔ"
+        "ltranslit": "śerʔ",
+        "frequency": 1
       }
     ]
   },
-  "PRON+тикы": {
+  "тикы_PRON": {
     "frequency": 1,
     "entries": [
       {
@@ -389,11 +537,12 @@
         "features": "PronType=Dem",
         "gloss": "that",
         "translit": "ťiki",
-        "ltranslit": "ťiki"
+        "ltranslit": "ťiki",
+        "frequency": 1
       }
     ]
   },
-  "ADP+пуд": {
+  "пуд_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -401,11 +550,12 @@
         "features": null,
         "gloss": "after.abl",
         "translit": "pud",
-        "ltranslit": "pud"
+        "ltranslit": "pud",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+тарка": {
+  "тарка_NOUN": {
     "frequency": 15,
     "entries": [
       {
@@ -413,11 +563,38 @@
         "features": null,
         "gloss": "fork",
         "translit": "tarka",
-        "ltranslit": "tarka"
+        "ltranslit": "tarka",
+        "frequency": 15
       }
     ]
   },
-  "ADP+нямна": {
+  "-хаю_NUM": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-хаю",
+        "features": null,
+        "gloss": "-du",
+        "translit": "-xaju",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-та_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-та",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.gen.3sg",
+        "translit": "-ta",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "нямна_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -425,11 +602,12 @@
         "features": null,
         "gloss": "at.prol",
         "translit": "ńamna",
-        "ltranslit": "ńamna"
+        "ltranslit": "ńamna",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ӈохолыр-": {
+  "ӈохолыр-_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -437,11 +615,25 @@
         "features": null,
         "gloss": "swim",
         "translit": "ŋoxolir",
-        "ltranslit": "ŋoxolir-"
+        "ltranslit": "ŋoxolir-",
+        "frequency": 2
       }
     ]
   },
-  "NOUN+пыя": {
+  "-ць_AUX": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-ць",
+        "features": null,
+        "gloss": "-cvb",
+        "translit": "-ć",
+        "ltranslit": null,
+        "frequency": 3
+      }
+    ]
+  },
+  "пыя_NOUN": {
     "frequency": 8,
     "entries": [
       {
@@ -449,11 +641,12 @@
         "features": null,
         "gloss": "end",
         "translit": "pija",
-        "ltranslit": "pija"
+        "ltranslit": "pija",
+        "frequency": 8
       }
     ]
   },
-  "VERB+ӈадим-": {
+  "ӈадим-_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -461,18 +654,80 @@
         "features": null,
         "gloss": "appear",
         "translit": "ŋaďiḿa",
-        "ltranslit": "ŋaďim-"
+        "ltranslit": "ŋaďim-",
+        "frequency": 2
       },
       {
         "form": "ӈадим",
         "features": null,
         "gloss": "appear",
         "translit": "ŋaďim",
-        "ltranslit": "ŋaďim-"
+        "ltranslit": "ŋaďim-",
+        "frequency": 1
       }
     ]
   },
-  "ADV+ӈаниʼ": {
+  "-м_ADP": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-м",
+        "features": null,
+        "gloss": "-acc",
+        "translit": "-m",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "-ˮма_AUX": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "-ˮма",
+        "features": null,
+        "gloss": "-pfv.an",
+        "translit": "-ʡma",
+        "ltranslit": null,
+        "frequency": 4
+      },
+      {
+        "form": "-ˮма",
+        "features": null,
+        "gloss": "-ipfv.an",
+        "translit": "-ʡma",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-хада_ADP": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "-хада",
+        "features": null,
+        "gloss": "-abl",
+        "translit": "-xada",
+        "ltranslit": null,
+        "frequency": 4
+      }
+    ]
+  },
+  "-ни_DET": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ни",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-poss.1sg",
+        "translit": "-ńi",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "ӈаниʼ_ADV": {
     "frequency": 4,
     "entries": [
       {
@@ -480,11 +735,12 @@
         "features": null,
         "gloss": "again",
         "translit": "ŋańiʔ",
-        "ltranslit": "ŋańiʔ"
+        "ltranslit": "ŋańiʔ",
+        "frequency": 4
       }
     ]
   },
-  "DET+няби": {
+  "няби_DET": {
     "frequency": 5,
     "entries": [
       {
@@ -492,18 +748,20 @@
         "features": null,
         "gloss": "other",
         "translit": "ńab́i",
-        "ltranslit": "ńab́i"
+        "ltranslit": "ńab́i",
+        "frequency": 4
       },
       {
         "form": "нябиʼ",
         "features": null,
         "gloss": "other",
         "translit": "ńab́iʔ",
-        "ltranslit": "ńab́i"
+        "ltranslit": "ńab́i",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+иˮ": {
+  "иˮ_NOUN": {
     "frequency": 3,
     "entries": [
       {
@@ -511,18 +769,33 @@
         "features": null,
         "gloss": "water",
         "translit": "i",
-        "ltranslit": "iʡ"
+        "ltranslit": "iʡ",
+        "frequency": 2
       },
       {
         "form": "ид",
         "features": null,
         "gloss": "water",
         "translit": "id",
-        "ltranslit": "iʡ"
+        "ltranslit": "iʡ",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+халя": {
+  "-каня_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-каня",
+        "features": null,
+        "gloss": "-loc",
+        "translit": "-kańa",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "халя_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -530,11 +803,25 @@
         "features": null,
         "gloss": "fish",
         "translit": "xaľa",
-        "ltranslit": "xaľa"
+        "ltranslit": "xaľa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+таня-": {
+  "-ˮ_NUM": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ˮ",
+        "features": null,
+        "gloss": "-pl",
+        "translit": "-ʡ",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "таня-_VERB": {
     "frequency": 5,
     "entries": [
       {
@@ -542,18 +829,46 @@
         "features": null,
         "gloss": "exist",
         "translit": "tańa",
-        "ltranslit": "tańa-"
+        "ltranslit": "tańa-",
+        "frequency": 2
       },
       {
         "form": "таня",
         "features": "Number=Sing|Person=3",
         "gloss": "exist.3sg",
         "translit": "tańa",
-        "ltranslit": "tańa-"
+        "ltranslit": "tańa-",
+        "frequency": 3
       }
     ]
   },
-  "ADV+тикахад": {
+  "-вы_AUX": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-вы",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-infr.3sg",
+        "translit": "-wi",
+        "ltranslit": null,
+        "frequency": 3
+      }
+    ]
+  },
+  "-ˮ_PRON": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ˮ",
+        "features": "Number=Plur|Person=3",
+        "gloss": "-3pl",
+        "translit": "-ʡ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "тикахад_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -561,11 +876,12 @@
         "features": null,
         "gloss": "then",
         "translit": "ťikaxad",
-        "ltranslit": "ťikaxad"
+        "ltranslit": "ťikaxad",
+        "frequency": 1
       }
     ]
   },
-  "ADV+махаʼнякуʼ": {
+  "махаʼнякуʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -573,11 +889,25 @@
         "features": null,
         "gloss": "to.the.right.adv",
         "translit": "maxaʔńakuʔ",
-        "ltranslit": "maxaʔńakuʔ"
+        "ltranslit": "maxaʔńakuʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADV+яда": {
+  "-хэя_AUX": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-хэя",
+        "features": null,
+        "gloss": "-intens.cvb",
+        "translit": "-xæja",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "яда_ADV": {
     "frequency": 7,
     "entries": [
       {
@@ -585,11 +915,12 @@
         "features": null,
         "gloss": "on.foot",
         "translit": "jada",
-        "ltranslit": "jada"
+        "ltranslit": "jada",
+        "frequency": 7
       }
     ]
   },
-  "VERB+нэкал": {
+  "нэкал_VERB": {
     "frequency": 10,
     "entries": [
       {
@@ -597,18 +928,20 @@
         "features": null,
         "gloss": "pull-co",
         "translit": "nækal",
-        "ltranslit": "nækal"
+        "ltranslit": "nækal",
+        "frequency": 1
       },
       {
         "form": "нэкал",
         "features": null,
         "gloss": "pull",
         "translit": "nækal",
-        "ltranslit": "nækal"
+        "ltranslit": "nækal",
+        "frequency": 9
       }
     ]
   },
-  "ADV+ӈобʼ": {
+  "ӈобʼ_ADV": {
     "frequency": 6,
     "entries": [
       {
@@ -616,18 +949,20 @@
         "features": null,
         "gloss": "once",
         "translit": "ŋobʔ",
-        "ltranslit": "ŋobʔ"
+        "ltranslit": "ŋobʔ",
+        "frequency": 2
       },
       {
         "form": "ӈобʼ",
         "features": null,
         "gloss": "once,and",
         "translit": "ŋobʔ",
-        "ltranslit": "ŋobʔ"
+        "ltranslit": "ŋobʔ",
+        "frequency": 4
       }
     ]
   },
-  "ADP+нер": {
+  "нер_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -635,11 +970,25 @@
         "features": null,
         "gloss": "in.front.of",
         "translit": "ńer",
-        "ltranslit": "ńer"
+        "ltranslit": "ńer",
+        "frequency": 1
       }
     ]
   },
-  "ADP+няна": {
+  "-ни_ADP": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ни",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-poss.gen.1sg",
+        "translit": "-ńi",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "няна_ADP": {
     "frequency": 4,
     "entries": [
       {
@@ -647,11 +996,12 @@
         "features": null,
         "gloss": "at.loc",
         "translit": "ńana",
-        "ltranslit": "ńana"
+        "ltranslit": "ńana",
+        "frequency": 4
       }
     ]
   },
-  "ADJ+пирця": {
+  "пирця_ADJ": {
     "frequency": 7,
     "entries": [
       {
@@ -659,11 +1009,12 @@
         "features": null,
         "gloss": "tall",
         "translit": "ṕirća",
-        "ltranslit": "ṕirća"
+        "ltranslit": "ṕirća",
+        "frequency": 7
       }
     ]
   },
-  "NOUN+харад": {
+  "харад_NOUN": {
     "frequency": 12,
     "entries": [
       {
@@ -671,18 +1022,20 @@
         "features": null,
         "gloss": "house",
         "translit": "xarad",
-        "ltranslit": "xarad"
+        "ltranslit": "xarad",
+        "frequency": 10
       },
       {
         "form": "харда",
         "features": null,
         "gloss": "house",
         "translit": "xarda",
-        "ltranslit": "xarad"
+        "ltranslit": "xarad",
+        "frequency": 2
       }
     ]
   },
-  "NUM+сидя": {
+  "сидя_NUM": {
     "frequency": 4,
     "entries": [
       {
@@ -690,11 +1043,12 @@
         "features": null,
         "gloss": "two",
         "translit": "śiďa",
-        "ltranslit": "śiďa"
+        "ltranslit": "śiďa",
+        "frequency": 4
       }
     ]
   },
-  "NOUN+сидерˮ": {
+  "сидерˮ_NOUN": {
     "frequency": 2,
     "entries": [
       {
@@ -702,11 +1056,57 @@
         "features": null,
         "gloss": "window",
         "translit": "śiďera",
-        "ltranslit": "śiďerʡ"
+        "ltranslit": "śiďerʡ",
+        "frequency": 2
       }
     ]
   },
-  "NOUN+танциеˮ": {
+  "-нда_ADP": {
+    "frequency": 18,
+    "entries": [
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.gen.3sg",
+        "translit": "-nda",
+        "ltranslit": null,
+        "frequency": 12
+      },
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-gen.poss.3sg",
+        "translit": "-nda",
+        "ltranslit": null,
+        "frequency": 3
+      },
+      {
+        "form": "-нд<un>",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-gen.poss.3sg",
+        "translit": "-nd<un>",
+        "ltranslit": "-nda",
+        "frequency": 1
+      },
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "poss.dat.3sg",
+        "translit": "-nda",
+        "ltranslit": "-nda",
+        "frequency": 1
+      },
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.3sg",
+        "translit": "-nda",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "танциеˮ_NOUN": {
     "frequency": 7,
     "entries": [
       {
@@ -714,25 +1114,49 @@
         "features": null,
         "gloss": "stairs",
         "translit": "tanća",
-        "ltranslit": "tanćieʡ"
+        "ltranslit": "tanćieʡ",
+        "frequency": 1
       },
       {
         "form": "танцяʼ",
         "features": null,
         "gloss": "stairs",
         "translit": "tanćaʔ",
-        "ltranslit": "tanćieʡ"
+        "ltranslit": "tanćieʡ",
+        "frequency": 5
       },
       {
         "form": "танцянзавэй",
         "features": null,
         "gloss": "stairs.com",
         "translit": "tanćanzawæj",
-        "ltranslit": "tanćieʡ"
+        "ltranslit": "tanćieʡ",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+махалы": {
+  "-нда_DET": {
+    "frequency": 6,
+    "entries": [
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.3sg",
+        "translit": "-nda",
+        "ltranslit": null,
+        "frequency": 5
+      },
+      {
+        "form": "-нда",
+        "features": "Number=Sing|Person=3",
+        "gloss": "poss.3sg",
+        "translit": "-nda",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "махалы_NOUN": {
     "frequency": 8,
     "entries": [
       {
@@ -740,32 +1164,36 @@
         "features": null,
         "gloss": "roof",
         "translit": "maxalæj",
-        "ltranslit": "maxali"
+        "ltranslit": "maxali",
+        "frequency": 3
       },
       {
         "form": "маха",
         "features": null,
         "gloss": "roof",
         "translit": "maxa",
-        "ltranslit": "maxali"
+        "ltranslit": "maxali",
+        "frequency": 1
       },
       {
         "form": "махалэя",
         "features": null,
         "gloss": "roof",
         "translit": "maxalæja",
-        "ltranslit": "maxali"
+        "ltranslit": "maxali",
+        "frequency": 3
       },
       {
         "form": "махалэя",
         "features": null,
         "gloss": "roof-",
         "translit": "maxalæja",
-        "ltranslit": "maxali"
+        "ltranslit": "maxali",
+        "frequency": 1
       }
     ]
   },
-  "ADV+тюˮуʼ": {
+  "тюˮуʼ_ADV": {
     "frequency": 3,
     "entries": [
       {
@@ -773,11 +1201,12 @@
         "features": null,
         "gloss": "upwards",
         "translit": "ťuʡuʔ",
-        "ltranslit": "ťuʡuʔ"
+        "ltranslit": "ťuʡuʔ",
+        "frequency": 3
       }
     ]
   },
-  "ADP+няʼ": {
+  "няʼ_ADP": {
     "frequency": 4,
     "entries": [
       {
@@ -785,25 +1214,28 @@
         "features": null,
         "gloss": "at.abl",
         "translit": "ńaʔ",
-        "ltranslit": "ńaʔ"
+        "ltranslit": "ńaʔ",
+        "frequency": 1
       },
       {
         "form": "няʼ",
         "features": null,
         "gloss": "to.dat",
         "translit": "ńaʔ",
-        "ltranslit": "ńaʔ"
+        "ltranslit": "ńaʔ",
+        "frequency": 2
       },
       {
         "form": "няʼ",
         "features": null,
         "gloss": "at.dat",
         "translit": "ńaʔ",
-        "ltranslit": "ńaʔ"
+        "ltranslit": "ńaʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADV+мя": {
+  "мя_ADV": {
     "frequency": 2,
     "entries": [
       {
@@ -811,11 +1243,12 @@
         "features": null,
         "gloss": "tent.equ",
         "translit": "ḿatŕewʔ",
-        "ltranslit": "ḿa"
+        "ltranslit": "ḿa",
+        "frequency": 2
       }
     ]
   },
-  "ADJ+саблюй": {
+  "саблюй_ADJ": {
     "frequency": 4,
     "entries": [
       {
@@ -823,11 +1256,12 @@
         "features": null,
         "gloss": "peak",
         "translit": "sabľuj",
-        "ltranslit": "sabľuj"
+        "ltranslit": "sabľuj",
+        "frequency": 4
       }
     ]
   },
-  "PRON+ӈамгэ": {
+  "ӈамгэ_PRON": {
     "frequency": 1,
     "entries": [
       {
@@ -835,11 +1269,12 @@
         "features": null,
         "gloss": "what.gen.pl",
         "translit": "ŋawoʔ",
-        "ltranslit": "ŋamgæ"
+        "ltranslit": "ŋamgæ",
+        "frequency": 1
       }
     ]
   },
-  "ADP+пиркана": {
+  "пиркана_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -847,11 +1282,25 @@
         "features": null,
         "gloss": "until.pl.loc",
         "translit": "ṕirkaʡna",
-        "ltranslit": "ṕirkana"
+        "ltranslit": "ṕirkana",
+        "frequency": 1
       }
     ]
   },
-  "VERB+тэва-": {
+  "-нʼ_ADP": {
+    "frequency": 5,
+    "entries": [
+      {
+        "form": "-нʼ",
+        "features": null,
+        "gloss": "-dat",
+        "translit": "-nʔ",
+        "ltranslit": null,
+        "frequency": 5
+      }
+    ]
+  },
+  "тэва-_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -859,11 +1308,33 @@
         "features": null,
         "gloss": "arrive",
         "translit": "tæwi",
-        "ltranslit": "tæwa-"
+        "ltranslit": "tæwa-",
+        "frequency": 2
       }
     ]
   },
-  "VERB+танэ": {
+  "-вʼ_PRON": {
+    "frequency": 15,
+    "entries": [
+      {
+        "form": "-вʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-1sg.refl",
+        "translit": "-wʔ",
+        "ltranslit": null,
+        "frequency": 14
+      },
+      {
+        "form": "-вʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "1sg.refl",
+        "translit": "-wʔ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "танэ_VERB": {
     "frequency": 4,
     "entries": [
       {
@@ -871,18 +1342,20 @@
         "features": null,
         "gloss": "go.up-co.refl",
         "translit": "tanæ",
-        "ltranslit": "tanæ"
+        "ltranslit": "tanæ",
+        "frequency": 1
       },
       {
         "form": "танэ",
         "features": null,
         "gloss": "go.up",
         "translit": "tanæ",
-        "ltranslit": "tanæ"
+        "ltranslit": "tanæ",
+        "frequency": 3
       }
     ]
   },
-  "VERB+-я": {
+  "-я_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -890,11 +1363,12 @@
         "features": null,
         "gloss": "go.up-co.refl",
         "translit": "-ja",
-        "ltranslit": "-ja"
+        "ltranslit": "-ja",
+        "frequency": 1
       }
     ]
   },
-  "ADP+мюмня": {
+  "мюмня_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -902,18 +1376,20 @@
         "features": null,
         "gloss": "in.prol",
         "translit": "ḿumńa",
-        "ltranslit": "ḿumńa"
+        "ltranslit": "ḿumńa",
+        "frequency": 1
       },
       {
         "form": "мюмня",
         "features": null,
         "gloss": "through.prol",
         "translit": "ḿumńa",
-        "ltranslit": "ḿumńa"
+        "ltranslit": "ḿumńa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хая-": {
+  "хая-_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -921,11 +1397,12 @@
         "features": null,
         "gloss": "go",
         "translit": "xaja",
-        "ltranslit": "xaja-"
+        "ltranslit": "xaja-",
+        "frequency": 3
       }
     ]
   },
-  "ADJ+несэй": {
+  "несэй_ADJ": {
     "frequency": 1,
     "entries": [
       {
@@ -933,11 +1410,12 @@
         "features": null,
         "gloss": "new(other)",
         "translit": "ńesæj",
-        "ltranslit": "ńesæj"
+        "ltranslit": "ńesæj",
+        "frequency": 1
       }
     ]
   },
-  "VERB+тарпа-": {
+  "тарпа-_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -945,18 +1423,20 @@
         "features": null,
         "gloss": "go.out",
         "translit": "tarpi",
-        "ltranslit": "tarpa-"
+        "ltranslit": "tarpa-",
+        "frequency": 2
       },
       {
         "form": "тарпы",
         "features": null,
         "gloss": "walk.out",
         "translit": "tarpi",
-        "ltranslit": "tarpa-"
+        "ltranslit": "tarpa-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хаˮма-": {
+  "хаˮма-_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -964,18 +1444,20 @@
         "features": null,
         "gloss": "go.down",
         "translit": "xaʡmi",
-        "ltranslit": "xaʡma-"
+        "ltranslit": "xaʡma-",
+        "frequency": 2
       },
       {
         "form": "хаˮам",
         "features": null,
         "gloss": "go.down-",
         "translit": "xaʡam",
-        "ltranslit": "xaʡma-"
+        "ltranslit": "xaʡma-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ядал": {
+  "ядал_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -983,11 +1465,12 @@
         "features": null,
         "gloss": "go.forth-co.refl",
         "translit": "jadal",
-        "ltranslit": "jadal"
+        "ltranslit": "jadal",
+        "frequency": 1
       }
     ]
   },
-  "VERB+-ъя": {
+  "-ъя_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -995,11 +1478,12 @@
         "features": null,
         "gloss": "go.forth-co.refl",
         "translit": "-\"ja",
-        "ltranslit": "-\"ja"
+        "ltranslit": "-\"ja",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ехэра-": {
+  "ехэра-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1007,11 +1491,25 @@
         "features": null,
         "gloss": "not.know",
         "translit": "exæra",
-        "ltranslit": "exæra-"
+        "ltranslit": "exæra-",
+        "frequency": 1
       }
     ]
   },
-  "DET+ӈаниʼ": {
+  "-на_AUX": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-на",
+        "features": null,
+        "gloss": "-ptcp.cont",
+        "translit": "-na",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "ӈаниʼ_DET": {
     "frequency": 1,
     "entries": [
       {
@@ -1019,11 +1517,12 @@
         "features": null,
         "gloss": "other",
         "translit": "ŋańi",
-        "ltranslit": "ŋańiʔ"
+        "ltranslit": "ŋańiʔ",
+        "frequency": 1
       }
     ]
   },
-  "NUM+ӈопой": {
+  "ӈопой_NUM": {
     "frequency": 1,
     "entries": [
       {
@@ -1031,11 +1530,25 @@
         "features": null,
         "gloss": "one",
         "translit": "ŋopoj",
-        "ltranslit": "ŋopoj"
+        "ltranslit": "ŋopoj",
+        "frequency": 1
       }
     ]
   },
-  "AUX+-ӈа": {
+  "-д_DET": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-д",
+        "features": null,
+        "gloss": "-?predest?",
+        "translit": "-d",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-ӈа_AUX": {
     "frequency": 22,
     "entries": [
       {
@@ -1043,11 +1556,12 @@
         "features": null,
         "gloss": "-co",
         "translit": "-ŋa",
-        "ltranslit": "-ŋa"
+        "ltranslit": "-ŋa",
+        "frequency": 22
       }
     ]
   },
-  "ADP+тяхана": {
+  "тяхана_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -1055,11 +1569,12 @@
         "features": null,
         "gloss": "behind.loc",
         "translit": "ťaxana",
-        "ltranslit": "ťaxana"
+        "ltranslit": "ťaxana",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+ты": {
+  "ты_NOUN": {
     "frequency": 3,
     "entries": [
       {
@@ -1067,18 +1582,67 @@
         "features": null,
         "gloss": "reindeer",
         "translit": "tæ",
-        "ltranslit": "ti"
+        "ltranslit": "ti",
+        "frequency": 2
       },
       {
         "form": "ты",
         "features": null,
         "gloss": "reindeer",
         "translit": "ti",
-        "ltranslit": "ti"
+        "ltranslit": "ti",
+        "frequency": 1
       }
     ]
   },
-  "ADP+мюня": {
+  "-хэʼ_NUM": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-хэʼ",
+        "features": null,
+        "gloss": "-du",
+        "translit": "-xæʔ",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "-вэ_AUX": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-вэ",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-infr.3sg",
+        "translit": "-wæ",
+        "ltranslit": null,
+        "frequency": 1
+      },
+      {
+        "form": "-вэ",
+        "features": null,
+        "gloss": "-infr",
+        "translit": "-wæ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-хэˮ_PRON": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-хэˮ",
+        "features": "Number=Dual|Person=3",
+        "gloss": "-3du",
+        "translit": "-xæʡ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "мюня_ADP": {
     "frequency": 3,
     "entries": [
       {
@@ -1086,11 +1650,12 @@
         "features": null,
         "gloss": "in.loc",
         "translit": "ḿuńa",
-        "ltranslit": "ḿuńa"
+        "ltranslit": "ḿuńa",
+        "frequency": 3
       }
     ]
   },
-  "VERB+ну-": {
+  "ну-_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -1098,11 +1663,25 @@
         "features": null,
         "gloss": "stand",
         "translit": "nu",
-        "ltranslit": "nu-"
+        "ltranslit": "nu-",
+        "frequency": 3
       }
     ]
   },
-  "ADP+X": {
+  "-мʼ_PRON": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-мʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-1sg",
+        "translit": "-mʔ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "X_ADP": {
     "frequency": 7,
     "entries": [
       {
@@ -1110,32 +1689,36 @@
         "features": "Number=Sing|Person=2",
         "gloss": "-gen.poss.2sg",
         "translit": "-dʔ",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 1
       },
       {
         "form": "-мана",
         "features": null,
         "gloss": "-prol",
         "translit": "-mana",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 1
       },
       {
         "form": "-хада",
         "features": null,
         "gloss": "-abl",
         "translit": "-xada",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 3
       },
       {
         "form": "-вна",
         "features": null,
         "gloss": "-prol",
         "translit": "-wna",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 2
       }
     ]
   },
-  "INTJ+<d>": {
+  "<d>_INTJ": {
     "frequency": 1,
     "entries": [
       {
@@ -1143,11 +1726,12 @@
         "features": null,
         "gloss": "DISFL",
         "translit": "<d>",
-        "ltranslit": "<d>"
+        "ltranslit": "<d>",
+        "frequency": 1
       }
     ]
   },
-  "ADV+тикахана": {
+  "тикахана_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1155,11 +1739,12 @@
         "features": null,
         "gloss": "there",
         "translit": "ťikaxana",
-        "ltranslit": "ťikaxana"
+        "ltranslit": "ťikaxana",
+        "frequency": 1
       }
     ]
   },
-  "VERB+таня": {
+  "таня_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1167,11 +1752,12 @@
         "features": null,
         "gloss": "exist",
         "translit": "tańa",
-        "ltranslit": "tańa"
+        "ltranslit": "tańa",
+        "frequency": 1
       }
     ]
   },
-  "PRON+X": {
+  "X_PRON": {
     "frequency": 2,
     "entries": [
       {
@@ -1179,18 +1765,20 @@
         "features": "Number=Dual|Person=3",
         "gloss": "-3du",
         "translit": "-xaʡ",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 1
       },
       {
         "form": "-ваˮ",
         "features": "Number=Plur|Person=1",
         "gloss": "-1pl",
         "translit": "-waʡ",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 1
       }
     ]
   },
-  "ADP+няд": {
+  "няд_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -1198,11 +1786,12 @@
         "features": null,
         "gloss": "at.abl",
         "translit": "ńad",
-        "ltranslit": "ńad"
+        "ltranslit": "ńad",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+ни-": {
+  "ни-_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -1210,11 +1799,25 @@
         "features": null,
         "gloss": "top",
         "translit": "ńi",
-        "ltranslit": "ńi-"
+        "ltranslit": "ńi-",
+        "frequency": 1
       }
     ]
   },
-  "ADP+тяхаʼ": {
+  "-мня_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-мня",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-mńa",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "тяхаʼ_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -1222,11 +1825,12 @@
         "features": null,
         "gloss": "over",
         "translit": "ťaxaʔ",
-        "ltranslit": "ťaxaʔ"
+        "ltranslit": "ťaxaʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+санэй-": {
+  "санэй-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1234,11 +1838,12 @@
         "features": null,
         "gloss": "jump",
         "translit": "sanæj",
-        "ltranslit": "sanæj-"
+        "ltranslit": "sanæj-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+сана-": {
+  "сана-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1246,11 +1851,25 @@
         "features": null,
         "gloss": "jump",
         "translit": "sana",
-        "ltranslit": "sana-"
+        "ltranslit": "sana-",
+        "frequency": 1
       }
     ]
   },
-  "ADV+тяхаʼ": {
+  "-ниʼ_DET": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ниʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-poss.1sg",
+        "translit": "-ńiʔ",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "тяхаʼ_ADV": {
     "frequency": 4,
     "entries": [
       {
@@ -1258,18 +1877,20 @@
         "features": null,
         "gloss": "further",
         "translit": "ťaxaʔ",
-        "ltranslit": "ťaxaʔ"
+        "ltranslit": "ťaxaʔ",
+        "frequency": 2
       },
       {
         "form": "тяха",
         "features": null,
         "gloss": "further",
         "translit": "ťaxa",
-        "ltranslit": "ťaxaʔ"
+        "ltranslit": "ťaxaʔ",
+        "frequency": 2
       }
     ]
   },
-  "PRON+нер-": {
+  "нер-_PRON": {
     "frequency": 1,
     "entries": [
       {
@@ -1277,11 +1898,33 @@
         "features": null,
         "gloss": "in.front.of",
         "translit": "ńer",
-        "ltranslit": "ńer-"
+        "ltranslit": "ńer-",
+        "frequency": 1
       }
     ]
   },
-  "X+<n>": {
+  "-ниʼ_ADP": {
+    "frequency": 4,
+    "entries": [
+      {
+        "form": "-ниʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-poss.gen.1sg",
+        "translit": "-ńiʔ",
+        "ltranslit": null,
+        "frequency": 2
+      },
+      {
+        "form": "-ниʼ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-gen.poss.1sg",
+        "translit": "-ńiʔ",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "<n>_X": {
     "frequency": 4,
     "entries": [
       {
@@ -1289,30 +1932,12 @@
         "features": null,
         "gloss": "NOISE",
         "translit": "<n>",
-        "ltranslit": "<n>"
+        "ltranslit": "<n>",
+        "frequency": 4
       }
     ]
   },
-  "ADP+-нда": {
-    "frequency": 2,
-    "entries": [
-      {
-        "form": "-нд<un>",
-        "features": "Number=Sing|Person=3",
-        "gloss": "-gen.poss.3sg",
-        "translit": "-nd<un>",
-        "ltranslit": "-nda"
-      },
-      {
-        "form": "-нда",
-        "features": "Number=Sing|Person=3",
-        "gloss": "poss.dat.3sg",
-        "translit": "-nda",
-        "ltranslit": "-nda"
-      }
-    ]
-  },
-  "AUX+-й": {
+  "-й_AUX": {
     "frequency": 3,
     "entries": [
       {
@@ -1320,11 +1945,12 @@
         "features": null,
         "gloss": "-co.refl",
         "translit": "-j",
-        "ltranslit": "-j"
+        "ltranslit": "-j",
+        "frequency": 3
       }
     ]
   },
-  "VERB+мяттю-": {
+  "мяттю-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1332,11 +1958,12 @@
         "features": null,
         "gloss": "enter",
         "translit": "ḿatťu",
-        "ltranslit": "ḿatťu-"
+        "ltranslit": "ḿatťu-",
+        "frequency": 1
       }
     ]
   },
-  "ADV+иртʼ": {
+  "иртʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1344,11 +1971,12 @@
         "features": null,
         "gloss": "straight",
         "translit": "irtʔ",
-        "ltranslit": "irtʔ"
+        "ltranslit": "irtʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADV+нярˮ": {
+  "нярˮ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1356,11 +1984,12 @@
         "features": null,
         "gloss": "across",
         "translit": "ńarʡ",
-        "ltranslit": "ńarʡ"
+        "ltranslit": "ńarʡ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хэхэдёйта-": {
+  "хэхэдёйта-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1368,11 +1997,12 @@
         "features": null,
         "gloss": "run.across",
         "translit": "xæxæďojta",
-        "ltranslit": "xæxæďojta-"
+        "ltranslit": "xæxæďojta-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+нэ-": {
+  "нэ-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1380,11 +2010,12 @@
         "features": null,
         "gloss": "open",
         "translit": "næ",
-        "ltranslit": "næ-"
+        "ltranslit": "næ-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хаˮамы-": {
+  "хаˮамы-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1392,11 +2023,12 @@
         "features": null,
         "gloss": "go.down",
         "translit": "xaʡami",
-        "ltranslit": "xaʡami-"
+        "ltranslit": "xaʡami-",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+маханякубта": {
+  "маханякубта_NOUN": {
     "frequency": 3,
     "entries": [
       {
@@ -1404,11 +2036,12 @@
         "features": null,
         "gloss": "right.side",
         "translit": "maxańakubta",
-        "ltranslit": "maxańakubta"
+        "ltranslit": "maxańakubta",
+        "frequency": 3
       }
     ]
   },
-  "VERB+ми-": {
+  "ми-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1416,11 +2049,25 @@
         "features": null,
         "gloss": "go",
         "translit": "ḿi",
-        "ltranslit": "ḿi-"
+        "ltranslit": "ḿi-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ӈохолё": {
+  "-ма_AUX": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ма",
+        "features": null,
+        "gloss": "-ipfv.an",
+        "translit": "-ma",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "ӈохолё_VERB": {
     "frequency": 7,
     "entries": [
       {
@@ -1428,11 +2075,12 @@
         "features": "VerbForm=Conv",
         "gloss": "swim.cvb",
         "translit": "ŋoxoľo",
-        "ltranslit": "ŋoxoľo"
+        "ltranslit": "ŋoxoľo",
+        "frequency": 7
       }
     ]
   },
-  "VERB+мада": {
+  "мада_VERB": {
     "frequency": 8,
     "entries": [
       {
@@ -1440,18 +2088,20 @@
         "features": null,
         "gloss": "pass.across",
         "translit": "mada",
-        "ltranslit": "mada"
+        "ltranslit": "mada",
+        "frequency": 6
       },
       {
         "form": "мада",
         "features": "VerbForm=Conv",
         "gloss": "pass.across.cvb",
         "translit": "mada",
-        "ltranslit": "mada"
+        "ltranslit": "mada",
+        "frequency": 2
       }
     ]
   },
-  "ADP+ниʼ": {
+  "ниʼ_ADP": {
     "frequency": 4,
     "entries": [
       {
@@ -1459,18 +2109,20 @@
         "features": null,
         "gloss": "at.dat",
         "translit": "ńiʔ",
-        "ltranslit": "ńiʔ"
+        "ltranslit": "ńiʔ",
+        "frequency": 2
       },
       {
         "form": "ниʼ",
         "features": null,
         "gloss": "on.dat",
         "translit": "ńiʔ",
-        "ltranslit": "ńiʔ"
+        "ltranslit": "ńiʔ",
+        "frequency": 2
       }
     ]
   },
-  "VERB+танэй-": {
+  "танэй-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1478,11 +2130,12 @@
         "features": null,
         "gloss": "go.up",
         "translit": "tanæj",
-        "ltranslit": "tanæj-"
+        "ltranslit": "tanæj-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ялъя": {
+  "ялъя_VERB": {
     "frequency": 3,
     "entries": [
       {
@@ -1490,11 +2143,38 @@
         "features": null,
         "gloss": "walk",
         "translit": "jal\"ja",
-        "ltranslit": "jal\"ja"
+        "ltranslit": "jal\"ja",
+        "frequency": 3
       }
     ]
   },
-  "ADP+нер-": {
+  "-ва_AUX": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ва",
+        "features": null,
+        "gloss": "-ipfv.an",
+        "translit": "-wa",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "-ˮ_ADP": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ˮ",
+        "features": null,
+        "gloss": "-gen",
+        "translit": "-ʡ",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "нер-_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -1502,11 +2182,12 @@
         "features": null,
         "gloss": "in.front.of",
         "translit": "ńer",
-        "ltranslit": "ńer-"
+        "ltranslit": "ńer-",
+        "frequency": 2
       }
     ]
   },
-  "ADJ+маханяӈы": {
+  "маханяӈы_ADJ": {
     "frequency": 3,
     "entries": [
       {
@@ -1514,18 +2195,20 @@
         "features": null,
         "gloss": "from.right.adj",
         "translit": "maxańaŋi",
-        "ltranslit": "maxańaŋi"
+        "ltranslit": "maxańaŋi",
+        "frequency": 1
       },
       {
         "form": "маханяӈы",
         "features": null,
         "gloss": "from.the.right.adj",
         "translit": "maxańaŋi",
-        "ltranslit": "maxańaŋi"
+        "ltranslit": "maxańaŋi",
+        "frequency": 2
       }
     ]
   },
-  "ADP+пырдариʼ": {
+  "пырдариʼ_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -1533,11 +2216,12 @@
         "features": null,
         "gloss": "against",
         "translit": "pirdaŕiʔ",
-        "ltranslit": "pirdaŕiʔ"
+        "ltranslit": "pirdaŕiʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+яд-": {
+  "яд-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1545,11 +2229,12 @@
         "features": null,
         "gloss": "walk",
         "translit": "jad",
-        "ltranslit": "jad-"
+        "ltranslit": "jad-",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+сятанякубта": {
+  "сятанякубта_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -1557,11 +2242,12 @@
         "features": null,
         "gloss": "left.side",
         "translit": "śatańakubta",
-        "ltranslit": "śatańakubta"
+        "ltranslit": "śatańakubta",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ялъя-": {
+  "ялъя-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1569,11 +2255,12 @@
         "features": null,
         "gloss": "walk",
         "translit": "jal\"ja",
-        "ltranslit": "jal\"ja-"
+        "ltranslit": "jal\"ja-",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+сэв": {
+  "сэв_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -1581,11 +2268,64 @@
         "features": null,
         "gloss": "eye",
         "translit": "sæw",
-        "ltranslit": "sæw"
+        "ltranslit": "sæw",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+тодоʼ": {
+  "-ˮни_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ˮни",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-pl.poss.gen.1sg",
+        "translit": "-ʡńi",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-бʼ_AUX": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-бʼ",
+        "features": null,
+        "gloss": "-cond",
+        "translit": "-bʔ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-хана_ADP": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-хана",
+        "features": null,
+        "gloss": "-loc",
+        "translit": "-xana",
+        "ltranslit": null,
+        "frequency": 2
+      }
+    ]
+  },
+  "-хад_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-хад",
+        "features": null,
+        "gloss": "-abl",
+        "translit": "-xad",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "тодоʼ_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -1593,11 +2333,12 @@
         "features": null,
         "gloss": "all",
         "translit": "todoʔ",
-        "ltranslit": "todoʔ"
+        "ltranslit": "todoʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+сыр": {
+  "сыр_VERB": {
     "frequency": 7,
     "entries": [
       {
@@ -1605,18 +2346,20 @@
         "features": null,
         "gloss": "look",
         "translit": "sir",
-        "ltranslit": "sir"
+        "ltranslit": "sir",
+        "frequency": 6
       },
       {
         "form": "сыро",
         "features": null,
         "gloss": "look",
         "translit": "siro",
-        "ltranslit": "sir"
+        "ltranslit": "sir",
+        "frequency": 1
       }
     ]
   },
-  "ADV+сятаняʼ": {
+  "сятаняʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1624,11 +2367,12 @@
         "features": null,
         "gloss": "to.the.left",
         "translit": "śatańaʔ",
-        "ltranslit": "śatańaʔ"
+        "ltranslit": "śatańaʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADV+маханяʼ": {
+  "маханяʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1636,11 +2380,12 @@
         "features": null,
         "gloss": "to.the.right",
         "translit": "maxańaʔ",
-        "ltranslit": "maxańaʔ"
+        "ltranslit": "maxańaʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADJ+маханяӈэюмʼ": {
+  "маханяӈэюмʼ_ADJ": {
     "frequency": 1,
     "entries": [
       {
@@ -1648,11 +2393,12 @@
         "features": null,
         "gloss": "to.the.right.adj.pol",
         "translit": "maxańaŋæjumʔ",
-        "ltranslit": "maxańaŋæjumʔ"
+        "ltranslit": "maxańaŋæjumʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+тасла": {
+  "тасла_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -1660,11 +2406,12 @@
         "features": null,
         "gloss": "decide",
         "translit": "tasla",
-        "ltranslit": "tasla"
+        "ltranslit": "tasla",
+        "frequency": 2
       }
     ]
   },
-  "ADJ+махалэй": {
+  "махалэй_ADJ": {
     "frequency": 1,
     "entries": [
       {
@@ -1672,11 +2419,51 @@
         "features": null,
         "gloss": "roof.adj",
         "translit": "maxalæj",
-        "ltranslit": "maxalæj"
+        "ltranslit": "maxalæj",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+яд": {
+  "-та_DET": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-та",
+        "features": null,
+        "gloss": "-predest",
+        "translit": "-ta",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-на_DET": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-на",
+        "features": "Number=Sing|Person=3",
+        "gloss": "-poss.3sg",
+        "translit": "-na",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "-маʼ_AUX": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-маʼ",
+        "features": null,
+        "gloss": "-impfv.an",
+        "translit": "-maʔ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "яд_NOUN": {
     "frequency": 4,
     "entries": [
       {
@@ -1684,18 +2471,20 @@
         "features": null,
         "gloss": "wall",
         "translit": "jadu",
-        "ltranslit": "jad"
+        "ltranslit": "jad",
+        "frequency": 3
       },
       {
         "form": "<er>яду",
         "features": null,
         "gloss": "wall",
         "translit": "<er>jadu",
-        "ltranslit": "jad"
+        "ltranslit": "jad",
+        "frequency": 1
       }
     ]
   },
-  "X+<d>": {
+  "<d>_X": {
     "frequency": 1,
     "entries": [
       {
@@ -1703,11 +2492,25 @@
         "features": null,
         "gloss": "<d>",
         "translit": "<d>",
-        "ltranslit": "<d>"
+        "ltranslit": "<d>",
+        "frequency": 1
       }
     ]
   },
-  "ADP+нид": {
+  "-вˮ_PRON": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-вˮ",
+        "features": "Number=Sing|Person=1",
+        "gloss": "-1sg.refl",
+        "translit": "-wʡ",
+        "ltranslit": null,
+        "frequency": 3
+      }
+    ]
+  },
+  "нид_ADP": {
     "frequency": 3,
     "entries": [
       {
@@ -1715,11 +2518,12 @@
         "features": null,
         "gloss": "at.abl",
         "translit": "ńid",
-        "ltranslit": "ńid"
+        "ltranslit": "ńid",
+        "frequency": 3
       }
     ]
   },
-  "ADV+яˮамна": {
+  "яˮамна_ADV": {
     "frequency": 2,
     "entries": [
       {
@@ -1727,11 +2531,12 @@
         "features": null,
         "gloss": "around.prol",
         "translit": "jaʡamna",
-        "ltranslit": "jaʡamna"
+        "ltranslit": "jaʡamna",
+        "frequency": 2
       }
     ]
   },
-  "ADV+тасиʼ": {
+  "тасиʼ_ADV": {
     "frequency": 3,
     "entries": [
       {
@@ -1739,18 +2544,20 @@
         "features": null,
         "gloss": "downward.dat",
         "translit": "taśiʔ",
-        "ltranslit": "taśiʔ"
+        "ltranslit": "taśiʔ",
+        "frequency": 2
       },
       {
         "form": "тасиʼ",
         "features": null,
         "gloss": "downward",
         "translit": "taśiʔ",
-        "ltranslit": "taśiʔ"
+        "ltranslit": "taśiʔ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ӈохолыр": {
+  "ӈохолыр_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -1758,11 +2565,25 @@
         "features": null,
         "gloss": "swim",
         "translit": "ŋoxolir",
-        "ltranslit": "ŋoxolir"
+        "ltranslit": "ŋoxolir",
+        "frequency": 2
       }
     ]
   },
-  "ADP+ӈыламна": {
+  "-ць_VERB": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ць",
+        "features": null,
+        "gloss": "-cvb",
+        "translit": "-ć",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "ӈыламна_ADP": {
     "frequency": 3,
     "entries": [
       {
@@ -1770,11 +2591,12 @@
         "features": null,
         "gloss": "under.prol",
         "translit": "ŋilamna",
-        "ltranslit": "ŋilamna"
+        "ltranslit": "ŋilamna",
+        "frequency": 3
       }
     ]
   },
-  "ADV+таханяюʼ": {
+  "таханяюʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1782,11 +2604,12 @@
         "features": null,
         "gloss": "there.pol",
         "translit": "taxańajuʔ",
-        "ltranslit": "taxańajuʔ"
+        "ltranslit": "taxańajuʔ",
+        "frequency": 1
       }
     ]
   },
-  "ADV+таремʼ": {
+  "таремʼ_ADV": {
     "frequency": 2,
     "entries": [
       {
@@ -1794,11 +2617,12 @@
         "features": null,
         "gloss": "this.way",
         "translit": "taŕemʔ",
-        "ltranslit": "taŕemʔ"
+        "ltranslit": "taŕemʔ",
+        "frequency": 2
       }
     ]
   },
-  "VERB+пэр": {
+  "пэр_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1806,11 +2630,33 @@
         "features": null,
         "gloss": "do",
         "translit": "pær",
-        "ltranslit": "pær"
+        "ltranslit": "pær",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+вар": {
+  "-ва_PRON": {
+    "frequency": 2,
+    "entries": [
+      {
+        "form": "-ва",
+        "features": "Number=Sing|Person=1",
+        "gloss": "1sg.refl",
+        "translit": "-wa",
+        "ltranslit": null,
+        "frequency": 1
+      },
+      {
+        "form": "-ва",
+        "features": "Number=Sing|Number[obj]=Sing|Person=1",
+        "gloss": "-1sg.sg",
+        "translit": "-wa",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "вар_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -1818,11 +2664,12 @@
         "features": null,
         "gloss": "shore",
         "translit": "waru",
-        "ltranslit": "war"
+        "ltranslit": "war",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+лаӈг": {
+  "лаӈг_NOUN": {
     "frequency": 2,
     "entries": [
       {
@@ -1830,11 +2677,12 @@
         "features": null,
         "gloss": "steep.riverbank",
         "translit": "laŋg",
-        "ltranslit": "laŋg"
+        "ltranslit": "laŋg",
+        "frequency": 2
       }
     ]
   },
-  "ADJ+сятаняю": {
+  "сятаняю_ADJ": {
     "frequency": 1,
     "entries": [
       {
@@ -1842,11 +2690,25 @@
         "features": null,
         "gloss": "to.the.left.adj",
         "translit": "śatańaju",
-        "ltranslit": "śatańaju"
+        "ltranslit": "śatańaju",
+        "frequency": 1
       }
     ]
   },
-  "ADV+таняна": {
+  "-мна_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-мна",
+        "features": null,
+        "gloss": "-prol",
+        "translit": "-mna",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "таняна_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -1854,11 +2716,12 @@
         "features": null,
         "gloss": "there",
         "translit": "tańana",
-        "ltranslit": "tańana"
+        "ltranslit": "tańana",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+ӈано": {
+  "ӈано_NOUN": {
     "frequency": 10,
     "entries": [
       {
@@ -1866,11 +2729,12 @@
         "features": null,
         "gloss": "boat",
         "translit": "ŋano",
-        "ltranslit": "ŋano"
+        "ltranslit": "ŋano",
+        "frequency": 10
       }
     ]
   },
-  "VERB+яӈго": {
+  "яӈго_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1878,11 +2742,12 @@
         "features": null,
         "gloss": "not.exist",
         "translit": "jaŋgo",
-        "ltranslit": "jaŋgo"
+        "ltranslit": "jaŋgo",
+        "frequency": 1
       }
     ]
   },
-  "ADP+тяханяна": {
+  "тяханяна_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -1890,11 +2755,12 @@
         "features": null,
         "gloss": "through.loc",
         "translit": "ťaxańana",
-        "ltranslit": "ťaxańana"
+        "ltranslit": "ťaxańana",
+        "frequency": 1
       }
     ]
   },
-  "AUX+ӈa": {
+  "ӈa_AUX": {
     "frequency": 1,
     "entries": [
       {
@@ -1902,11 +2768,12 @@
         "features": null,
         "gloss": "be",
         "translit": "ŋæ",
-        "ltranslit": "ŋa"
+        "ltranslit": "ŋa",
+        "frequency": 1
       }
     ]
   },
-  "ADP+няюʼ": {
+  "няюʼ_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -1914,11 +2781,25 @@
         "features": null,
         "gloss": "towards.dat",
         "translit": "ńajuʔ",
-        "ltranslit": "ńajuʔ"
+        "ltranslit": "ńajuʔ",
+        "frequency": 2
       }
     ]
   },
-  "VERB+ядалъ": {
+  "-ход_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ход",
+        "features": null,
+        "gloss": "-abl",
+        "translit": "-xod",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "ядалъ_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1926,11 +2807,12 @@
         "features": null,
         "gloss": "go.forth",
         "translit": "jadal\"",
-        "ltranslit": "jadal\""
+        "ltranslit": "jadal\"",
+        "frequency": 1
       }
     ]
   },
-  "AUX+-я": {
+  "-я_AUX": {
     "frequency": 1,
     "entries": [
       {
@@ -1938,11 +2820,12 @@
         "features": null,
         "gloss": "-co.refl",
         "translit": "-ja",
-        "ltranslit": "-ja"
+        "ltranslit": "-ja",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+я": {
+  "я_NOUN": {
     "frequency": 4,
     "entries": [
       {
@@ -1950,11 +2833,12 @@
         "features": null,
         "gloss": "land",
         "translit": "ja",
-        "ltranslit": "ja"
+        "ltranslit": "ja",
+        "frequency": 4
       }
     ]
   },
-  "NOUN+хой": {
+  "хой_NOUN": {
     "frequency": 3,
     "entries": [
       {
@@ -1962,11 +2846,12 @@
         "features": null,
         "gloss": "hill",
         "translit": "xoj",
-        "ltranslit": "xoj"
+        "ltranslit": "xoj",
+        "frequency": 3
       }
     ]
   },
-  "ADP+ниня": {
+  "ниня_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -1974,18 +2859,20 @@
         "features": null,
         "gloss": "at.loc",
         "translit": "ńińa",
-        "ltranslit": "ńińa"
+        "ltranslit": "ńińa",
+        "frequency": 1
       },
       {
         "form": "<iw>ниӈа",
         "features": null,
         "gloss": "at.loc",
         "translit": "<iw>ńiŋa",
-        "ltranslit": "ńińa"
+        "ltranslit": "ńińa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+ну": {
+  "ну_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -1993,11 +2880,33 @@
         "features": null,
         "gloss": "stand",
         "translit": "nu",
-        "ltranslit": "nu"
+        "ltranslit": "nu",
+        "frequency": 1
       }
     ]
   },
-  "ADV+нерняʼ": {
+  "-ваˮ_PRON": {
+    "frequency": 17,
+    "entries": [
+      {
+        "form": "-ваˮ",
+        "features": "Number=Plur|Person=1",
+        "gloss": "-1pl",
+        "translit": "-waʡ",
+        "ltranslit": null,
+        "frequency": 13
+      },
+      {
+        "form": "-ваˮ",
+        "features": "Number=Plur|Number[obj]=Sing|Person=1",
+        "gloss": "-1pl.sg",
+        "translit": "-waʡ",
+        "ltranslit": null,
+        "frequency": 4
+      }
+    ]
+  },
+  "нерняʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -2005,11 +2914,12 @@
         "features": null,
         "gloss": "in.front.of.dat",
         "translit": "ńerńaʔ",
-        "ltranslit": "ńerńaʔ"
+        "ltranslit": "ńerńaʔ",
+        "frequency": 1
       }
     ]
   },
-  "AUX+ӈа": {
+  "ӈа_AUX": {
     "frequency": 1,
     "entries": [
       {
@@ -2017,11 +2927,12 @@
         "features": null,
         "gloss": "-co",
         "translit": "ŋa",
-        "ltranslit": "ŋa"
+        "ltranslit": "ŋa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+тэва": {
+  "тэва_VERB": {
     "frequency": 4,
     "entries": [
       {
@@ -2029,18 +2940,46 @@
         "features": null,
         "gloss": "arrive",
         "translit": "tæwi",
-        "ltranslit": "tæwa"
+        "ltranslit": "tæwa",
+        "frequency": 3
       },
       {
         "form": "тэв",
         "features": null,
         "gloss": "arrive",
         "translit": "tæw",
-        "ltranslit": "tæwa"
+        "ltranslit": "tæwa",
+        "frequency": 1
       }
     ]
   },
-  "ADV+лабята": {
+  "-наˮ_PRON": {
+    "frequency": 7,
+    "entries": [
+      {
+        "form": "-наˮ",
+        "features": "Number=Plur|Person=1",
+        "gloss": "-1pl.refl",
+        "translit": "-naʡ",
+        "ltranslit": null,
+        "frequency": 7
+      }
+    ]
+  },
+  "-тʼ_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-тʼ",
+        "features": null,
+        "gloss": "-dat",
+        "translit": "-tʔ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "лабята_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -2048,11 +2987,12 @@
         "features": null,
         "gloss": "row.cvb",
         "translit": "lab́ata",
-        "ltranslit": "lab́ata"
+        "ltranslit": "lab́ata",
+        "frequency": 1
       }
     ]
   },
-  "DET+<p>": {
+  "<p>_DET": {
     "frequency": 2,
     "entries": [
       {
@@ -2060,18 +3000,20 @@
         "features": null,
         "gloss": "PAUSE",
         "translit": "<p>",
-        "ltranslit": "<p>"
+        "ltranslit": "<p>",
+        "frequency": 1
       },
       {
         "form": "<p>",
         "features": null,
         "gloss": "X",
         "translit": "<p>",
-        "ltranslit": "<p>"
+        "ltranslit": "<p>",
+        "frequency": 1
       }
     ]
   },
-  "ADV+тяханяюʼ": {
+  "тяханяюʼ_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -2079,11 +3021,25 @@
         "features": null,
         "gloss": "there.pol",
         "translit": "ťaxańajuʔ",
-        "ltranslit": "ťaxańajuʔ"
+        "ltranslit": "ťaxańajuʔ",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+тир": {
+  "-ваˮ_DET": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-ваˮ",
+        "features": "Number=Plur|Person=3",
+        "gloss": "-poss.3pl",
+        "translit": "-waʡ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "тир_NOUN": {
     "frequency": 4,
     "entries": [
       {
@@ -2091,11 +3047,25 @@
         "features": null,
         "gloss": "edge",
         "translit": "ťir",
-        "ltranslit": "ťir"
+        "ltranslit": "ťir",
+        "frequency": 4
       }
     ]
   },
-  "VERB+хае": {
+  "-кана_ADP": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "-кана",
+        "features": null,
+        "gloss": "edge",
+        "translit": "-kana",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "хае_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2103,11 +3073,12 @@
         "features": null,
         "gloss": "leave",
         "translit": "xae",
-        "ltranslit": "xae"
+        "ltranslit": "xae",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хаˮавра": {
+  "хаˮавра_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2115,11 +3086,12 @@
         "features": null,
         "gloss": "go.down",
         "translit": "xaʡawra",
-        "ltranslit": "xaʡawra"
+        "ltranslit": "xaʡawra",
+        "frequency": 1
       }
     ]
   },
-  "ADP+ӈэсондʼ": {
+  "ӈэсондʼ_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -2127,11 +3099,12 @@
         "features": null,
         "gloss": "up.to.dat",
         "translit": "ŋæsondʔ",
-        "ltranslit": "ŋæsondʔ"
+        "ltranslit": "ŋæsondʔ",
+        "frequency": 2
       }
     ]
   },
-  "VERB+хэ": {
+  "хэ_VERB": {
     "frequency": 4,
     "entries": [
       {
@@ -2139,25 +3112,28 @@
         "features": null,
         "gloss": "go",
         "translit": "xæ",
-        "ltranslit": "xæ"
+        "ltranslit": "xæ",
+        "frequency": 1
       },
       {
         "form": "хая",
         "features": null,
         "gloss": "go",
         "translit": "xaja",
-        "ltranslit": "xæ"
+        "ltranslit": "xæ",
+        "frequency": 2
       },
       {
         "form": "хэя",
         "features": null,
         "gloss": "go",
         "translit": "xæja",
-        "ltranslit": "xæ"
+        "ltranslit": "xæ",
+        "frequency": 1
       }
     ]
   },
-  "AUX+X": {
+  "X_AUX": {
     "frequency": 3,
     "entries": [
       {
@@ -2165,18 +3141,20 @@
         "features": null,
         "gloss": "-cvb",
         "translit": "-ś",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 1
       },
       {
         "form": "-ˮма",
         "features": null,
         "gloss": "-pfv.an",
         "translit": "-ʡma",
-        "ltranslit": "X"
+        "ltranslit": "X",
+        "frequency": 2
       }
     ]
   },
-  "AUX+тара": {
+  "тара_AUX": {
     "frequency": 1,
     "entries": [
       {
@@ -2184,11 +3162,12 @@
         "features": "Number=Sing|Person=3",
         "gloss": "need.3sg",
         "translit": "tara",
-        "ltranslit": "tara"
+        "ltranslit": "tara",
+        "frequency": 1
       }
     ]
   },
-  "VERB+тана": {
+  "тана_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2196,11 +3175,25 @@
         "features": null,
         "gloss": "go.up",
         "translit": "tana",
-        "ltranslit": "tana"
+        "ltranslit": "tana",
+        "frequency": 1
       }
     ]
   },
-  "ADP+ня": {
+  "-наˮ_DET": {
+    "frequency": 3,
+    "entries": [
+      {
+        "form": "-наˮ",
+        "features": "Number=Plur|Person=1",
+        "gloss": "-poss.1pl",
+        "translit": "-naʡ",
+        "ltranslit": null,
+        "frequency": 3
+      }
+    ]
+  },
+  "ня_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -2208,11 +3201,12 @@
         "features": null,
         "gloss": "at",
         "translit": "ńa",
-        "ltranslit": "ńa"
+        "ltranslit": "ńa",
+        "frequency": 1
       }
     ]
   },
-  "VERB+танэй": {
+  "танэй_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2220,11 +3214,12 @@
         "features": null,
         "gloss": "go.up",
         "translit": "tanæj",
-        "ltranslit": "tanæj"
+        "ltranslit": "tanæj",
+        "frequency": 1
       }
     ]
   },
-  "ADP+яˮамна": {
+  "яˮамна_ADP": {
     "frequency": 1,
     "entries": [
       {
@@ -2232,11 +3227,12 @@
         "features": null,
         "gloss": "around.prol",
         "translit": "jaʡamna",
-        "ltranslit": "jaʡamna"
+        "ltranslit": "jaʡamna",
+        "frequency": 1
       }
     ]
   },
-  "VERB+хаˮамы": {
+  "хаˮамы_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -2244,11 +3240,12 @@
         "features": null,
         "gloss": "go.down",
         "translit": "xaʡmi",
-        "ltranslit": "xaʡami"
+        "ltranslit": "xaʡami",
+        "frequency": 2
       }
     ]
   },
-  "ADV+тадтикахавахад": {
+  "тадтикахавахад_ADV": {
     "frequency": 1,
     "entries": [
       {
@@ -2256,11 +3253,12 @@
         "features": null,
         "gloss": "afterwards",
         "translit": "Tadťikaxawaxad",
-        "ltranslit": "tadťikaxawaxad"
+        "ltranslit": "tadťikaxawaxad",
+        "frequency": 1
       }
     ]
   },
-  "NOUN+маха": {
+  "маха_NOUN": {
     "frequency": 1,
     "entries": [
       {
@@ -2268,11 +3266,12 @@
         "features": null,
         "gloss": "back",
         "translit": "maxa",
-        "ltranslit": "maxa"
+        "ltranslit": "maxa",
+        "frequency": 1
       }
     ]
   },
-  "ADP+сюрте": {
+  "сюрте_ADP": {
     "frequency": 2,
     "entries": [
       {
@@ -2280,18 +3279,20 @@
         "features": null,
         "gloss": "around",
         "translit": "<f>śurt<un>",
-        "ltranslit": "śurťe"
+        "ltranslit": "śurťe",
+        "frequency": 1
       },
       {
         "form": "сюрте",
         "features": null,
         "gloss": "around",
         "translit": "śurťe",
-        "ltranslit": "śurťe"
+        "ltranslit": "śurťe",
+        "frequency": 1
       }
     ]
   },
-  "VERB+мэ": {
+  "мэ_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2299,11 +3300,25 @@
         "features": null,
         "gloss": "take",
         "translit": "mæ",
-        "ltranslit": "mæ"
+        "ltranslit": "mæ",
+        "frequency": 1
       }
     ]
   },
-  "VERB+яда": {
+  "ваˮ_PRON": {
+    "frequency": 1,
+    "entries": [
+      {
+        "form": "ваˮ",
+        "features": "Number=Plur|Person=1",
+        "gloss": "-1pl",
+        "translit": "waʡ",
+        "ltranslit": null,
+        "frequency": 1
+      }
+    ]
+  },
+  "яда_VERB": {
     "frequency": 2,
     "entries": [
       {
@@ -2311,11 +3326,12 @@
         "features": null,
         "gloss": "walk",
         "translit": "jada",
-        "ltranslit": "jada"
+        "ltranslit": "jada",
+        "frequency": 2
       }
     ]
   },
-  "VERB+тасла-": {
+  "тасла-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2323,11 +3339,12 @@
         "features": null,
         "gloss": "decide",
         "translit": "tasla",
-        "ltranslit": "tasla-"
+        "ltranslit": "tasla-",
+        "frequency": 1
       }
     ]
   },
-  "VERB+нулта-": {
+  "нулта-_VERB": {
     "frequency": 1,
     "entries": [
       {
@@ -2335,7 +3352,8 @@
         "features": null,
         "gloss": "stop",
         "translit": "nulta-",
-        "ltranslit": "nulta-"
+        "ltranslit": "nulta-",
+        "frequency": 1
       }
     ]
   }
