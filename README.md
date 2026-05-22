@@ -6,24 +6,37 @@ Pipeline de reconnaissance automatique de la parole (ASR) pour le **nénètse**,
 
 ## Structure du projet
 
+### Contenu versionné (branche `dev`)
+
 ```
 nenets/
-├── 0_raw_data/                  # Fichiers audio bruts et TextGrids sources
-├── 1_data_prepared/
-│   ├── processed_audio_16k/     # Segments audio normalisés (16 kHz mono) + metadata.csv
-│   ├── inference_segments/      # Segments à transcrire (audio non annoté)
-│   └── inference_textgrids/     # TextGrids d'inférence
-├── 2_models/                    # Checkpoints et poids finaux des modèles fine-tunés
-├── 3_results/                   # CSV de transcriptions, fichiers d'évaluation, recap
 ├── OmnilingualZS/               # Pipeline zero-shot Omnilingual ASR
-│   ├── corpus_entrainement/     # Exemples de contexte (90 % du corpus)
-│   ├── corpus_evaluation/       # Segments de test (10 % du corpus)
-│   ├── test_omni_ZS.py          # Script de test/exploration Omnilingual
-│   └── 9_evaluate_omni_zs.py   # Évaluation formelle WER/CER Omnilingual
-├── scripts/                     # Tous les scripts du pipeline
-├── monolingual_texts/           # Textes monolingues nénètse (normalisation)
+│   ├── corpus_entrainement/     # Segments train (90 %, 157 fichiers .wav)
+│   ├── corpus_evaluation/       # Segments test (10 %, 17 fichiers .wav)
+│   ├── test_omni_ZS.py          # Test / exploration Omnilingual
+│   └── 9_evaluate_omni_zs.py    # Évaluation formelle WER/CER Omnilingual
+├── conllu/                      # Corpus CoNLL-U MapTask + lexique (parse_conllu.py)
+├── scripts/                     # Scripts du pipeline ASR (préparation → évaluation)
 ├── requirements.txt
-└── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2)
+├── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2)
+└── LICENSE
+```
+
+### Dossiers locaux attendus (non versionnés, voir `.gitignore`)
+
+Ces répertoires sont requis par les scripts d'entraînement et d'inférence, mais **ne sont pas poussés sur GitHub** (volume, droits, fichiers audio). À recréer localement ou à récupérer séparément.
+
+```
+nenets/
+├── 0_raw_data/
+│   └── untranscribed_audio/     # Audio brut (.wav) pour VAD et découpe
+├── 1_data_prepared/
+│   ├── processed_audio_16k/     # Segments annotés 16 kHz + metadata.csv (fine-tuning)
+│   ├── inference_segments/      # Segments à transcrire + metadata_inference.csv
+│   └── inference_textgrids/     # TextGrids VAD / inférence
+├── 2_models/                    # Checkpoints et poids finaux des modèles fine-tunés
+├── 3_results/                   # CSV de transcriptions, évaluations, recap
+└── monolingual_texts/           # Textes monolingues (scripts/normalize_monolingual_texts.py)
 ```
 
 ---
@@ -96,9 +109,7 @@ python scripts/8_evaluate_cer_ru.py
 python scripts/8_evaluate_cer_large_ru.py
 
 # Évaluation zero-shot Omnilingual
-python scripts/9_evaluate_omni_zs.py [--num-context N] [--output FILE]
-# ou depuis le dossier dédié :
-python OmnilingualZS/9_evaluate_omni_zs.py
+python OmnilingualZS/9_evaluate_omni_zs.py [--num-context N] [--output FILE]
 ```
 
 ### E. Post-traitement
