@@ -2,7 +2,7 @@ import os
 import json
 import jiwer
 import pandas as pd
-from datasets import load_dataset, Audio, load_metric
+from datasets import load_dataset, Audio
 import torch
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional, Union
@@ -19,7 +19,7 @@ import numpy as np
 
 # --- CONFIGURATION ---
 # Input: The "Gold Standard" data prepared from Nikolett's TextGrids
-DATASET_PATH = "1_data_prepared/processed_audio_16k" 
+DATASET_PATH = "1_data_prepared/processed_audio_16k_plus_2oct26" 
 # Output: Where the brain of the AI is stored
 OUTPUT_DIR = "2_models/wav2vec2-large-xlsr-nenets"
 # Base pre-trained model (Facebook XLSR-53)
@@ -82,8 +82,7 @@ def main():
     def prepare_dataset(batch):
         audio = batch["audio"]
         batch["input_values"] = processor(audio["array"], sampling_rate=audio["sampling_rate"]).input_values[0]
-        with processor.as_target_processor():
-            batch["labels"] = processor(batch[text_col]).input_ids
+        batch["labels"] = processor.tokenizer(batch[text_col]).input_ids
         return batch
 
     dataset = dataset.map(prepare_dataset, remove_columns=dataset.column_names["train"], num_proc=1)
@@ -98,8 +97,7 @@ def main():
             input_features = [{"input_values": feature["input_values"]} for feature in features]
             label_features = [{"input_ids": feature["labels"]} for feature in features]
             batch = self.processor.feature_extractor.pad(input_features, padding=self.padding, return_tensors="pt")
-            with self.processor.as_target_processor():
-                labels_batch = self.processor.tokenizer.pad(label_features, padding=self.padding, return_tensors="pt")
+            labels_batch = self.processor.tokenizer.pad(label_features, padding=self.padding, return_tensors="pt")
             labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
             batch["labels"] = labels
             return batch
@@ -130,12 +128,11 @@ def main():
         pad_token_id=processor.tokenizer.pad_token_id,
         vocab_size=len(processor.tokenizer)
     )
-    model.freeze_feature_extractor()
+    model.freeze_feature_encoder()
 
     # 6. TRAINING ARGUMENTS
     training_args = TrainingArguments(
         output_dir=OUTPUT_DIR,
-        group_by_length=True,
         per_device_train_batch_size=4,
         gradient_accumulation_steps=2,
         eval_strategy="steps",
@@ -151,6 +148,8 @@ def main():
         load_best_model_at_end=True,
         metric_for_best_model="eval_loss",
         greater_is_better=False,
+        dataloader_num_workers=0,
+        report_to=[],
     )
 
     trainer = Trainer(
@@ -160,7 +159,7 @@ def main():
         compute_metrics=compute_metrics,
         train_dataset=dataset["train"],
         eval_dataset=dataset["test"],
-        tokenizer=processor.feature_extractor,
+        processing_class=processor.feature_extractor,
         callbacks=[EarlyStoppingCallback(
             early_stopping_patience=EARLY_STOPPING_PATIENCE,
             early_stopping_threshold=EARLY_STOPPING_THRESHOLD,

@@ -18,7 +18,7 @@ from transformers import (
 import numpy as np
 
 # --- CONFIGURATION ---
-DATASET_PATH = "1_data_prepared/processed_audio_16k"
+DATASET_PATH = "1_data_prepared/processed_audio_16k_plus_2oct26"
 OUTPUT_DIR = "2_models/whisper-small-nenets-ru"
 MODEL_ID = "openai/whisper-small"
 

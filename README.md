@@ -55,13 +55,14 @@ nenets/
 
 | Modèle | Type | Fine-tuning | WER | CER |
 |--------|------|-------------|-----|-----|
+| **Whisper Small RU (`checkpoint-1200`)** | Seq2seq | gold + KhO ; sélection par **eval_wer** | **45.26%** | **14.64%** |
 | **Wav2Vec2 XLSR-53** | CTC | gold + KhO (2 oct 2026) | **68.42%** | **15.51%** |
-| Whisper Small (russe) | Seq2seq | gold + KhO (2 oct 2026) | 106.32% | 57.25% |
+| Whisper Small RU (best **eval_loss**) | Seq2seq | gold + KhO ; défaut du script | 106.32% | 57.25% |
 | Whisper Large v3 (russe) | Seq2seq | Corpus 174 seg. | 88.42% | 26.38% |
 | Whisper Small (sans langue) | Seq2seq | Corpus 174 seg. | 174.76% | 102.39% |
 | **Omnilingual ZS 7B** | Zero-shot | Aucun | 142.86% | 64.34% |
 
-> **Meilleur modèle** : Wav2Vec2 XLSR-53 re-entraîné avec les données du 2 octobre (WER 68.42%, CER 15.51% ; avant : 70.87% / 16.47%). Whisper Small RU se dégrade sur le test fixe après cet ajout.
+> **Meilleur score** : Whisper Small RU `checkpoint-1200` (WER 45.26%, CER 14.64%) — même run que le modèle « best loss » (106 %), mais critère de sélection = WER. XLSR reste fort en CTC (68.42% / 15.51%). Détail : [`3_results/eval_plus_2oct26_summary.md`](3_results/eval_plus_2oct26_summary.md).
 
 ---
 

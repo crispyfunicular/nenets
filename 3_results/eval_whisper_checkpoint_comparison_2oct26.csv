@@ -1,0 +1,4 @@
+checkpoint,wer,cer,n_test,notes
+root_best_by_eval_loss,1.0632,0.5725,18,fixed_test_seed42
+checkpoint-200,1.0632,0.5725,18,fixed_test_seed42
+checkpoint-1200,0.4526,0.1464,18,fixed_test_seed42
