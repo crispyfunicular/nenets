@@ -1,0 +1,5 @@
+model,training,wer,cer,test_set,date
+wav2vec2-large-xlsr-nenets,gold+KhO_2oct26,0.6842,0.1551,processed_audio_16k_seed42,2026-10-02
+whisper-small-nenets-ru,gold+KhO_2oct26,1.0632,0.5725,processed_audio_16k_seed42,2026-10-02
+wav2vec2-large-xlsr-nenets,gold_174_baseline,0.7087,0.1647,processed_audio_16k_seed42,2026-03-10
+whisper-small-nenets-ru,gold_174_baseline,0.7282,0.2284,processed_audio_16k_seed42,2026-03-10

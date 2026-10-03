@@ -1,0 +1,55 @@
+ASR MODEL COMPARISON — NENETS FINE-TUNING
+==========================================
+Date: 2026-10-02 (update after KhO_ArcticReindeer data)
+Previous baseline dated: 2026-03-10
+
+Training data (2026-10-02 runs):
+  - Historical gold: 174 segments (~15 min), frozen test split seed=42 (18 test)
+  - New train-only: 81 KhO_ArcticReindeer segments (~2.5 min)
+  - Train folder: 1_data_prepared/processed_audio_16k_plus_2oct26/ (237 train / 18 test)
+
+Comparable evaluation: scripts/8_evaluate_cer_ru.py on processed_audio_16k (seed=42)
+
+
+RESULTS TABLE (fixed historical test)
+-------------------------------------
+
+Model                          | Training data              | WER       | CER
+-------------------------------|----------------------------|-----------|----------
+Wav2Vec2 XLSR-53 (new)         | gold + KhO (2 Oct 2026)    | 68.42 %   | 15.51 %
+  wav2vec2-large-xlsr-nenets   |                            |           |
+Wav2Vec2 XLSR-53 (baseline)    | gold 174 seg. only         | 70.87 %   | 16.47 %
+-------------------------------|----------------------------|-----------|----------
+Whisper Small – Russian (new)  | gold + KhO (2 Oct 2026)    | 106.32 %  | 57.25 %
+  whisper-small-nenets-ru      |                            |           |
+Whisper Small – Russian (base) | gold 174 seg. only         | 72.82 %   | 22.84 %
+-------------------------------|----------------------------|-----------|----------
+Whisper Small – No Language    | gold 174 seg. only         | 174.76 %  | 102.39 %
+Whisper Large v3 – Russian     | gold 174 seg. only         | 88.42 %   | 26.38 %
+Omnilingual ZS 7B              | none (zero-shot)           | 142.86 %  | 64.34 %
+
+
+INTERNAL VAL (during 2 Oct training; not the fixed test)
+--------------------------------------------------------
+Whisper Small RU: early stop ~epoch 40; best eval_loss ~0.717; last eval_wer ~0.53
+Wav2Vec2 XLSR:    100 epochs; best eval_loss ~0.704; last eval_wer ~0.78
+
+
+KEY TAKEAWAYS
+-------------
+
+1. XLSR improves slightly on the fixed test after adding KhO data
+   (WER 70.87% -> 68.42%, CER 16.47% -> 15.51%).
+
+2. Whisper Small RU degrades sharply on the same fixed test
+   (WER 72.82% -> 106.32%) despite looking better on its internal val split.
+   Do not trust the internal val WER alone for this run.
+
+3. XLSR remains the best system for Nenets under this protocol.
+
+
+BOTTOM LINE
+-----------
+More annotated data helped the CTC model; it hurt Whisper Small RU on the
+held-out historical test. Prefer the new XLSR checkpoint; treat the new
+Whisper Small RU checkpoint as a failed transfer until diagnosed.

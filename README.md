@@ -43,23 +43,25 @@ nenets/
 
 ## Corpus
 
-- **~15 minutes** de parole nénètse transcrite manuellement
-- **174 segments** annotés (TextGrid → CSV)
-- Split reproductible : **90 % entraînement / 10 % test** (`seed=42`)
+- **~15 minutes** de parole nénètse transcrite manuellement (174 segments) + **81 segments** `KhO_ArcticReindeer` (~2,5 min) ajoutés au train le 2026-10-02
+- Split de test figé : **90 % / 10 %** sur les 174 segments historiques (`seed=42`, 18 fichiers de test) ; les nouveaux segments sont **train only**
+- Corpus d’entraînement courant : `1_data_prepared/processed_audio_16k_plus_2oct26/`
 
 ---
 
 ## Modèles et résultats
 
+Évaluation sur le **test historique fixe** (`processed_audio_16k`, seed=42). Détail : [`3_results/eval_plus_2oct26_summary.md`](3_results/eval_plus_2oct26_summary.md).
+
 | Modèle | Type | Fine-tuning | WER | CER |
 |--------|------|-------------|-----|-----|
-| **Wav2Vec2 XLSR-53** | CTC | Corpus complet | **70.87%** | **16.47%** |
-| Whisper Small (russe) | Seq2seq | Corpus complet | 72.82% | 22.84% |
-| Whisper Large v3 (russe) | Seq2seq | Corpus complet | 88.42% | 26.38% |
-| Whisper Small (sans langue) | Seq2seq | Corpus complet | 174.76% | 102.39% |
+| **Wav2Vec2 XLSR-53** | CTC | gold + KhO (2 oct 2026) | **68.42%** | **15.51%** |
+| Whisper Small (russe) | Seq2seq | gold + KhO (2 oct 2026) | 106.32% | 57.25% |
+| Whisper Large v3 (russe) | Seq2seq | Corpus 174 seg. | 88.42% | 26.38% |
+| Whisper Small (sans langue) | Seq2seq | Corpus 174 seg. | 174.76% | 102.39% |
 | **Omnilingual ZS 7B** | Zero-shot | Aucun | 142.86% | 64.34% |
 
-> **Meilleur modèle** : Wav2Vec2 XLSR-53 fine-tuné avec alphabet phonétique adapté (WER 70.87%, CER 16.47%), malgré seulement ~15 min d'audio d'entraînement.
+> **Meilleur modèle** : Wav2Vec2 XLSR-53 re-entraîné avec les données du 2 octobre (WER 68.42%, CER 15.51% ; avant : 70.87% / 16.47%). Whisper Small RU se dégrade sur le test fixe après cet ajout.
 
 ---
 
