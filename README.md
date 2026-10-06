@@ -17,6 +17,7 @@ nenets/
 │   └── 9_evaluate_omni_zs.py    # Évaluation formelle WER/CER Omnilingual
 ├── conllu/                      # Corpus CoNLL-U MapTask + lexique (parse_conllu.py)
 ├── scripts/                     # Scripts du pipeline ASR (préparation → évaluation)
+├── reports/v2/                  # Résultats Wav2Vec2 v2 (training data 2, 14 août 2026)
 ├── requirements.txt
 ├── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2 v1)
 └── LICENSE
