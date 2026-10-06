@@ -18,7 +18,7 @@ nenets/
 ├── conllu/                      # Corpus CoNLL-U MapTask + lexique (parse_conllu.py)
 ├── scripts/                     # Scripts du pipeline ASR (préparation → évaluation)
 ├── requirements.txt
-├── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2)
+├── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2 v1)
 └── LICENSE
 ```
 
@@ -30,11 +30,16 @@ Ces répertoires sont requis par les scripts d'entraînement et d'inférence, ma
 nenets/
 ├── 0_raw_data/
 │   └── untranscribed_audio/     # Audio brut (.wav) pour VAD et découpe
+├── training data 2/             # Nouveaux récits alignés (WAV 44.1 kHz stéréo + TextGrid)
 ├── 1_data_prepared/
-│   ├── processed_audio_16k/     # Segments annotés 16 kHz + metadata.csv (fine-tuning)
+│   ├── processed_audio_16k/     # Segments annotés 16 kHz + metadata.csv (fine-tuning v1)
+│   ├── training_data_2_segments/          # Phrases extraites de training data 2
+│   ├── processed_audio_16k_combined/      # Corpus v2 : train/ (gold+nouveau) + test/ gelé
 │   ├── inference_segments/      # Segments à transcrire + metadata_inference.csv
 │   └── inference_textgrids/     # TextGrids VAD / inférence
 ├── 2_models/                    # Checkpoints et poids finaux des modèles fine-tunés
+│   ├── wav2vec2-large-xlsr-nenets/        # v1 (corpus original)
+│   └── wav2vec2-large-xlsr-nenets-v2/     # v2 (corpus original + training data 2)
 ├── 3_results/                   # CSV de transcriptions, évaluations, recap
 └── monolingual_texts/           # Textes monolingues (scripts/normalize_monolingual_texts.py)
 ```
@@ -43,9 +48,10 @@ nenets/
 
 ## Corpus
 
-- **~15 minutes** de parole nénètse transcrite manuellement (174 segments) + **81 segments** `KhO_ArcticReindeer` (~2,5 min) ajoutés au train le 2026-10-02
-- Split de test figé : **90 % / 10 %** sur les 174 segments historiques (`seed=42`, 18 fichiers de test) ; les nouveaux segments sont **train only**
-- Corpus d’entraînement courant : `1_data_prepared/processed_audio_16k_plus_2oct26/`
+- **~15 minutes** de parole nénètse transcrite manuellement (MapTask + Pear Story, 174 segments)
+- Split de test figé : **90 % / 10 %** sur les 174 segments historiques (`seed=42`) ; les ajouts ultérieurs sont **train only**
+- **training data 2** (14 août 2026) : 4 récits alignés (~3,5 min / 52 phrases), corpus v2 = gold + ces segments — résultats : [`reports/v2/`](reports/v2/)
+- **KhO_ArcticReindeer** (2 oct 2026) : **81 segments** (~2,5 min) ajoutés au train — corpus courant : `1_data_prepared/processed_audio_16k_plus_2oct26/`
 
 ---
 
@@ -81,12 +87,30 @@ python scripts/2_cut_raw_audio.py
 ### B. Fine-tuning
 
 ```bash
-# Wav2Vec2 XLSR-53 (meilleur modèle)
+# Wav2Vec2 XLSR-53 v1 (corpus original)
 python scripts/3_train_wav2vec_long.py
 
 # Whisper (variantes)
 python scripts/3_train_whisper_ru.py          # Whisper Small, tokenizer russe
 python scripts/3_train_whisper_large_ru.py    # Whisper Large v3, tokenizer russe
+```
+
+### B2. Fine-tuning v2 (training data 2)
+
+Les nouveaux TextGrids sont alignés au palier `sentences`. L’orthographe `ʹ`/`ʺ` est normalisée vers `'`/`"` (convention MapTask). Le test v1 de 17 segments n’est **pas** resplit.
+
+```bash
+# 1. Extraire les phrases (mono 16 kHz) depuis training data 2
+python scripts/10_prepare_training_data_2.py
+
+# 2. Fusionner gold OmnilingualZS + nouveaux segments (test gelé)
+python scripts/11_merge_datasets.py
+
+# 3. Fine-tuning Wav2Vec2 XLSR-53 → 2_models/wav2vec2-large-xlsr-nenets-v2
+python scripts/3_train_wav2vec_v2.py
+
+# 4. Comparer WER/CER v1 vs v2 sur les 17 segments gelés
+python scripts/8_evaluate_cer_v2.py
 ```
 
 ### C. Inférence et transcription
@@ -104,8 +128,11 @@ python scripts/5_transcribe_whisper_large_ru.py
 ### D. Évaluation (WER / CER)
 
 ```bash
-# Évaluation Wav2Vec2
+# Évaluation Wav2Vec2 v1 (split seed=42 sur processed_audio_16k)
 python scripts/8_evaluate_cer.py
+
+# Évaluation Wav2Vec2 v1 vs v2 (test gelé de 17 segments)
+python scripts/8_evaluate_cer_v2.py
 
 # Évaluation Whisper variantes
 python scripts/8_evaluate_cer_ru.py
@@ -155,7 +182,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-**Dépendances principales** : `torch`, `torchaudio`, `transformers`, `accelerate`, `datasets`, `librosa`, `jiwer`
+**Dépendances principales** : `torch`, `torchaudio`, `transformers`, `accelerate`, `datasets`, `librosa`, `jiwer`, `TextGrid`
 
 ---
 

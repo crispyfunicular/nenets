@@ -1,0 +1,14 @@
+ASR Nenets — results v2 (14 Aug 2026)
+
+Test set: 17 frozen segments (MapTask / Pear Story), same as v1.
+Metric: automatic WER/CER vs gold transcriptions (not a human Nenets review).
+
+v1 (published, original corpus only)   WER 70.87%   CER 16.47%
+v2 (original gold + training data 2)   WER 86.73%   CER 21.31%
+
+Files in this folder:
+- RESULTATS.txt          this summary
+- recognised_texts.txt   gold (REF) vs model output (HYP), readable
+- recognised_texts.csv   same, spreadsheet
+
+The model weights are not included.
