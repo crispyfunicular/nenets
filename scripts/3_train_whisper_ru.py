@@ -185,6 +185,23 @@ def main():
     print(f"\nSaving best model to {OUTPUT_DIR}...")
     model.save_pretrained(OUTPUT_DIR)
     processor.save_pretrained(OUTPUT_DIR)
+
+    # Point 4: single-column eval hypotheses for bootstrap CIs
+    print("\nExporting eval predictions (best checkpoint)...")
+    import subprocess
+
+    subprocess.check_call(
+        [
+            sys.executable,
+            str(Path(__file__).resolve().parent / "12_export_eval_predictions.py"),
+            "--model-dir",
+            OUTPUT_DIR,
+            "--model-type",
+            "whisper",
+            "--dataset-path",
+            DATASET_PATH,
+        ]
+    )
     print("=" * 60)
     print("  WHISPER TRAINING COMPLETE!")
     print("=" * 60)

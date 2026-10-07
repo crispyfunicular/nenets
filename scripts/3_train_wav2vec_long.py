@@ -184,6 +184,23 @@ def main():
     print(f"Saving best model to {OUTPUT_DIR}...")
     model.save_pretrained(OUTPUT_DIR)
     processor.save_pretrained(OUTPUT_DIR)
+
+    # Point 4: single-column eval hypotheses for bootstrap CIs
+    print("Exporting eval predictions (best checkpoint)...")
+    import subprocess
+
+    subprocess.check_call(
+        [
+            sys.executable,
+            str(Path(__file__).resolve().parent / "12_export_eval_predictions.py"),
+            "--model-dir",
+            OUTPUT_DIR,
+            "--model-type",
+            "xlsr",
+            "--dataset-path",
+            DATASET_PATH,
+        ]
+    )
     print("Process completed successfully.")
 
 if __name__ == "__main__":
