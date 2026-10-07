@@ -1,0 +1,8 @@
+# Run1 PearStory segments with only <???> / <pause> — excluded from all finetuning runs.
+yrk_PearStory_seg028.wav
+yrk_PearStory_seg030.wav
+yrk_PearStory_seg035.wav
+yrk_PearStory_seg043.wav
+yrk_PearStory_seg053.wav
+yrk_PearStory_seg062.wav
+yrk_PearStory_seg083.wav

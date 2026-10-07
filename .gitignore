@@ -19,3 +19,5 @@ monolingual_texts/
 !Tundra Nenets data and metadata - training data.csv
 *.xlsx
 ~$*.xlsx
+# OmnilingualZS gold packs are versioned (small)
+!OmnilingualZS/**/*.wav

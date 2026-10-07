@@ -1,0 +1,19 @@
+# Frozen eval / dev holdout used for all finetuning runs (Aleksandra inventory).
+# PearStory seg005/seg051 (with <???>) were moved to train; seg006/seg063 are in eval.
+yrk_MapTask_001_seg003.wav
+yrk_MapTask_001_seg020.wav
+yrk_MapTask_002_seg026.wav
+yrk_MapTask_004_seg002.wav
+yrk_MapTask_004_seg003.wav
+yrk_MapTask_004_seg015.wav
+yrk_PearStory_seg006.wav
+yrk_PearStory_seg021.wav
+yrk_PearStory_seg031.wav
+yrk_PearStory_seg033.wav
+yrk_PearStory_seg041.wav
+yrk_PearStory_seg056.wav
+yrk_PearStory_seg060.wav
+yrk_PearStory_seg063.wav
+yrk_PearStory_seg065.wav
+yrk_PearStory_seg074.wav
+yrk_PearStory_seg079.wav

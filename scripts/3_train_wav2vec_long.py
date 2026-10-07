@@ -1,7 +1,9 @@
 import os
+import sys
 import json
 import jiwer
 import pandas as pd
+from pathlib import Path
 from datasets import load_dataset, Audio
 import torch
 from dataclasses import dataclass, field
@@ -17,18 +19,25 @@ from transformers import (
 )
 import numpy as np
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import hf_audiofolder_compat
+
+hf_audiofolder_compat.enable()
+
 # --- CONFIGURATION ---
-# Input: The "Gold Standard" data prepared from Nikolett's TextGrids
-DATASET_PATH = "1_data_prepared/processed_audio_16k_plus_2oct26" 
+# Inventory-defined splits (see scripts/11_build_experiment_corpus.py).
+# RUN=1..4 selects cumulative training data; eval holdout is always the same.
+RUN = int(os.environ.get("RUN", "1"))
+DATASET_PATH = f"1_data_prepared/experiment_runs/run{RUN}"
 # Output: Where the brain of the AI is stored
-OUTPUT_DIR = "2_models/wav2vec2-large-xlsr-nenets"
+OUTPUT_DIR = os.environ.get(
+    "OUTPUT_DIR", f"2_models/wav2vec2-large-xlsr-nenets-run{RUN}"
+)
 # Base pre-trained model (Facebook XLSR-53)
 MODEL_ID = "facebook/wav2vec2-large-xlsr-53"
 
-# --- EARLY STOPPING ---
-# Stop training when eval_loss stops improving to prevent overfitting.
-# Patience: number of evaluations with no improvement before stopping.
-# Threshold: minimum change in eval_loss to count as an improvement.
+# --- EARLY STOPPING / BEST CHECKPOINT ---
+# Select and early-stop on eval WER (lower is better), not eval_loss.
 EARLY_STOPPING_PATIENCE = 5
 EARLY_STOPPING_THRESHOLD = 0.01
 
@@ -46,11 +55,14 @@ def main():
             df_temp.to_csv(metadata_path, index=False)
             print("Successfully renamed 'filename' to 'file_name' in metadata.csv")
 
-    # 1. LOAD DATASET (Maintenant ça ne plantera plus)
+    # 1. LOAD DATASET — train/test dirs from inventory (no seed=42 resplit)
+    print(f"Dataset: {DATASET_PATH} (RUN={RUN})")
     dataset = load_dataset("audiofolder", data_dir=DATASET_PATH)
-    
     if "test" not in dataset:
-        dataset = dataset["train"].train_test_split(test_size=0.1, seed=42)
+        raise RuntimeError(
+            f"{DATASET_PATH} has no test/ split. "
+            "Run: python scripts/11_build_experiment_corpus.py --sync-omni"
+        )
     
     text_col = next((col for col in ["transcription", "sentence", "text"] if col in dataset["train"].column_names), "sentence")
 
@@ -146,7 +158,7 @@ def main():
         warmup_steps=100,
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
+        metric_for_best_model="wer",
         greater_is_better=False,
         dataloader_num_workers=0,
         report_to=[],

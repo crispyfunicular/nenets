@@ -1,7 +1,9 @@
 import os
+import sys
 import json
 import jiwer
 import pandas as pd
+from pathlib import Path
 from datasets import load_dataset, Audio
 import torch
 from dataclasses import dataclass, field
@@ -17,11 +19,20 @@ from transformers import (
 )
 import numpy as np
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import hf_audiofolder_compat
+
+hf_audiofolder_compat.enable()
+
 # --- CONFIGURATION ---
-DATASET_PATH = "1_data_prepared/processed_audio_16k_plus_2oct26"
-OUTPUT_DIR = "2_models/whisper-small-nenets-ru"
+RUN = int(os.environ.get("RUN", "1"))
+DATASET_PATH = f"1_data_prepared/experiment_runs/run{RUN}"
+OUTPUT_DIR = os.environ.get(
+    "OUTPUT_DIR", f"2_models/whisper-small-nenets-ru-run{RUN}"
+)
 MODEL_ID = "openai/whisper-small"
 
+# Select and early-stop on eval WER (lower is better), not eval_loss.
 EARLY_STOPPING_PATIENCE = 5
 EARLY_STOPPING_THRESHOLD = 0.01
 
@@ -40,10 +51,13 @@ def main():
             print("Successfully renamed 'filename' to 'file_name'")
 
     print("\n[1/7] Loading dataset...")
+    print(f"  Dataset: {DATASET_PATH} (RUN={RUN})")
     dataset = load_dataset("audiofolder", data_dir=DATASET_PATH)
-
     if "test" not in dataset:
-        dataset = dataset["train"].train_test_split(test_size=0.1, seed=42)
+        raise RuntimeError(
+            f"{DATASET_PATH} has no test/ split. "
+            "Run: python scripts/11_build_experiment_corpus.py --sync-omni"
+        )
 
     text_col = next(
         (col for col in ["transcription", "sentence", "text"]
@@ -140,7 +154,7 @@ def main():
         save_steps=200,
         save_total_limit=2,
         load_best_model_at_end=True,
-        metric_for_best_model="eval_loss",
+        metric_for_best_model="wer",
         greater_is_better=False,
         fp16=True,
         gradient_checkpointing=True,
