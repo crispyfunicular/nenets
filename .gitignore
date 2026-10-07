@@ -16,3 +16,6 @@ monolingual_texts/
 *.wav
 *.TextGrid
 *.csv
+!Tundra Nenets data and metadata - training data.csv
+*.xlsx
+~$*.xlsx
