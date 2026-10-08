@@ -26,7 +26,9 @@ hf_audiofolder_compat.enable()
 
 # --- CONFIGURATION ---
 RUN = int(os.environ.get("RUN", "1"))
-DATASET_PATH = f"1_data_prepared/experiment_runs/run{RUN}"
+DATASET_PATH = os.environ.get(
+    "DATASET_PATH", f"1_data_prepared/experiment_runs/run{RUN}"
+)
 OUTPUT_DIR = os.environ.get(
     "OUTPUT_DIR", f"2_models/whisper-small-nenets-ru-run{RUN}"
 )

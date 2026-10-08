@@ -28,7 +28,9 @@ hf_audiofolder_compat.enable()
 # Inventory-defined splits (see scripts/11_build_experiment_corpus.py).
 # RUN=1..4 selects cumulative training data; eval holdout is always the same.
 RUN = int(os.environ.get("RUN", "1"))
-DATASET_PATH = f"1_data_prepared/experiment_runs/run{RUN}"
+DATASET_PATH = os.environ.get(
+    "DATASET_PATH", f"1_data_prepared/experiment_runs/run{RUN}"
+)
 # Output: Where the brain of the AI is stored
 OUTPUT_DIR = os.environ.get(
     "OUTPUT_DIR", f"2_models/wav2vec2-large-xlsr-nenets-run{RUN}"

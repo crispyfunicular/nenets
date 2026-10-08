@@ -77,12 +77,21 @@ Tous les runs (Whisper + XLSR, 1–4) sont **terminés** (MoDyCo, 2026-10-08). D
 
 | Run | Train | XLSR WER / CER (export) | Whisper WER / CER (export) |
 |-----|------:|-------------------------:|---------------------------:|
-| 1 | 150 | 77.5% / 18.2% | 73.5% / 23.7% |
-| 2 | 294 | 63.3% / 15.6% | **72.4% / 21.0%** |
+| 1 | 150 | 77.6% / 18.2% | 73.5% / 23.7% |
+| 2 | 294 | 63.3% / 15.6% | 72.4% / 21.0% |
 | 3 | 346 | 69.4% / 15.9% | 79.6% / 21.6% |
 | 4 | 701 | **58.2% / 14.1%** | 79.6% / 22.6% |
 
-Hyps versionnées : `3_results/eval_predictions/{xlsr,whisper}_run{N}/`. Logs : `logs/train_{whisper,xlsr}_run{N}.log`. Poids modèles : MoDyCo uniquement (`2_models/`, non versionnés).
+#### Speed perturbation (train ×3 : 0.9× + 1.1×)
+
+| Run | Train SP | XLSR SP WER / CER | Whisper SP WER / CER |
+|-----|---------:|------------------:|---------------------:|
+| 1 | 450 | 64.3% / 16.3% | 75.5% / 24.7% |
+| 2 | 882 | **62.2% / 14.9%** | **70.4% / 18.4%** |
+| 3 | 1038 | 65.3% / 14.1% | 72.4% / 18.6% |
+| 4 | 2103 | *échec* (WER ~100 %) | **70.4% / 17.8%** |
+
+Hyps : `3_results/eval_predictions/{xlsr,whisper}[_sp]_run{N}/`. Logs : `logs/train_{whisper,xlsr}[_sp]_run{N}.log`. Poids : MoDyCo (`2_models/`, non versionnés).
 
 ### Résultats historiques (ancien split seed=42)
 
@@ -136,6 +145,16 @@ bash scripts/launch_experiment_runs.sh xlsr 1 2 3 4
 python scripts/12_export_eval_predictions.py \
   --model-dir 2_models/whisper-small-nenets-ru-run1 \
   --model-type whisper --run 1
+
+# Speed perturbation (0.9× + 1.1× via ffmpeg atempo ; test non perturbé)
+# Note : atempo=0.9 (pas 0.1) pour le ralentissement.
+python scripts/13_build_speed_perturbed_corpus.py
+# Si besoin : rééchantillonner uniquement experiment_runs_sp/ vers 16 kHz (sources intactes)
+# python scripts/14_resample_sp_corpus_16k.py --runs 4
+# XLSR en priorité, puis Whisper — outputs *-sp-runN
+bash scripts/launch_speed_perturbed_runs.sh xlsr
+bash scripts/launch_speed_perturbed_runs.sh whisper
+# ou enchaîné : bash scripts/launch_speed_perturbed_runs.sh all
 ```
 
 Variantes hors inventaire :
