@@ -73,14 +73,16 @@ nenets/
 
 Même holdout de 17 segments pour tous les runs. Sélection du checkpoint par **eval WER** (`load_best_model_at_end`, `greater_is_better=False`). En fin d’entraînement : `eval_predictions.txt` (une hyp / ligne) pour IC bootstrap.
 
-| Run | Train | Whisper Small RU | XLSR-53 |
-|-----|------:|------------------|---------|
-| 1 | 150 | **fait** — best WER **72.45%** (ckpt-800) ; preds OK | *à lancer* |
-| 2 | 294 | *à lancer* | *à lancer* |
-| 3 | 346 | *à lancer* | *à lancer* |
-| 4 | 701 | *à lancer* | *à lancer* |
+Tous les runs (Whisper + XLSR, 1–4) sont **terminés** (MoDyCo, 2026-10-08). Détail : [`3_results/experiment_runs_summary.md`](3_results/experiment_runs_summary.md).
 
-Artefacts run1 (Whisper) : `2_models/whisper-small-nenets-ru-run1/`, `3_results/whisper_run1_summary.json`, `logs/train_whisper_run1.log`.
+| Run | Train | XLSR WER / CER (export) | Whisper WER / CER (export) |
+|-----|------:|-------------------------:|---------------------------:|
+| 1 | 150 | 77.5% / 18.2% | 73.5% / 23.7% |
+| 2 | 294 | 63.3% / 15.6% | **72.4% / 21.0%** |
+| 3 | 346 | 69.4% / 15.9% | 79.6% / 21.6% |
+| 4 | 701 | **58.2% / 14.1%** | 79.6% / 22.6% |
+
+Hyps versionnées : `3_results/eval_predictions/{xlsr,whisper}_run{N}/`. Logs : `logs/train_{whisper,xlsr}_run{N}.log`. Poids modèles : MoDyCo uniquement (`2_models/`, non versionnés).
 
 ### Résultats historiques (ancien split seed=42)
 
@@ -126,6 +128,9 @@ RUN=1 python scripts/3_train_wav2vec_long.py
 # Enchaînement sur MoDyCo (skip si eval_predictions.txt existe déjà)
 bash scripts/launch_experiment_runs.sh whisper 1 2 3 4
 bash scripts/launch_experiment_runs.sh xlsr 1 2 3 4
+
+# File d’attente après un job déjà en cours (Whisper restants puis XLSR)
+# nohup bash scripts/queue_remaining_runs.sh > logs/nohup_queue.log 2>&1 &
 
 # Export manuel des hyps eval (une colonne) pour IC
 python scripts/12_export_eval_predictions.py \
