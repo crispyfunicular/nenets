@@ -22,18 +22,12 @@ import sys
 from pathlib import Path
 
 import torch
-from datasets import Audio, load_dataset
 from transformers import (
     Wav2Vec2ForCTC,
     Wav2Vec2Processor,
     WhisperForConditionalGeneration,
     WhisperProcessor,
 )
-
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-import hf_audiofolder_compat
-
-hf_audiofolder_compat.enable()
 
 
 def resolve_dataset(run: int | None, dataset_path: str | None) -> str:
@@ -44,27 +38,60 @@ def resolve_dataset(run: int | None, dataset_path: str | None) -> str:
     return f"1_data_prepared/experiment_runs/run{run}"
 
 
+def _load_wav_mono16k(path: Path):
+    """Load wav as float32 mono @16k without depending on datasets/torchcodec."""
+    import numpy as np
+
+    try:
+        import soundfile as sf
+
+        audio, sr = sf.read(str(path), dtype="float32", always_2d=False)
+    except Exception:
+        import librosa
+
+        audio, sr = librosa.load(str(path), sr=16000, mono=True)
+        return np.asarray(audio, dtype=np.float32)
+
+    audio = np.asarray(audio, dtype=np.float32)
+    if audio.ndim > 1:
+        audio = audio.mean(axis=1)
+    if sr != 16000:
+        import librosa
+
+        audio = librosa.resample(audio, orig_sr=sr, target_sr=16000)
+    return audio
+
+
 def load_eval(dataset_path: str):
-    ds = load_dataset("audiofolder", data_dir=dataset_path)
-    if "test" not in ds:
-        raise RuntimeError(f"No test/ split under {dataset_path}")
-    test = ds["test"].cast_column("audio", Audio(sampling_rate=16000))
-    text_col = next(
-        c for c in ("transcription", "sentence", "text") if c in test.column_names
+    """Return (paths, names) for the eval split, sorted by filename."""
+    test_dir = Path(dataset_path) / "test"
+    meta = test_dir / "metadata.csv"
+    if not meta.is_file():
+        raise RuntimeError(f"Missing {meta}")
+    import pandas as pd
+
+    df = pd.read_csv(meta, encoding="utf-8-sig")
+    name_col = next(
+        c for c in ("file_name", "filename", "file", "path") if c in df.columns
     )
+    names = [Path(str(x)).name for x in df[name_col].tolist()]
     # Stable order for CI / manual inspection
-    order = sorted(range(len(test)), key=lambda i: Path(test[i]["audio"]["path"]).name)
-    return test, text_col, order
+    names = sorted(names)
+    paths = [test_dir / n for n in names]
+    missing = [p for p in paths if not p.is_file()]
+    if missing:
+        raise FileNotFoundError(f"Missing wavs under {test_dir}: {missing[:3]}")
+    return paths, names
 
 
-def predict_xlsr(model_dir: str, test, order, device):
+def predict_xlsr(model_dir: str, paths, device):
     processor = Wav2Vec2Processor.from_pretrained(model_dir)
     model = Wav2Vec2ForCTC.from_pretrained(model_dir).to(device)
     model.eval()
     preds = []
     with torch.no_grad():
-        for i in order:
-            audio = test[i]["audio"]["array"]
+        for path in paths:
+            audio = _load_wav_mono16k(path)
             inputs = processor(
                 audio, return_tensors="pt", sampling_rate=16000
             ).input_values.to(device)
@@ -74,7 +101,7 @@ def predict_xlsr(model_dir: str, test, order, device):
     return preds
 
 
-def predict_whisper(model_dir: str, test, order, device):
+def predict_whisper(model_dir: str, paths, device):
     processor = WhisperProcessor.from_pretrained(model_dir)
     model = WhisperForConditionalGeneration.from_pretrained(model_dir).to(device)
     forced = processor.get_decoder_prompt_ids(language="russian", task="transcribe")
@@ -84,8 +111,8 @@ def predict_whisper(model_dir: str, test, order, device):
     model.eval()
     preds = []
     with torch.no_grad():
-        for i in order:
-            audio = test[i]["audio"]["array"]
+        for path in paths:
+            audio = _load_wav_mono16k(path)
             feats = processor(
                 audio, return_tensors="pt", sampling_rate=16000
             ).input_features.to(device)
@@ -123,14 +150,13 @@ def main():
     print(f"Eval:    {dataset_path}/test")
     print(f"Device:  {device}")
 
-    test, _text_col, order = load_eval(dataset_path)
-    names = [Path(test[i]["audio"]["path"]).name for i in order]
-    print(f"Samples: {len(order)}")
+    paths, names = load_eval(dataset_path)
+    print(f"Samples: {len(paths)}")
 
     if args.model_type == "xlsr":
-        preds = predict_xlsr(args.model_dir, test, order, device)
+        preds = predict_xlsr(args.model_dir, paths, device)
     else:
-        preds = predict_whisper(args.model_dir, test, order, device)
+        preds = predict_whisper(args.model_dir, paths, device)
 
     write_single_column(out, preds)
     # Sidecar with filenames (not required for CIs, useful for inspection)
