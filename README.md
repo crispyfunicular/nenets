@@ -11,12 +11,13 @@ Pipeline de reconnaissance automatique de la parole (ASR) pour le **nénètse**,
 ```
 nenets/
 ├── OmnilingualZS/               # Pipeline zero-shot Omnilingual ASR
-│   ├── corpus_entrainement/     # Segments train (90 %, 157 fichiers .wav)
-│   ├── corpus_evaluation/       # Segments test (10 %, 17 fichiers .wav)
+│   ├── corpus_entrainement/     # Segments train (alignés sur l’inventaire)
+│   ├── corpus_evaluation/       # Segments eval (holdout inventaire, 17 .wav)
 │   ├── test_omni_ZS.py          # Test / exploration Omnilingual
 │   └── 9_evaluate_omni_zs.py    # Évaluation formelle WER/CER Omnilingual
 ├── conllu/                      # Corpus CoNLL-U MapTask + lexique (parse_conllu.py)
 ├── scripts/                     # Scripts du pipeline ASR (préparation → évaluation)
+├── splits/                      # Holdout eval + exclusions (no_content)
 ├── reports/v2/                  # Résultats Wav2Vec2 v2 (training data 2, 14 août 2026)
 ├── requirements.txt
 ├── vocab.json                   # Vocabulaire phonétique nénètse (Wav2Vec2 v1)
@@ -36,12 +37,16 @@ nenets/
 │   ├── processed_audio_16k/     # Segments annotés 16 kHz + metadata.csv (fine-tuning v1)
 │   ├── training_data_2_segments/          # Phrases extraites de training data 2
 │   ├── processed_audio_16k_combined/      # Corpus v2 : train/ (gold+nouveau) + test/ gelé
+│   ├── experiment_runs/run{1..4}/         # Corpora cumulatifs inventaire (train/ + test/)
 │   ├── inference_segments/      # Segments à transcrire + metadata_inference.csv
 │   └── inference_textgrids/     # TextGrids VAD / inférence
 ├── 2_models/                    # Checkpoints et poids finaux des modèles fine-tunés
 │   ├── wav2vec2-large-xlsr-nenets/        # v1 (corpus original)
-│   └── wav2vec2-large-xlsr-nenets-v2/     # v2 (corpus original + training data 2)
+│   ├── wav2vec2-large-xlsr-nenets-v2/     # v2 (corpus original + training data 2)
+│   ├── whisper-small-nenets-ru-runN/      # Runs inventaire (Whisper Small RU)
+│   └── wav2vec2-large-xlsr-nenets-runN/   # Runs inventaire (XLSR)
 ├── 3_results/                   # CSV de transcriptions, évaluations, recap
+├── logs/                        # Logs d’entraînement (MoDyCo / local)
 └── monolingual_texts/           # Textes monolingues (scripts/normalize_monolingual_texts.py)
 ```
 
@@ -49,16 +54,37 @@ nenets/
 
 ## Corpus
 
-- **~15 minutes** de parole nénètse transcrite manuellement (MapTask + Pear Story, 174 segments)
-- Split de test figé : **90 % / 10 %** sur les 174 segments historiques (`seed=42`) ; les ajouts ultérieurs sont **train only**
-- **training data 2** (14 août 2026) : 4 récits alignés (~3,5 min / 52 phrases), corpus v2 = gold + ces segments — résultats : [`reports/v2/`](reports/v2/)
-- **KhO_ArcticReindeer** (2 oct 2026) : **81 segments** (~2,5 min) ajoutés au train — corpus courant : `1_data_prepared/processed_audio_16k_plus_2oct26/`
+- Inventaire de référence : `Tundra Nenets data and metadata - training data.csv` (colonne Run1–Run4)
+- Holdout d’évaluation **figé** : `splits/eval_holdout.txt` (**17** segments) — *pas* un resplit `seed=42`
+- Exclusions : `splits/exclude_no_content.txt` (7 segments PearStory sans contenu)
+- Corpora cumulatifs pour les expériences Run1–4 :
+  - Run1 : 150 train / 17 test
+  - Run2 : 294 train / 17 test
+  - Run3 : 346 train / 17 test
+  - Run4 : 701 train / 17 test  
+  → `1_data_prepared/experiment_runs/run{1..4}/` (reconstruire : `python scripts/11_build_experiment_corpus.py --sync-omni`)
+- **training data 2** (14 août 2026) et **KhO** (2 oct 2026) restent documentés dans les runs historiques / `reports/v2/`
 
 ---
 
 ## Modèles et résultats
 
-Évaluation sur le **test historique fixe** (`processed_audio_16k`, seed=42). Détail : [`3_results/eval_plus_2oct26_summary.md`](3_results/eval_plus_2oct26_summary.md).
+### Runs inventaire (protocole Aleksandra, oct. 2026)
+
+Même holdout de 17 segments pour tous les runs. Sélection du checkpoint par **eval WER** (`load_best_model_at_end`, `greater_is_better=False`). En fin d’entraînement : `eval_predictions.txt` (une hyp / ligne) pour IC bootstrap.
+
+| Run | Train | Whisper Small RU | XLSR-53 |
+|-----|------:|------------------|---------|
+| 1 | 150 | **fait** — best WER **72.45%** (ckpt-800) ; preds OK | *à lancer* |
+| 2 | 294 | *à lancer* | *à lancer* |
+| 3 | 346 | *à lancer* | *à lancer* |
+| 4 | 701 | *à lancer* | *à lancer* |
+
+Artefacts run1 (Whisper) : `2_models/whisper-small-nenets-ru-run1/`, `3_results/whisper_run1_summary.json`, `logs/train_whisper_run1.log`.
+
+### Résultats historiques (ancien split seed=42)
+
+Évaluation sur le **test historique** `processed_audio_16k` (seed=42). Détail : [`3_results/eval_plus_2oct26_summary.md`](3_results/eval_plus_2oct26_summary.md).
 
 | Modèle | Type | Fine-tuning | WER | CER |
 |--------|------|-------------|-----|-----|
@@ -69,7 +95,7 @@ nenets/
 | Whisper Small (sans langue) | Seq2seq | Corpus 174 seg. | 174.76% | 102.39% |
 | **Omnilingual ZS 7B** | Zero-shot | Aucun | 142.86% | 64.34% |
 
-> **Meilleur score** : Whisper Small RU `checkpoint-1200` (WER 45.26%, CER 14.64%) — même run que le modèle « best loss » (106 %), mais critère de sélection = WER. XLSR reste fort en CTC (68.42% / 15.51%). Détail : [`3_results/eval_plus_2oct26_summary.md`](3_results/eval_plus_2oct26_summary.md).
+> Ces scores **ne sont pas directement comparables** aux WER des runs inventaire (holdout et inventaire différents).
 
 ---
 
@@ -85,14 +111,31 @@ python scripts/1_generate_vad.py
 python scripts/2_cut_raw_audio.py
 ```
 
-### B. Fine-tuning
+### B. Fine-tuning (runs inventaire Run1–4)
+
+Prérequis : corpora sous `1_data_prepared/experiment_runs/run{N}/` + `splits/`.
 
 ```bash
-# Wav2Vec2 XLSR-53 v1 (corpus original)
-python scripts/3_train_wav2vec_long.py
+# Reconstruire les 4 corpora (+ sync OmnilingualZS)
+python scripts/11_build_experiment_corpus.py --sync-omni
 
-# Whisper (variantes)
-python scripts/3_train_whisper_ru.py          # Whisper Small, tokenizer russe
+# Un run (ex. Whisper RU, Run=1)
+RUN=1 python scripts/3_train_whisper_ru.py
+RUN=1 python scripts/3_train_wav2vec_long.py
+
+# Enchaînement sur MoDyCo (skip si eval_predictions.txt existe déjà)
+bash scripts/launch_experiment_runs.sh whisper 1 2 3 4
+bash scripts/launch_experiment_runs.sh xlsr 1 2 3 4
+
+# Export manuel des hyps eval (une colonne) pour IC
+python scripts/12_export_eval_predictions.py \
+  --model-dir 2_models/whisper-small-nenets-ru-run1 \
+  --model-type whisper --run 1
+```
+
+Variantes hors inventaire :
+
+```bash
 python scripts/3_train_whisper_large_ru.py    # Whisper Large v3, tokenizer russe
 ```
 

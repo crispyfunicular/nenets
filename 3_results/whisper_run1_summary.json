@@ -1,0 +1,50 @@
+{
+  "model": "whisper-small-ru",
+  "run": 1,
+  "train_samples": 150,
+  "eval_samples": 17,
+  "best_eval_wer": 0.7244897959183674,
+  "best_checkpoint": "2_models/whisper-small-nenets-ru-run1/checkpoint-800",
+  "stopped_step": 1800,
+  "stopped_epoch": 94.74666666666667,
+  "eval_wer_history": [
+    [
+      200,
+      0.8061224489795918
+    ],
+    [
+      400,
+      0.8163265306122449
+    ],
+    [
+      600,
+      0.7755102040816326
+    ],
+    [
+      800,
+      0.7244897959183674
+    ],
+    [
+      1000,
+      0.7346938775510204
+    ],
+    [
+      1200,
+      0.7346938775510204
+    ],
+    [
+      1400,
+      0.7346938775510204
+    ],
+    [
+      1600,
+      0.7346938775510204
+    ],
+    [
+      1800,
+      0.7346938775510204
+    ]
+  ],
+  "train_runtime_sec": null,
+  "notes": "early_stopped; root weights = best (ckpt-800); eval_predictions from root"
+}

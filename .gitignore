@@ -8,7 +8,8 @@ venv/
 0_raw_data/
 1_data_prepared/
 2_models/
-3_results/
+3_results/*
+!3_results/whisper_run1_summary.json
 OLD/
 monolingual_texts/
 
