@@ -102,10 +102,10 @@
     "model": "xlsr",
     "kind": "sp",
     "run": 4,
-    "wer_pct": null,
-    "cer_pct": null,
-    "n": null,
-    "best_eval_wer_pct": 100.0
+    "wer_pct": 61.2,
+    "cer_pct": 14.7,
+    "n": 17,
+    "best_eval_wer_pct": 71.4
   },
   {
     "model": "whisper",

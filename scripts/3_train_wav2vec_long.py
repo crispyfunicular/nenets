@@ -40,8 +40,9 @@ MODEL_ID = "facebook/wav2vec2-large-xlsr-53"
 
 # --- EARLY STOPPING / BEST CHECKPOINT ---
 # Select and early-stop on eval WER (lower is better), not eval_loss.
-EARLY_STOPPING_PATIENCE = 5
-EARLY_STOPPING_THRESHOLD = 0.01
+# Override via env for long SP runs that need more steps before WER moves.
+EARLY_STOPPING_PATIENCE = int(os.environ.get("EARLY_STOPPING_PATIENCE", "5"))
+EARLY_STOPPING_THRESHOLD = float(os.environ.get("EARLY_STOPPING_THRESHOLD", "0.01"))
 
 def main():
     print("Starting training pipeline (LONG VERSION)...")
@@ -180,16 +181,33 @@ def main():
         )],
     )
 
-    print("Starting training...")
+    print(
+        f"Starting training... (early_stopping_patience={EARLY_STOPPING_PATIENCE}, "
+        f"threshold={EARLY_STOPPING_THRESHOLD})"
+    )
     trainer.train()
     
     print(f"Saving best model to {OUTPUT_DIR}...")
     model.save_pretrained(OUTPUT_DIR)
     processor.save_pretrained(OUTPUT_DIR)
 
+    # Free GPU before a separate export process (shared MoDyCo GPU).
+    del trainer
+    del model
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+
     # Point 4: single-column eval hypotheses for bootstrap CIs
     print("Exporting eval predictions (best checkpoint)...")
     import subprocess
+
+    export_env = os.environ.copy()
+    # Prefer CPU for export if another job already holds most of the GPU.
+    if torch.cuda.is_available():
+        free_mb = torch.cuda.mem_get_info()[0] / (1024 * 1024)
+        if free_mb < 4000:
+            export_env["CUDA_VISIBLE_DEVICES"] = ""
+            print(f"Export on CPU (only {free_mb:.0f} MiB GPU free)")
 
     subprocess.check_call(
         [
@@ -201,7 +219,8 @@ def main():
             "xlsr",
             "--dataset-path",
             DATASET_PATH,
-        ]
+        ],
+        env=export_env,
     )
     print("Process completed successfully.")
 

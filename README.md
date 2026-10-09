@@ -89,7 +89,7 @@ Tous les runs (Whisper + XLSR, 1–4) sont **terminés** (MoDyCo, 2026-10-08). D
 | 1 | 450 | 64.3% / 16.3% | 75.5% / 24.7% |
 | 2 | 882 | **62.2% / 14.9%** | **70.4% / 18.4%** |
 | 3 | 1038 | 65.3% / 14.1% | 72.4% / 18.6% |
-| 4 | 2103 | *échec* (WER ~100 %) | **70.4% / 17.8%** |
+| 4 | 2103 | **61.2% / 14.7%** (relance 2026-10-09) | **70.4% / 17.8%** |
 
 Hyps : `3_results/eval_predictions/{xlsr,whisper}[_sp]_run{N}/`. Logs : `logs/train_{whisper,xlsr}[_sp]_run{N}.log`. Poids : MoDyCo (`2_models/`, non versionnés).
 
